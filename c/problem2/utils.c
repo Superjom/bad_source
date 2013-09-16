@@ -17,3 +17,17 @@ void show_array(dtype *arr, int size) {
     }
     printf("\n");
 }
+
+
+index_type get_father_index (index_type i) {
+    return (i-1) / 2;
+}
+
+index_type get_lleaf_index(index_type i) {
+    return 2 * i + 1;
+}
+
+index_type get_rleaf_index(index_type i) {
+    return 2 * i + 2;
+}
+

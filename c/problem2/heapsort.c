@@ -1,9 +1,9 @@
 #include "./heapsort.h"
 
 //static dtype tree_datas[TREE_SIZE];
-static Tree heap_tree;
+static HeapTree heap_tree;
 
-static Tree * tree = &heap_tree;
+static HeapTree * tree = &heap_tree;
 
 void init_tree( dtype array[], index_type size) {
     tree->data = array;
@@ -14,18 +14,6 @@ void init_tree( dtype array[], index_type size) {
     printf("end init_tree\n");
 }
 
-
-index_type get_father_index (index_type i) {
-    return (i-1) / 2;
-}
-
-index_type get_lleaf_index(index_type i) {
-    return 2 * i + 1;
-}
-
-index_type get_rleaf_index(index_type i) {
-    return 2 * i + 2;
-}
 
 void heap_adjust_down(index_type i) { 
 
