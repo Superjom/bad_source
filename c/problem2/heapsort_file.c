@@ -18,7 +18,7 @@ void load_file(char *filename) {
             return;
         }
 
-        if(length % 10000 == 0) {
+        if(length % 100000 == 0) {
             printf("loadding %d file\n", length);
             //printf(" load data: %s\n", buff[length-1]);
         }
@@ -43,13 +43,21 @@ void output_file(dtype *buff, char *filename) {
 }
 
 
-void main() {
-    load_file("data/split.aa");
+void main(int argc, char *argv[]) {
+    if(argc != 2) {
+        printf("usage: cmd filename\n");
+        exit(-1);
+    }
+    char *filename = argv[1];
+    load_file(filename);
     printf("init heap tree\n");
     init_tree(buff, length);
     printf("build heap\n");
     build_heap();
     printf("heap sort\n");
     heapsort();
-    output_file(buff, "data/split.aa.sorted");
+    char ofilename[50];
+    strcpy(ofilename, filename);
+    strcat(ofilename, ".sorted");
+    output_file(buff, ofilename);
 }
