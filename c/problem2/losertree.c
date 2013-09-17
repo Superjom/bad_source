@@ -17,7 +17,7 @@ void adjust_loser_tree(index_type s) {
 
     while(parent >= 0) {
 
-        if ( * get_loser_data(parent) < * get_loser_data(s)) {
+        if ( lowerthan( get_loser_data(parent),  get_loser_data(s))) {
             temp = s;
             // s record the current winner
             s = parent;
