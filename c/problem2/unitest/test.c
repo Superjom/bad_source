@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "./utils.h"
-#include "heapsort.h"
+#include "../utils.h"
+#include "../heapsort.h"
 
 void main()
 {

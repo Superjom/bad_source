@@ -16,19 +16,19 @@ typedef struct LoserNode {
 */
 
 typedef struct DataBuff {
-    datatype data[BUFFER_SIZE];
+    dtype data[BUFFER_SIZE];
     index_type length;
 }DataBuff;
 
 typedef struct LoserNode {
     index_type nodeindex;
-    datatype data;
+    dtype data;
     // functions
 }LoserNode;
 
 typedef struct LoserTree {
     index_type winner;
-    datatype nodes[];
+    dtype nodes[];
     index_type length;
 
     index_type losers[LOSER_SIZE];
@@ -36,13 +36,13 @@ typedef struct LoserTree {
 } LoserTree;
 
 // functions 
-void init_loser_tree(LoserNode nodes[]);
-void adjust_loser_tree();
-void build_loser_tree();
+//void init_loser_tree(LoserNode nodes[]);
+void adjust_loser_tree(index_type s);
+void build_loser_tree(LoserNode nodes[]);
 // pop the winner and append a data to it's end
-datatype pop_loser_tree(datatype last);
-void loser_tree_sort();
-
-extern DataBuff output_buffer;
+// and ajust the tree
+dtype push_loser_tree(datatype last);
+//void loser_tree_sort();
+//extern DataBuff output_buffer;
 
 #endif
