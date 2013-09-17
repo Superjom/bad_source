@@ -9,34 +9,35 @@ void init_tree( dtype array[], index_type size) {
     tree->data = array;
     tree->length = size;
     tree->space = TREE_SIZE;
-    printf("init_tree and get: \n");
-    show_array(tree->data, tree->length);
-    printf("end init_tree\n");
+    //printf("init_tree and get: \n");
+    //show_array(tree->data, tree->length);
+    //printf("end init_tree\n");
 }
 
 
 void heap_adjust_down(index_type i) { 
 
     //index_type i = tree->length - 1;
+    dtype temp;
     index_type j = get_lleaf_index(i);
-    dtype temp = tree->data[i];
+    assign(temp, tree->data[i]);
 
     while( j < tree->length) {
         // get min of left and right leafs
-        if(j+1<tree->length && tree->data[j+1] < tree->data[j]) {
+        if(j+1<tree->length && lowerthan(tree->data[j+1], tree->data[j])) {
             j++;
         }
-        if (tree->data[j] >= temp) break;
-        tree->data[i] = tree->data[j];
+        if (!lowerthan(tree->data[j], temp)) break;
+        assign(tree->data[i], tree->data[j]);
         i = j;
         j = get_lleaf_index(i);
     }
-    tree->data[i] = temp;
+    assign(tree->data[i] ,temp);
 }
 
 void heap_push( dtype data) {
 
-    tree->data[tree->length] = data;
+    assign(tree->data[tree->length] , data);
     tree->length++;
 
     if (tree->length >= tree->space) {
@@ -47,14 +48,15 @@ void heap_push( dtype data) {
     heap_adjust_down(tree->length-1);
 }
 
-dtype heap_pop() {
+char* heap_pop() {
 
-    dtype res = tree->data[0];
+    dtype res, temp; 
+    assign(res, tree->data[0]);
     // swap the latest data to root
     swap(&(tree->data[0]), &(tree->data[tree->length-1]));
     tree->length --;
 
-    dtype temp = tree->data[0];
+    assign(temp, tree->data[0]);
 
     if (tree->length < 0)
     {
@@ -65,15 +67,15 @@ dtype heap_pop() {
     index_type i = 0;
     index_type j = get_lleaf_index(i);
     while(j < tree->length) {
-        if ( j+1 < tree->length && tree->data[j+1] < tree->data[j]) j++;
-        if (tree->data[j] >= temp) break;
+        if ( j+1 < tree->length && lowerthan(tree->data[j+1] ,tree->data[j])) j++;
+        if (!lowerthan(tree->data[j], temp)) break;
 
-        tree->data[i] = tree->data[j];
+        assign(tree->data[i], tree->data[j]);
         i = j;
         j = get_lleaf_index(i);
     }
-    tree->data[i] = temp;
-    show_array(tree->data, tree->length);
+    assign(tree->data[i], temp);
+    //show_array(tree->data, tree->length);
     return res;
 }
 

@@ -22,7 +22,7 @@ void heap_adjust_down(index_type i);
 // add a data and ajust 
 void heap_push(dtype data);
 // pop the root data and ajust
-dtype heap_pop();
+char *heap_pop();
 
 void heapsort();
 
