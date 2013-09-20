@@ -30,6 +30,7 @@ int input(index_type i, index_type size) {
     Buff *buff = &input_buffs[i];
     //dtype *buff = input_buffs[i].data;
     buff->start = 0;
+    buff->length = 0;
     for(; s<size; ++s) {
         int j = fgets(buff->data + buff->length, LINE_LENGTH, buff->fp);
         if (j <= 0) {
@@ -56,7 +57,18 @@ void flush_output_buff() {
      }
 }
 
-datatype get_head(index_type i) {
+// return is empty
+// when the buff is empty, char*s in the array will be overloaded
+// and gone
+// should flush the output_buff first then load 
+// more buff in inputbuffs
+int pop_head(index_type i, datatype res) {
+
+    // if input_buff is empty, then read file 
+    // and add some record to it 
+    if (input_buffs[i].start == input_buffs[i].length) {
+        int size = input(i, BUFF_SIZE);
+    }
 
     if (i>=K) {
         printf("Error: get head, i beyands K: %d, %d\nexit\n", i, K);
@@ -64,12 +76,7 @@ datatype get_head(index_type i) {
     }
 
     index_type start = input_buffs[i].start ++ ;
-    datatype res = input_buffs[i].data[start];
-    // if input_buff is empty, then read file 
-    // and add some record to it 
-    if (input_buffs[i].start == input_buffs[i].length) {
-        int size = input(i, BUFF_SIZE);
-    }
+    res = input_buffs[i].data[start];
 
-    return res;
+    return input_buffs[i].length == input_buffs[i].start;
 }

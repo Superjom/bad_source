@@ -22,6 +22,6 @@ int input(index_type i, index_type size);
 void output();
 void flush_output_buff();
 void flush_output_buff();
-datatype get_head(index_type i);
+index_type pop_head(index_type i, datatype res);
 
 #endif

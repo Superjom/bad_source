@@ -13,5 +13,10 @@ void main()
     init_buff("data/out.txt", fnames, 3);
     input(0, 2);
     input(1, 4);
+    datatype res;
+    printf("pop head", pop_head(0, res));
+    printf("pop head", pop_head(0, res));
+    printf("pop head", pop_head(0, res));
+    printf("pop head", pop_head(0, res));
 }
 
