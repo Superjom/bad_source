@@ -34,5 +34,7 @@ void main() {
     for(; i<8; ++i) {
         res = lowerthan(datas[i], datas[i+1]);
         printf("%s, %s, %d\n", datas[i], datas[i+1], res);
+        res = lowerthan("0", datas[i+1]);
+        printf("%s, %s, %d\n", "0", datas[i+1], res);
     }
 }

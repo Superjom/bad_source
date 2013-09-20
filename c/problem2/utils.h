@@ -5,9 +5,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MIN_DATA -1
 #define LINE_LENGTH 450
 #define FNAME_LENGTH 60
+
+// k - merge
+#define K 4
+#define MIN_DATA "0" 
 
 typedef unsigned int uint;
 typedef unsigned long int ulong;

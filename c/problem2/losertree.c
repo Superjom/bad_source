@@ -1,57 +1,57 @@
-#include "./losertree.cpp"
+#include "./losertree.h"
 
-static LoserTree losertree;
+LoserTree losertree;
+// nodes[K] stores the min data
+//static LoserNode nodes[K+1];
 
 // use pointer to speed up
-dtype *get_loser_data(index_type s) {
-    index = losertree.losers[s];
-    return &(losertree.nodes[index]);
+datatype get_loser_data(index_type s) {
+    index_type index = losertree.losers[s];
+    return losertree.nodes[index];
 }
 
 // adjust sth node up to root
 // and update the winner index
 void adjust_loser_tree(index_type s) {
-    index_type temp, parent;
 
-    parent = get_father_index(s);
+    int t = (s+K) / 2;
 
-    while(parent >= 0) {
+    while(t > 0) {
+        //printf("parent %d\n", t);
+        index_type temp;
 
-        if ( lowerthan( get_loser_data(parent),  get_loser_data(s))) {
+        //printf("compare: %s: %s\n", losertree.nodes[s], get_loser_data(t));
+        if ( lowerthan(get_loser_data(t), losertree.nodes[s])) {
             temp = s;
-            // s record the current winner
-            s = parent;
-            losertree.losers[parent] = temp;
+            s = losertree.losers[t];
+            losertree.losers[t] = temp;
         } 
         // jump up to father node
-        parent = get_father_index(parent);
+        t /= 2;
     }
-    // update winner
-    losertree.winner = s;
+    losertree.losers[0] = s;
 }
 
-void build_loser_tree(LoserNode nodes[]) {
+void build_loser_tree() {
     // init losertree
-    losertree.datas = nodes;
-    losertree.length = sizeof(nodes) / sizeof(LoserNode);
-    losertree.n_losers = losertree.length - 1;
     // build loser tree 
     // set MIN_DATA to loser nodes
+    losertree.nodes[K] = MIN_DATA;
     index_type i = 0;
-    for(; i<losertree.n_losers; ++i) {
-        losertree.losers[i] = MIN_DATA;
+    for(; i<K+1; ++i) {
+        losertree.losers[i] = K;
     }
     // ajust up to root
-    i = 0;
-    for(; i<losertree.length; ++i) {
+    i = K;
+    for(; i>=0; --i) {
         adjust_loser_tree(i);
     }
 }
 
 // push a new data to a queue
-dtype push_loser_tree(index_type i, datatype last) {
-    dtype res = losertree.datas[losertree.winner];
-    losertree.datas[i] = last;
+datatype push_loser_tree(index_type i, datatype last) {
+    datatype res = losertree.nodes[losertree.losers[0] ];
+    losertree.nodes[i] = last;
     adjust_loser_tree(i);
     return res;
 }

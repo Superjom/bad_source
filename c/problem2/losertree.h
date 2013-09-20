@@ -6,8 +6,6 @@
 #include "./utils.h"
 
 #define BUFFER_SIZE 1024
-#define LOSER_SIZE 1024
-
 /*
 typedef struct LoserNode {
     dtype data;
@@ -20,29 +18,22 @@ typedef struct DataBuff {
     index_type length;
 }DataBuff;
 
-typedef struct LoserNode {
-    index_type nodeindex;
-    dtype data;
-    // functions
-}LoserNode;
+typedef datatype LoserNode;
 
 typedef struct LoserTree {
-    index_type winner;
-    dtype nodes[];
-    index_type length;
+    LoserNode nodes[K+1];
 
-    index_type losers[LOSER_SIZE];
-    index_type n_losers;
+    index_type losers[K+1];
 } LoserTree;
+
+extern LoserTree losertree;
 
 // functions 
 //void init_loser_tree(LoserNode nodes[]);
 void adjust_loser_tree(index_type s);
-void build_loser_tree(LoserNode nodes[]);
 // pop the winner and append a data to it's end
+void build_loser_tree();
 // and ajust the tree
-dtype push_loser_tree(datatype last);
-//void loser_tree_sort();
-//extern DataBuff output_buffer;
+datatype push_loser_tree(index_type i, datatype last);
 
 #endif

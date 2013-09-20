@@ -20,8 +20,11 @@ test_method.o:unitest/test_method.c
 test_buff.o:unitest/test_buff.c
 	cc -c unitest/test_buff.c
 
-.PHONY: clean all test
+.PHONY: clean all test gdb
 clean:
 	rm *.o
 all: heapsort_file
 test: test_method test_heapsort test_buff
+gdb:
+	cc -o test_buff -g utils.c buff.c unitest/test_buff.c
+	cc -o test_losertree -g utils.c losertree.c unitest/test_losertree.c

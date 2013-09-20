@@ -2,7 +2,6 @@
 #define _BUFF_H_
 
 #define BUFF_SIZE 1024
-#define K 10
 
 #include <stdio.h>
 #include <stdlib.h>
