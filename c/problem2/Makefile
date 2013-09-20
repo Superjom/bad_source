@@ -1,26 +1,27 @@
 heap_sort_objects=utils.o heapsort.o test.o
-
 heapsort_file_objects=utils.o heapsort.o heapsort_file.o
-
 test_method_objects=utils.o test_method.o heapsort.o
+test_buff_objects=utils.o buff.o test_buff.o
 
 heapsort_file: $(heapsort_file_objects)
 	cc -o heapsort_file $(heapsort_file_objects)
 
+#   test  ------------------------------
 test_heapsort: $(heap_sort_objects)
 	cc -o test_heapsort $(heap_sort_objects)
-
 test_method: $(test_method_objects)
 	cc -o test_method $(test_method_objects)
-
-
+test_buff: $(test_buff_objects)
+	cc -o test_buff -g $(test_buff_objects)
 test.o:unitest/test.c
 	cc -c unitest/test.c
-
 test_method.o:unitest/test_method.c
 	cc -c unitest/test_method.c
+test_buff.o:unitest/test_buff.c
+	cc -c unitest/test_buff.c
 
-.PHONY: clean all
+.PHONY: clean all test
 clean:
 	rm *.o
-all: test_method test_heapsort heapsort_file
+all: heapsort_file
+test: test_method test_heapsort test_buff

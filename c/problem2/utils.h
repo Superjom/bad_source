@@ -7,6 +7,7 @@
 
 #define MIN_DATA -1
 #define LINE_LENGTH 450
+#define FNAME_LENGTH 60
 
 typedef unsigned int uint;
 typedef unsigned long int ulong;
@@ -14,6 +15,9 @@ typedef int index_type;
 
 
 typedef char dtype[LINE_LENGTH];
+typedef char fn_type[FNAME_LENGTH];
+
+typedef char* datatype;
 
 void show_array(dtype *arr, int size);
 

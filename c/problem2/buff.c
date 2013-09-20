@@ -3,38 +3,47 @@
 static Buff output_buff;
 static Buff input_buffs[K];
 
-static FILE *fp[K], *fx[K];
+void init_buff(char *ofname, fn_type *ifnames, int isize) {
+    output_buff.length = 0;
+    output_buff.start = 0;
+    output_buff.space = BUFF_SIZE;
+    output_buff.fp = fopen(ofname, "a");
+    if (output_buff.fp == NULL) perror ("Error opening file");
+
+    int i=0; 
+    for(; i<isize; ++i) {
+        input_buffs[i].start = 0;
+        input_buffs[i].length = 0;
+        input_buffs[i].space = BUFF_SIZE;
+        input_buffs[i].empty = 0;
+        printf("ifnames %d, %s\n", i, ifnames[i]);
+        input_buffs[i].fp = fopen(ifnames[i], "r");
+        printf("after fopen, %s\n", ifnames[i]);
+        if (input_buffs[i].fp == NULL) perror ("Error opening file");
+    }
+}
+
 // read a record from ith file to a
 // and return size of records
 int input(index_type i, index_type size) {
     int s = 0;
-    dtype *buff = input_buffs[i].data;
+    Buff *buff = &input_buffs[i];
+    //dtype *buff = input_buffs[i].data;
+    buff->start = 0;
     for(; s<size; ++s) {
-        int j = fscanf(fp[i], "%d", buff+s);
+        int j = fgets(buff->data + buff->length, LINE_LENGTH, buff->fp);
         if (j <= 0) {
+            buff->empty = 1;
             return s;
         } else {
-            input_buffs[i].length ++;
+            buff->length ++;
         }
     }
     return size;
 }
 
-void init_buff() {
-    output_buff.length = 0;
-    output_buff.start = 0;
-    output_buff.space = BUFF_SIZE;
-
-    int i=0; 
-    for(; i<K; ++i) {
-        input_buffs[i].start = 0;
-        input_buffs[i].length = 0;
-        input_buffs[i].space = BUFF_SIZE;
-    }
-}
-
-
-// flush output buff
+// should be called everytime
+// flush output buff automatically if necessory
 void output() {
     if (output_buff.length == output_buff.space) {
         flush_output_buff();
@@ -43,6 +52,24 @@ void output() {
 
 void flush_output_buff() {
      for(; output_buff.length>0; -- output_buff.length) {
-        fprintf(fp[k], "%d", &output_buff[output_buff.length-1]);
+        fprintf(output_buff.fp, "%s", output_buff.data[output_buff.length-1]);
      }
+}
+
+datatype get_head(index_type i) {
+
+    if (i>=K) {
+        printf("Error: get head, i beyands K: %d, %d\nexit\n", i, K);
+        exit(-1);
+    }
+
+    index_type start = input_buffs[i].start ++ ;
+    datatype res = input_buffs[i].data[start];
+    // if input_buff is empty, then read file 
+    // and add some record to it 
+    if (input_buffs[i].start == input_buffs[i].length) {
+        int size = input(i, BUFF_SIZE);
+    }
+
+    return res;
 }
