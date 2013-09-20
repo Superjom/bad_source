@@ -11,6 +11,7 @@
 // k - merge
 #define K 4
 #define MIN_DATA "0" 
+#define MAX_DATA "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\n" 
 
 typedef unsigned int uint;
 typedef unsigned long int ulong;

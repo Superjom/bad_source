@@ -7,6 +7,13 @@
 #include <stdlib.h>
 #include "./utils.h"
 
+typedef struct OutputBuff {
+    index_type length;
+    index_type space;
+    datatype data[BUFF_SIZE];
+    FILE *fp;
+} OutputBuff;
+
 typedef struct Buff {
     index_type start;
     index_type length;
@@ -16,11 +23,11 @@ typedef struct Buff {
     FILE *fp;
 } Buff;
 
-void init_buff(char *ofname, fn_type *ifnames, int isize);
+void init_buff(char *ofname, fn_type *ifnames);
 int input(index_type i, index_type size);
 void output();
 void flush_output_buff();
-void flush_output_buff();
-index_type pop_head(index_type i, datatype res);
+datatype pop_head(index_type i);
+void append_output_buff(datatype data);
 
 #endif

@@ -2,9 +2,13 @@ heap_sort_objects=utils.o heapsort.o test.o
 heapsort_file_objects=utils.o heapsort.o heapsort_file.o
 test_method_objects=utils.o test_method.o heapsort.o
 test_buff_objects=utils.o buff.o test_buff.o
+k_merge_sort_objects=utils.o buff.o losertree.o k_merge_sort.o
 
 heapsort_file: $(heapsort_file_objects)
 	cc -o heapsort_file $(heapsort_file_objects)
+
+k_merge_sort: $(k_merge_sort_objects)
+	cc -o k_merge_sort $(k_merge_sort_objects)
 
 #   test  ------------------------------
 test_heapsort: $(heap_sort_objects)
@@ -23,8 +27,9 @@ test_buff.o:unitest/test_buff.c
 .PHONY: clean all test gdb
 clean:
 	rm *.o
-all: heapsort_file
+all: heapsort_file k_merge_sort
 test: test_method test_heapsort test_buff
 gdb:
 	cc -o test_buff -g utils.c buff.c unitest/test_buff.c
 	cc -o test_losertree -g utils.c losertree.c unitest/test_losertree.c
+	cc -o k_merge_sort -g utils.c losertree.c buff.c k_merge_sort.c

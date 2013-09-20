@@ -3,13 +3,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "./buff.h"
 #include "./losertree.h"
 
-#define K 10
-
-
-
-
+void k_merge_sort(char *ofname, char **fnames) ;
 
 
 #endif
