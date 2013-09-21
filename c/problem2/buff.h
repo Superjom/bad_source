@@ -23,7 +23,7 @@ typedef struct Buff {
     FILE *fp;
 } Buff;
 
-void init_buff(char *ofname, fn_type *ifnames);
+void init_buff(char *ofname, char **ifnames);
 int input(index_type i, index_type size);
 void output();
 void flush_output_buff();

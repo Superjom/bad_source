@@ -27,8 +27,21 @@ void k_merge_sort(char *ofname, char **fnames) {
     flush_output_buff();
 }
 
-void main() {
+void main(int argc, char *argv[]) {
+    if(argc != 2+K) {
+        printf( "usage: \t%s [output filename] [input filenames]\n", argv[0]);
+        printf("\tshould contain %d input-files. \n", K);
+        printf("\tchange config in utils.h\n");
+        exit(-1);
+    }
+    printf("K-merge sort following files: \n");
+    int i=0;
+    for(; i<K; ++i) {
+        printf("\t%s\n", argv[i+2]);
+    }
+    printf("to output file: %s\n", argv[1]);
 
+    /*
     fn_type fnames[4] = {
         "data/1.txt",
         "data/2.txt",
@@ -38,4 +51,8 @@ void main() {
     fn_type ofname = "data/out.txt";
 
     k_merge_sort(ofname, fnames);
+    */
+    char *ofname = argv[1];
+    char **ifnames = argv + 2;
+    k_merge_sort(ofname, ifnames);
 }

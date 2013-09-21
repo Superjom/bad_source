@@ -3,7 +3,7 @@
 static OutputBuff output_buff;
 static Buff input_buffs[K];
 
-void init_buff(char *ofname, fn_type *ifnames) {
+void init_buff(char *ofname, char **ifnames) {
     remove(ofname);
     output_buff.length = 0;
     output_buff.space = BUFF_SIZE;

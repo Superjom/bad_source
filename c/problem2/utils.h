@@ -8,8 +8,9 @@
 #define LINE_LENGTH 450
 #define FNAME_LENGTH 60
 
-// k - merge
+// #TODO change k - merge
 #define K 4
+
 #define MIN_DATA "0" 
 #define MAX_DATA "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ\n" 
 
@@ -37,8 +38,8 @@ int line_get_field_lengh(index_type i);
 // else 0 or -1
 int line_cmp(dtype *a, dtype *b);
 
-void assign(char *a, char *b);
+inline void assign(char *a, char *b);
 
-int lowerthan(char* a, char* b);
+inline int lowerthan(char* a, char* b);
 
 #endif
