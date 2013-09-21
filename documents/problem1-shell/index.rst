@@ -6,7 +6,7 @@
 培训题1 shell程序报告
 ======================
 
-Chunwei Yan   yanchunwei@baidu.com
+严春伟          yanchunwei@baidu.com
 ----------------------------------------
 
 算法
