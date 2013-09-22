@@ -18,11 +18,11 @@ void show_array(dtype *arr, int size) {
     printf("\n");
 }
 
-void show_array_by_indexes(dtype *arr, index_type *indexes, int size) {
+void show_array_by_indexes(datatype *arr, index_type *indexes, int size) {
     printf("show array: length of %d\n", size);
     int i=0;
     for(; i<size; ++i) {
-        printf("%s \n", arr[indexes[i] ]);
+        printf("line: %s \n", arr[indexes[i] ]);
     }
     printf("\n");
 }

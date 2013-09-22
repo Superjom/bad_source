@@ -1,8 +1,8 @@
 #include "./heapsort.h"
 
 //static dtype tree_datas[TREE_SIZE];
-static HeapTree heap_tree;
-static dtype *buff;
+HeapTree heap_tree;
+static datatype *buff;
 
 static HeapTree * tree = &heap_tree;
 
@@ -19,7 +19,7 @@ void free_memory() {
     free(tree->data);
 }
 
-void init_tree( dtype *array, index_type size) {
+void init_tree( datatype *array, index_type size) {
     buff = array;
     index_type i=0;
     init_memory(size);
@@ -36,7 +36,7 @@ void heap_adjust_down(index_type i) {
     index_type temp;
     index_type j = get_lleaf_index(i);
     //assign(temp, tree->data[i]);
-    temp = i;
+    temp = tree->data[i];
 
     while( j < tree->length) {
         // get min of left and right leafs
@@ -51,8 +51,18 @@ void heap_adjust_down(index_type i) {
     }
     //assign(tree->data[i] ,temp);
     tree->data[i] = temp;
+
+    i=0; 
+    /*
+    printf("tree:\n");
+    for(; i<tree->length; ++i) {
+        printf("%d ", tree->data[i]);
+    }
+    printf("\n\n");
+    */
 }
 
+/*
 void heap_push( index_type data) {
 
     //assign(tree->data[tree->length] , data);
@@ -66,6 +76,7 @@ void heap_push( index_type data) {
 
     heap_adjust_down(tree->length-1);
 }
+*/
 
 index_type heap_pop() {
     
@@ -105,8 +116,6 @@ index_type heap_pop() {
 void build_heap() {
     index_type i = tree->length/2 - 1;
     for (; i>=0; i--) {
-        if (i<0) break;
-        printf("%ldth heap_adjust\n", i);
         heap_adjust_down(i);
     }
 }
@@ -117,5 +126,6 @@ void heapsort() {
     while(tree->length > 0) {
         heap_pop(tree);
     }
+    //show_array_by_indexes(buff, tree->data, tree->length);
     // the final tree is a inversly-sorted sequence
 }

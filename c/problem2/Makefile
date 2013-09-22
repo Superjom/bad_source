@@ -33,3 +33,4 @@ gdb:
 	cc -o test_buff -g utils.c buff.c unitest/test_buff.c
 	cc -o test_losertree -g utils.c losertree.c unitest/test_losertree.c
 	cc -o k_merge_sort -g utils.c losertree.c buff.c k_merge_sort.c
+	cc -o heapsort_file -g utils.c heapsort.c heapsort_file.c

@@ -5,14 +5,19 @@
 void main()
 {
     HeapTree heap_tree;
-    dtype datas[] = {0, 3, 2, 1, 7, 12, 56, 2, 1};
-    int length = sizeof(datas) / sizeof(dtype);
+    dtype datas[] = {
+        "hello\tworld\n",
+        "afdsfa\t",
+        "dsfcdsaf\t"
+    };
+    int length = 3;
     show_array(datas, length);
     printf("length is %d\n", length);
 
     init_tree(datas, length);
-    show_array(datas, length);
+    build_heap();
+    //show_array(datas, length);
     heapsort();
-    show_array(datas, length);
+    //show_array_by_indexes(datas, length);
 }
 

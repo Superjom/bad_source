@@ -14,7 +14,9 @@ typedef struct HeapTree {
     index_type space;
 } HeapTree;
 
-void init_tree(dtype* array, index_type size);
+extern HeapTree heap_tree;
+
+void init_tree( datatype *array, index_type size) ;
 //static void del_tree(Tree *tree);
 
 // ---------- heap sort ----------------

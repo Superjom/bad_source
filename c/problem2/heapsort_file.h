@@ -6,7 +6,8 @@
 #include "./utils.h"
 #include "./heapsort.h"
 
-#define N_FILE_LINES 1158000
+#define BUFF_INIT_SIZE 10000
+#define BUFF_ADD_SIZE 5000
 
 
 
