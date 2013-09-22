@@ -60,4 +60,6 @@ void main(int argc, char *argv[]) {
     strcpy(ofilename, filename);
     strcat(ofilename, ".sorted");
     output_file(buff, ofilename);
+
+    free_memory();
 }

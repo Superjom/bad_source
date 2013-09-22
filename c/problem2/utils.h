@@ -25,6 +25,7 @@ typedef char fn_type[FNAME_LENGTH];
 typedef char* datatype;
 
 void show_array(dtype *arr, int size);
+void show_array_by_indexes(dtype *arr, index_type *indexes, int size);
 
 void swap(dtype *a, dtype *b);
 

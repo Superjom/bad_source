@@ -5,12 +5,13 @@
 #include <stdlib.h>
 #include "./utils.h"
 
-#define TREE_SIZE 1024
+//#define TREE_SIZE 1024
 
 typedef struct HeapTree {
-    dtype *data;
-    ulong length;
-    ulong space;
+    // data is the indexes of buff
+    index_type *data;
+    index_type length;
+    index_type space;
 } HeapTree;
 
 void init_tree(dtype* array, index_type size);
@@ -20,10 +21,11 @@ void init_tree(dtype* array, index_type size);
 
 void heap_adjust_down(index_type i);
 // add a data and ajust 
-void heap_push(dtype data);
+void heap_push(index_type data);
 // pop the root data and ajust
-char *heap_pop();
+index_type heap_pop();
 
 void heapsort();
+void free_memory();
 
 #endif
