@@ -16,7 +16,7 @@
 
 typedef unsigned int uint;
 typedef unsigned long int ulong;
-typedef int index_type;
+typedef long int index_type;
 
 
 typedef char dtype[LINE_LENGTH];

@@ -12,6 +12,7 @@
 # serve to show the default.
 
 import sys, os
+import sphinx.ext.pngmath
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -25,7 +26,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = []
+extensions = ["sphinx.ext.pngmath", ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
