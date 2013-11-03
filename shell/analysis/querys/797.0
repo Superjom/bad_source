@@ -1,0 +1,93 @@
+
+
+
+
+<html>
+<head>
+<title>
+szjjh-hlb-job Hadoop Map/Reduce Job History Administration
+</title>
+
+<link rel="stylesheet" type="text/css" href="/static/hadoop.css">
+<script type="text/javascript" src="/static/jobtracker.js"></script>
+<script Charset="gb2312" type="text/javascript" src="/static/WebCalendar.js"></script>
+</head>
+<body>
+
+<h1>szjjh-hlb-job Hadoop Map/Reduce Job History Viewer</h1>
+
+<b>State:</b> STARTED<br>
+<b>Started:</b> Mon Oct 21 02:42:14 CST 2013<br>
+<b>Version:</b> 2,
+  hadoop-2-20121102153815<br>
+  <b>Compiled:</b> Fri Nov  2 15:38:15 CST 2012 by 
+  build0@yf-scm-build22.yf01.baidu.com<br>
+  <b>Identifier:</b> 201310210242<br>                 
+  <b>Heap Usage:</b> 25.13 MB/13.02 GB<br>
+  <br>
+  <a href="http://szjjh-hlb-job.dmop.baidu.com:8030">Back to JobTracker</a>
+  <hr>
+
+  <form action="" method="get">
+  <table cellpadding=3 cellspacing=2>
+    <tr>
+      <td>JobID</td>
+      <td><input id="jobID" name="jobID" value="job_201310190151_4700" type="text"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>JobName</td>
+      <td><input id="jobName" name="jobName" value="" type="text"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>User</td>
+      <td><input id="userName" name="userName" value="" type="text"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Group</td>
+      <td><input id="groupName" name="groupName" value="" type="text"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Start Time</td>
+      <td><input id="startTime" name="startTime" value="" type="text" onclick="SelectDate(this,'yyyy-MM-dd hh:mm:ss',0,0)" ></td>
+      <td>(YY-MM-DD [HH:MM])&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Finish Time</td>
+      <td><input id="finishTime" name="finishTime" value="" type="text" onclick="SelectDate(this,'yyyy-MM-dd hh:mm:ss',0,0)" ></td>
+      <td>(YY-MM-DD [HH:MM])&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Status</td>
+      <td><input id="jobStatus" name="jobStatus"  value="" type="text"></td>
+      <td>(success/failed/killed)&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Queue</td>
+      <td><input id="queue" name="queue"  value="" type="text"></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><INPUT type="submit" value="Search"></td>
+    </tr>
+  </table>
+  </form>
+
+
+  <h2>Available History </h2>
+  
+<hr/>
+Results 1 - 1 of about 1 for jobID="job_201310190151_4700" 
+<hr/>
+
+<table border=2 cellpadding="5" cellspacing="2"><tr><td>Submit time</td><td>Finish time</td><td>Job Id</td><td>Job Name</td><td>User</td><td>Group</td><td>Status</td><td>Queue</td></tr><tr><td>2013-11-01 13:52:31</td><td>2013-11-01 13:52:53</td><td><a href="jobdetailshistory.jsp?jobid=job_201310190151_4700&logFile=file:/home/mapred/hadoop-v2/hadoop/logs/history/20131101%2Fjob_201310190151_4700.history.1383285151070">job_201310190151_4700</a></td><td>hlb_distcp.1383285149</td><td>scan</td><td>default</td><td>success</td><td>defaultqueue</td></tr>
+<table/>
+<hr/>
+
+1
+
+ 
+</body></html>
