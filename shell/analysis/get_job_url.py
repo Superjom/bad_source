@@ -10,6 +10,7 @@ import re
 import sys
 from urlparse import urljoin
 
+
 base = "http://szjjh-hlb-job.dmop.baidu.com:8031/jobhistory.jsp"
 
 def get_url(content):
