@@ -1,0 +1,5904 @@
+<body id="dp" class="ce"><div id="a-page">
+         
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+  amznJQ.available('navbarJS-jQuery', function(){});
+  amznJQ.available('finderFitsJS', function(){});
+  amznJQ.available('twister', function(){});
+  amznJQ.available('swfjs', function(){});
+
+});
+</script><!-- BeginNav --><!-- From remote config v3--><script type="text/javascript"><!--
+(function(d){var e=function(d){function b(f,c,b){f[b]=function(){a._replay.push(c.concat({m:b,a:[].slice.call(arguments)}))}}var a={};a._sourceName=d;a._replay=[];a.getNow=function(a,b){return b};a.when=function(){var a=[{m:"when",a:[].slice.call(arguments)}],c={};b(c,a,"run");b(c,a,"declare");b(c,a,"publish");b(c,a,"build");return c};b(a,[],"declare");b(a,[],"build");b(a,[],"publish");b(a,[],"importEvent");e._shims.push(a);return a};e._shims=[];d.$Nav||(d.$Nav=e("rcx-nav"));d.$Nav.make||(d.$Nav.make=
+e)})(window);window.$Nav.when("exposeSBD.enable","img.horz","img.vert","img.spin","$popover","btf.full").run(function(d,e,j,b){function a(a){switch(typeof a){case "boolean":h=a;i=!0;break;case "function":g=a;c++;break;default:c++}i&&2<c&&g(h)}function f(a,b){var c=new Image;b&&(c.onload=b);c.src=a;return c}var c=0,g,h,i=!1;f(e,d&&a);f(j,d&&a);window.$Nav.declare("protectExposeSBD",a);window.$Nav.declare("preloadSpinner",function(){f(b)})});
+
+window.$NavTimeout={ timeout:0,useSetImmediate:true
+};
+window.amznJQ && amznJQ.available('navbarJS-beacon', function(){});
+window._navbarSpriteUrl = 'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01-fw._V355247711_.png';
+$Nav.importEvent('navbarJS-beacon');
+$Nav.importEvent('NavAuiJS');
+$Nav.declare('exposeSBD.enable',false);
+$Nav.declare('img.spin','http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/snake._V192571611_.gif');
+$Nav.when('$').run(function($){
+  var ie6 = $.browser.msie && parseInt($.browser.version) <= 6;
+  $Nav.declare('img.horz', ie6 ?
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-8bit-h._V155961234_.png' :
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-h-v2._V137157005_.png');
+  $Nav.declare('img.vert', ie6 ?
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-8bit-v._V155961234_.png' :
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-v-v2._V137157005_.png');
+});
+--></script><img src="http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01-fw._V355247711_.png" style="display:none" alt=""><img src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif" style="display:none" alt="" id="nav_trans_pixel"><!--Pilu --><script type="text/javascript">
+window.uet && uet('ns');
+
+window._navbar = (function (o) {
+  o.componentLoaded = o.loading = function(){};
+  o.browsepromos = {};
+  o.issPromos = [];
+  return o;
+}(window._navbar || {}));
+
+window.$Nav && $Nav.declare('logEvent.enabled',
+  false);
+
+
+window.$Nav && $Nav.declare('config.lightningDeals',{});
+window.$Nav && $Nav.declare('config.swmStyleData',{});
+window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
+
+</script><!-- navp-ClH9E2vq3bfO9NNB9sDCudauCX/VXu2UaEt+K8c3iqPM1LgcgMEzl8RuLw0hWUuCUnO5A9tV6X8= rid-0V9D9XJP5B26QHD75F2V (Sat Nov  9 03:14:14 2013) --><style type="text/css"><!--
+    .nav-searchfield-width {
+      padding: 0 2px 0 84px;
+    }
+
+    #nav-search-in {
+      width: 84px;
+    }
+
+  --></style><style type="text/css"><!--
+    select#searchDropdownBox {
+      visibility: visible;
+      display: block;
+    }
+    div.nav-searchfield-width {
+      padding-left: 200px;
+    }
+    .nav-aui span#nav-search-in, .nav-beacon span#nav-search-in {
+      width: 200px;
+    }
+    #nav-search-in span#nav-search-in-content {
+      display: none;
+    }
+--></style><header><div id="navbar" role="navigation" class="nav-aui nav-aui-default nav-subnav nav-prime-menu">
+
+    <div id="nav-cross-shop" class="nav-size-large">
+
+      <a href="/ref=gno_logo" id="nav-logo" class="nav_a nav-sprite" alt="Amazon">
+        Amazon
+        <span class="nav-prime-tag nav-sprite"></span>
+      </a>
+      <a href="/gp/product/B00DBYBNEE/ref=gno_joinprmlogo" id="nav-prime-ttt" class="nav_a">Try Prime</a>
+
+
+      <ul id="nav-cross-shop-links"><li class="nav-xs-link nav_first"><a href="/gp/yourstore/home/ref=topnav_ys" class="nav_a" id="nav-your-amazon">Your Amazon.com</a></li>
+                          <li class="nav-xs-link "><a href="/gp/goldbox/ref=cs_top_nav_gb27" class="nav_a">Today's Deals</a></li>
+                          <li class="nav-xs-link "><a href="/gift-cards/b/ref=topnav_giftcert?ie=UTF8&amp;node=2238192011" class="nav_a">Gift Cards</a></li>
+                          <li class="nav-xs-link "><a href="/gp/seller-account/mm-product-page.html/ref=mm_soa_csnavt1?ie=UTF8&amp;ld=AZSOAUSCSNavT1" class="nav_a">Sell</a></li>
+                          <li class="nav-xs-link "><a href="/Help/b/ref=topnav_help?ie=UTF8&amp;node=508510" class="nav_a">Help</a></li>
+                  </ul><div id="welcomeRowTable" style="height:50px">
+        <!--[if IE ]><div class='nav-ie-min-width' style='width: 770px'></div><![endif]-->
+        <div id="nav-ad-background-style" style="background-position: -800px 0px; background-image: url(http://g-ecx.images-amazon.com/images/G/01/img13/egg/generic/EGG_SWM_slot_DEALS_NEST._V353354803_.png);  height: 56px; margin-bottom: -6px; position: relative;background-repeat: no-repeat;">
+          <div id="navSwmSlot">
+            <div id="navSwmHoliday" style="background-image: url(http://g-ecx.images-amazon.com/images/G/01/img13/egg/generic/EGG_SWM_slot_DEALS_NEST._V353354803_.png); width: 400px; height: 50px; overflow: hidden;"><img alt="Electronics Holiday Gift Guide" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif" border="0" width="400px" height="50px" usemap="#nav-swm-holiday-map"></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,50" href="/Electronics-Gift-Guide/b/ref=egg_swm_nest?ie=UTF8&amp;node=7258612011&amp;pf_rd_p=1652443822&amp;pf_rd_s=nav-sitewide-msg&amp;pf_rd_t=4201&amp;pf_rd_i=navbar-4201&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_r=0V9D9XJP5B26QHD75F2V" alt="Electronics Holiday Gift Guide"></map></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div id="nav-bar-outer">
+
+      <div id="nav-logo-borderfade"><div class="nav-fade-mask"></div><div class="nav-fade nav-sprite"></div></div>
+
+      <div id="nav-bar-inner" class="nav-sprite">
+
+        <a id="nav-shop-all-button" href="/gp/site-directory/ref=topnav_sad" class="nav_a nav-button-outer nav-menu-inactive" alt="Shop By Department">
+          <span class="nav-button-mid nav-sprite">
+            <span class="nav-button-inner nav-sprite">
+              <span class="nav-button-title nav-button-line1">Shop by</span>
+              <span class="nav-button-title nav-button-line2">Department</span>
+            </span>
+          </span>
+          <span class="nav-down-arrow nav-sprite"></span>
+        </a>
+
+                  <label id="nav-search-label" for="twotabsearchtextbox">
+            Search
+          </label>
+        
+        <div>
+          <form action="/s/ref=nb_sb_noss" method="get" name="site-search" class="nav-searchbar-inner nav-prime-menu" role="search" accept-charset="utf-8">
+          
+
+            <span id="nav-search-in" class="nav-sprite">
+              <span id="nav-search-in-content" data-value="search-alias=electronics">
+                Electronics
+              </span>
+              <span class="nav-down-arrow nav-sprite"></span>
+              <select data-nav-digest="rpeo8Cq8h/GgqsX71jOg2jgXa3g" data-nav-selected="14" name="url" id="searchDropdownBox" class="searchSelect" title="Search in"><option value="search-alias=aps">All Departments</option><option value="search-alias=instant-video">Amazon Instant Video</option><option value="search-alias=appliances">Appliances</option><option value="search-alias=mobile-apps">Apps for Android</option><option value="search-alias=arts-crafts">Arts, Crafts &amp; Sewing</option><option value="search-alias=automotive">Automotive</option><option value="search-alias=baby-products">Baby</option><option value="search-alias=beauty">Beauty</option><option value="search-alias=stripbooks">Books</option><option value="search-alias=mobile">Cell Phones &amp; Accessories</option><option value="search-alias=apparel">Clothing &amp; Accessories</option><option value="search-alias=collectibles">Collectibles &amp; Fine Art</option><option value="search-alias=computers">Computers</option><option value="search-alias=financial">Credit Cards</option><option value="search-alias=electronics" selected>Electronics</option><option value="search-alias=gift-cards">Gift Cards Store</option><option value="search-alias=grocery">Grocery &amp; Gourmet Food</option><option value="search-alias=hpc">Health &amp; Personal Care</option><option value="search-alias=garden">Home &amp; Kitchen</option><option value="search-alias=industrial">Industrial &amp; Scientific</option><option value="search-alias=jewelry">Jewelry</option><option value="search-alias=digital-text">Kindle Store</option><option value="search-alias=magazines">Magazine Subscriptions</option><option value="search-alias=movies-tv">Movies &amp; TV</option><option value="search-alias=digital-music">MP3 Music</option><option value="search-alias=popular">Music</option><option value="search-alias=mi">Musical Instruments</option><option value="search-alias=office-products">Office Products</option><option value="search-alias=lawngarden">Patio, Lawn &amp; Garden</option><option value="search-alias=pets">Pet Supplies</option><option value="search-alias=shoes">Shoes</option><option value="search-alias=software">Software</option><option value="search-alias=sporting">Sports &amp; Outdoors</option><option value="search-alias=tools">Tools &amp; Home Improvement</option><option value="search-alias=toys-and-games">Toys &amp; Games</option><option value="search-alias=videogames">Video Games</option><option value="search-alias=watches">Watches</option><option value="search-alias=wine">Wine</option></select></span>
+
+            <div class="nav-searchfield-outer nav-sprite">
+              <div class="nav-searchfield-inner nav-sprite">
+                <div class="nav-searchfield-width">
+                  <div id="nav-iss-attach">
+                    <input type="text" id="twotabsearchtextbox" title="Search For" value="TV" name="field-keywords" autocomplete="off"></div>
+                </div>
+                <!--[if IE ]><div class='nav-ie-min-width' style='width: 360px'></div><![endif]-->
+              </div>
+            </div>
+
+            <div class="nav-submit-button nav-sprite">
+              <input type="submit" value="Go" class="nav-submit-input" title="Go"></div>
+
+          </form>
+        </div>
+
+        <a id="nav-your-account" href="https://www.amazon.com/ap/signin?_encoding=UTF8&amp;openid.assoc_handle=usflex&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Fhomepage.html%3Fie%3DUTF8%26ref_%3Dgno_yam_ya" class="nav_a nav-button-outer nav-menu-inactive nav-prime-menu" alt="Your Account">
+          <span class="nav-button-mid nav-sprite">
+            <span class="nav-button-inner nav-sprite">
+              <span id="nav-signin-title" class="nav-button-title nav-button-line1">
+                Hello.
+                <span id="nav-signin-text" class="nav-button-em">Sign in</span>
+              </span>
+              <span class="nav-button-title nav-button-line2">Your Account</span>
+            </span>
+          </span>
+          <span class="nav-down-arrow nav-sprite"></span>
+        </a>
+
+          <span class="nav-divider nav-divider-prime"></span>
+
+          <a id="nav-your-prime" href="/gp/product/B00DBYBNEE/ref=nav_prime_join" class="nav_a nav-button-outer nav-menu-inactive" alt="Try Prime">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+                <span class="nav-button-title nav-button-line1">Try</span>
+                <span class="nav-button-title nav-button-line2">Prime</span>
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <span class="nav-divider nav-divider-account"></span>
+
+          <a id="nav-cart" href="/gp/cart/view.html/ref=gno_cart" class="nav_a nav-button-outer nav-menu-inactive" alt="Shopping Cart">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+
+                <span class="nav-button-title nav-button-line1"> </span>
+                <span class="nav-button-title nav-button-line2">Cart</span>
+
+                <span class="nav-cart-button nav-sprite"></span>
+                <span id="nav-cart-count" class="nav-cart-0">0</span>
+
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <span class="nav-divider nav-divider-cart"></span>
+
+          <a id="nav-wishlist" href="/gp/registry/wishlist/ref=wish_list" class="nav_a nav-button-outer nav-menu-inactive" alt="Wish List">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+                <span class="nav-button-title nav-button-line1">Wish</span>
+                <span class="nav-button-title nav-button-line2">List</span>
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <!-- nav-linktree-category -->
+          <!-- nav-linktree-subnav -->
+          <ul id="nav-subnav" data-category="electronics" data-digest="JVQqu62UGDhowcoPj9iZtGFLF+I"><li class="nav-subnav-item nav-category-button"><a href="/Televisions-Video/b/ref=topnav_storetab_e?ie=UTF8&amp;node=1266092011" class="nav_a">Televisions &amp; Video<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_0?ie=UTF8&amp;node=3079714011" class="nav_a">Deals<span></span></a></li><li class="nav-subnav-item"><a href="/gp/bestsellers/electronics/1266092011/ref=sv_e_1" class="nav_a">Best Sellers<span></span></a></li><li class="nav-subnav-item"><a href="/TVs-Televisions-Audio-Video/b/ref=sv_e_2?ie=UTF8&amp;node=979929011" class="nav_a">Televisions<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_3?ie=UTF8&amp;node=3213025011" class="nav_a">Blu-ray Players<span></span></a></li><li class="nav-subnav-item"><a href="/Digital-Video-Recorders/b/ref=sv_e_4?ie=UTF8&amp;node=13447451" class="nav_a">Streaming Media Players<span></span></a></li><li class="nav-subnav-item"><a href="/Projectors-Monitors-Computer-Add-Ons-Computers/b/ref=sv_e_5?ie=UTF8&amp;node=300334" class="nav_a">Video Projectors<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_6?ie=UTF8&amp;node=3237803011" class="nav_a">Sound Bar Speakers<span></span></a></li><li class="nav-subnav-item"><a href="/Audio-Video-Accessories-Supplies/b/ref=sv_e_7?ie=UTF8&amp;node=172532" class="nav_a">A/V Accessories<span></span></a></li><li class="nav-subnav-item"><a href="/electronics-store/b/ref=sv_e_8?ie=UTF8&amp;node=172282" class="nav_a">All Electronics<span></span></a></li>          </ul></div>
+    </div>
+
+    
+  </div>
+</header><script type="text/javascript"><!--
+window.$Nav && $Nav.declare('config.dynamicMenuUrl',
+  '/gp/navigation/ajax/dynamicmenu.html');
+
+window.$Nav && $Nav.declare('config.dismissNotificationUrl',
+  '/gp/navigation/ajax/dismissnotification.html');
+
+window.$Nav && $Nav.declare('config.enableDynamicMenus', true);
+
+window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
+  '/gp/navigation/ajax/subnav-flyout');
+
+window.$Nav && $Nav.declare('config.recordEvUrl',
+  '/gp/navigation/ajax/recordevent.html');
+window.$Nav && $Nav.declare('config.recordEvInterval', 5000);
+window.$Nav && $Nav.declare('config.sessionId', '191-1794624-8055324');
+window.$Nav && $Nav.declare('config.requestId', '0V9D9XJP5B26QHD75F2V');
+
+window.$Nav && $Nav.declare('config.readyOnATF', false);
+
+window.$Nav && $Nav.declare('config.dynamicMenuArgs',
+  {"rid":"0V9D9XJP5B26QHD75F2V","isPrime":0,"primeMenuWidth":310});
+
+window.$Nav && $Nav.declare('config.signOutText',
+  null);
+
+window.$Nav && $Nav.declare('config.yourAccountPrimeURL',
+  null);
+
+(function (i) {
+i.onload = function() {window.uet && uet('ne')};
+i.src = window._navbarSpriteUrl;
+}(new Image()));
+
+window.$Nav && $Nav.declare('config.autoFocus', false);
+
+
+window.$Nav && $Nav.declare('config.responsiveTouchAgents', ["ie10touch"]);
+
+window.$Nav && $Nav.declare('config.responsiveGW',false);
+
+window.$Nav && $Nav.declare('config.newFlyouts',true);
+
+window.$Nav && $Nav.declare('config.velocityFlyoutToggling', false);
+window.$Nav && $Nav.declare('config.velocityFlyoutThreshold', 40);
+
+window.$Nav && $Nav.declare('config.twoClickFlyouts',false);
+
+window.$Nav && $Nav.declare('config.sslTriggerType','flyoutProximity');
+window.$Nav && $Nav.declare('config.sslTriggerRetry',0);
+
+    
+    window.$Nav && $Nav.declare('config.browsePromos', window._navbar.browsepromos);
+
+--></script><!--Tilu --><!-- EndNav --><div>
+</div>
+
+
+
+
+  
+
+
+  
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+    
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<div id="PrimeStripeContent">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+</div>
+
+
+
+
+
+
+
+        <div class="a-container">
+            
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+    
+
+
+     
+<style type="text/css">
+    #leftCol {
+        width:34.4%;
+    }
+
+    .centerColAlign{
+        margin-left:35.9%;
+    }
+</style><div id="instantOrderUpdate_feature_div" class="feature" data-feature-name="instantOrderUpdate">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+    
+    
+ 
+<div id="rightCol" class="rightCol">
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="BUYBOX" class="feature" data-feature-name="BUYBOX">
+
+    
+        
+        
+        
+        
+        	
+        		
+
+
+<div id="buybox_feature_div" class="a-section">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+        
+        
+        
+		<div id="buybox" class="a-section a-spacing-medium">
+		    <form method="post" id="addToCart" action="/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance" class="a-content">
+		        
+		        
+
+
+    <input type="hidden" id="session-id" name="session-id" value="191-1794624-8055324"><input type="hidden" id="ASIN" name="ASIN" value="B0000789GB"><input type="hidden" id="offerListingID" name="offerListingID" value=""><input type="hidden" id="isMerchantExclusive" name="isMerchantExclusive" value="0"><input type="hidden" id="merchantID" name="merchantID" value=""><input type="hidden" id="isAddon" name="isAddon" value="0"><input type="hidden" id="nodeID" name="nodeID" value="172282"><input type="hidden" id="sellingCustomerID" name="sellingCustomerID" value=""><input type="hidden" id="qid" name="qid" value="1383995290"><input type="hidden" id="sr" name="sr" value="1-60"><input type="hidden" id="storeID" name="storeID" value="tv"><input type="hidden" id="tagActionCode" name="tagActionCode" value="172282"><input type="hidden" id="viewID" name="viewID" value="glance"><input type="hidden" id="rsid" name="rsid" value="191-1794624-8055324"><input type="hidden" id="sourceCustomerOrgListID" name="sourceCustomerOrgListID" value=""><input type="hidden" id="sourceCustomerOrgListItemID" name="sourceCustomerOrgListItemID" value=""><input type="hidden" name="wlPopCommand" value=""><div class="a-row a-spacing-medium">
+			        
+	                    
+			            
+			            
+			
+			            
+			            
+			                
+			                    
+			                    
+			                        <div id="unqualifiedBuyBox" class="a-box"><div class="a-box-inner">
+			                        
+
+
+
+
+    
+
+    <div class="a-text-center a-spacing-mini"><a href="/gp/offer-listing/B0000789GB/ref=dp_olp_all_mbc?ie=UTF8&amp;condition=all">5 used &amp; new</a> from <span class="a-color-price">$33.01</span></div> 
+    
+    <div class="a-button-stack">
+	   <span class="a-button a-spacing-base a-button-primary"><span class="a-button-inner"><a href="/gp/offer-listing/B0000789GB/ref=dp_olp_all_mbc?ie=UTF8&amp;condition=all" title="See All Buying Options" class="a-button-text">
+	       See All Buying Options
+	   </a></span></span>
+    </div>
+
+			                        </div></div>
+			                    
+			                
+			            
+			
+			            
+			            
+			        
+		        </div>
+		        
+                <div class="a-box a-spacing-top-base"><div class="a-box-inner">
+                    
+		            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div id="wishlistButtonStack" class="a-button-stack">
+    
+        <div id="add-to-wishlist-button-group" data-hover="To Add to Wish List, choose from options to the left" class="a-button-group a-declarative a-spacing-none" data-action="a-button-group">
+            
+            <span class="a-button a-spacing-none"><span class="a-button-inner"><input id="add-to-wishlist-button-submit" name="submit.add-to-registry.wishlist" title="Add to Wish List" data-hover="To Add to Wish List, choose from options to the left" class="a-button-input a-text-left" type="submit"><span class="a-button-text">
+                Add to Wish List 
+            </span></span></span>
+            
+            <span id="wishListDropDown" class="a-button a-button-dropdown a-spacing-none wishlist-dropdown-button a-hidden"><span class="a-button-inner"><i class="a-icon a-icon-dropdown"></i><input id="add-to-wishlist-button" name="submit.add-to-registry.wishlist" data-hover="To Add to Wish List, choose from options to the left" data-type="wishlist" class="a-button-input a-text-left" type="submit"><span class="a-button-text">
+            </span></span></span>
+        </div>
+    
+     
+    
+
+
+
+
+        
+
+
+</div>
+
+
+
+
+
+
+		        </div></div>
+		        
+		    </form>
+        </div>
+    
+
+
+
+<script type="text/javascript">
+P.when("accordionBuyBoxJS").execute(function(buyBoxJS){
+	buyBoxJS.initialize();
+});
+</script></div>
+        	
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="tradeInButton_feature_div" class="feature" data-feature-name="tradeInButton">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="moreBuyingChoices_feature_div" class="feature" data-feature-name="moreBuyingChoices">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="a-section a-spacing-medium">
+        
+            <div id="mbc" data-asin="B0000789GB" data-brand="Sony" data-product-group="ce_display_on_website" data-timeout="Sorry we encountered a problem." class="a-box"><div class="a-box-inner">
+                <h5 class="a-spacing-small">
+                    More buying choices
+                </h5>
+                <ul class="a-nostyle a-vertical a-spacing-small"></ul><span class="a-size-small sdpText">Have one to sell?</span>
+                    
+                    
+                    <span class="a-button a-button-small a-float-right"><span class="a-button-inner"><a href="http://catalog-retail.amazon.com/abis/syh/DisplayCondition/ref=dp_sdp_sell?_encoding=UTF8&amp;colid=&amp;asin=B0000789GB&amp;ld=AMZDP&amp;sr=1-60&amp;qid=1383995290&amp;coliid=" class="a-button-text">
+                                Sell on Amazon
+                    </a></span></span>
+                
+            </div></div>
+    </div>
+
+
+
+<script type="text/javascript">
+P.when('A','jQuery').execute(function(A,$)  {
+	var offerCount = 0;
+    for(var i=1; i <= offerCount; i++){
+        $(".mbcLi"+i).bind("click", function(){
+            this.click();
+        });
+        $(".mbcLi"+i+" .a-button a").bind("click", function(){
+            window.open(this.href,"_self");
+        });
+    }
+});
+</script></div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="tellAFriendBox_feature_div" class="feature" data-feature-name="tellAFriendBox">
+
+    
+        
+        
+            
+            
+                
+
+
+
+ 
+
+
+
+
+<div id="tell-a-friend" data-close="Close" data-dest="/gp/pdp/taf/dpPop.html/ref=cm_sw_p_view_dp_gKHFsb099J52QD52?ie=UTF8&amp;redirectLocation=dp%2FB0000789GB%2F%23_swftext_Swf&amp;isEmail=0&amp;placementID=dp_gKHFsb099J52QD52&amp;parentASIN=B0000789GB&amp;contentName=item&amp;contentType=asin&amp;isDynamicSWF=0&amp;contentID=B0000789GB&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;id=B0000789GB&amp;ra=taf&amp;tt=sh&amp;viaAccount=amazon&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;forceSprites=1&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB0000789GB%252Fref%253D&amp;contentURI=%2Fdp%2FB0000789GB" data-title="Share this item via Email" class="a-section a-text-center">
+    
+   
+    
+    <span class="a-declarative" data-action="a-modal" data-a-modal='{"cache":"false","width":"480","name":"swf","url":"/gp/pdp/taf/dpPop.html/ref=cm_sw_p_view_dp_gKHFsb099J52QD52?ie=UTF8&amp;redirectLocation=dp%2FB0000789GB%2F%23_swftext_Swf&amp;isEmail=0&amp;placementID=dp_gKHFsb099J52QD52&amp;parentASIN=B0000789GB&amp;contentName=item&amp;contentType=asin&amp;isDynamicSWF=0&amp;contentID=B0000789GB&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;id=B0000789GB&amp;ra=taf&amp;tt=sh&amp;viaAccount=amazon&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;forceSprites=1&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB0000789GB%252Fref%253D&amp;contentURI=%2Fdp%2FB0000789GB&amp;isDPX=1","header":"Share this item via Email"}'>
+      <a id="swfText" class="a-link-normal email" title="Share via e-mail" href="/gp/pdp/taf/ref=cm_sw_l_view_dp_gKHFsb099J52QD52?ie=UTF8&amp;itemInfo=B0000789GB&amp;placementID=dp_gKHFsb099J52QD52&amp;parentASIN=B0000789GB&amp;contentName=item&amp;contentType=asin&amp;isDynamicSWF=0&amp;contentID=B0000789GB&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;type=SH&amp;viaAccount=amazon&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB0000789GB%252Fref%253D&amp;contentURI=%2Fdp%2FB0000789GB">Share</a><span class="a-letter-space"></span>
+      <a id="swfImage" class="a-link-normal email" title="Share via e-mail" href="/gp/pdp/taf/ref=cm_sw_l_view_dp_gKHFsb099J52QD52?ie=UTF8&amp;itemInfo=B0000789GB&amp;placementID=dp_gKHFsb099J52QD52&amp;parentASIN=B0000789GB&amp;contentName=item&amp;contentType=asin&amp;isDynamicSWF=0&amp;contentID=B0000789GB&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;type=SH&amp;viaAccount=amazon&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB0000789GB%252Fref%253D&amp;contentURI=%2Fdp%2FB0000789GB"><i class="a-icon a-icon-share-email"></i></a><span class="a-letter-space"></span>
+    </span>
+   
+    
+   
+    
+        
+        
+            
+            
+            <a data-height="400" class="a-link-normal" title="Share on Facebook" href="/gp/redirect.html/ref=cm_sw_cl_fa_dp_gKHFsb099J52QD52?_encoding=UTF8&amp;location=http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB0000789GB%252Fref%253Dcm_sw_r_fa_dp_gKHFsb099J52QD52&amp;token=6BD0FB927CC51E76FF446584B1040F70EA7E88E1"><i class="a-icon a-icon-share-facebook"></i></a><span class="a-letter-space"></span>
+        
+    
+        
+        
+            
+            
+            <a data-height="400" class="a-link-normal" title="Share on Twitter" href="/gp/redirect.html/ref=cm_sw_cl_tw_dp_gKHFsb099J52QD52?_encoding=UTF8&amp;location=http%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Foriginal_referer%3Dhttp%25253A%25252F%25252Fwww.amazon.com%25252Fgp%25252Fproduct%25252FB0000789GB%25252Fref%25253Dcm_sw_r_tw_dp_gKHFsb099J52QD52%26text%3DSONY%2520KV-40XBR800%2520FD%2520Trinitron(R)%2520XBR(R)%2520Wega(TM)%2520Color%2520TV%2520Sony%26related%3Damazondeals%252Camazonmp3%26url%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB0000789GB%252Fref%253Dcm_sw_r_tw_dp_gKHFsb099J52QD52%26via%3Damazon&amp;token=7A1A4AE8F6CE0BD277D8295E58702D283F329C0F"><i class="a-icon a-icon-share-twitter"></i></a><span class="a-letter-space"></span>
+        
+    
+        
+        
+            
+            
+            <a data-height="570" class="a-link-normal" title="Pin it on Pinterest" href="/gp/redirect.html/ref=cm_sw_cl_pi_dp_gKHFsb099J52QD52?_encoding=UTF8&amp;location=http%3A%2F%2Fpinterest.com%2Fpin%2Fcreate%2Fbutton%3Furl%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB0000789GB%252Fref%253Dcm_sw_r_pi_dp_gKHFsb099J52QD52%26title%3DSONY%2520KV-40XBR800%2520FD%2520Trinitron(R)%2520XBR(R)%2520Wega(TM)%2520Color%2520TV%2520Sony%26description%3DSONY%2520KV-40XBR800%2520FD%2520Trinitron(R)%2520XBR(R)%2520Wega(TM)%2520Color%2520TV%2520Sony%252Chttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB0000789GB%252Fref%253Dcm_sw_r_pi_dp_gKHFsb099J52QD52%26media%3Dhttp%253A%252F%252Fecx.images-amazon.com%252Fimages%252FI%252F51C9SX2GZ5L.jpg&amp;token=9F58B366258E1A8B5259E9BEF3482E02341F42D3"><i class="a-icon a-icon-share-pinterest"></i></a><span class="a-letter-space"></span>
+        
+    
+</div>
+
+ 
+<script type="text/javascript">
+P.when("A","jQuery").execute(function(A,$) {
+  var taf = $("#tell-a-friend");
+  taf.children("[data-height]").click(function() {
+        var height = $(this).attr("data-height");
+        window.open(this.href, "_blank", "location=yes,width=700,height=" + height);
+        return false;
+  });
+
+  A.on.load(function () {
+    var hashValue = window.location.hash;
+    var hashIndex;
+    var swfHashValue = "_swftext_Swf";
+    hashIndex = hashValue.indexOf(swfHashValue);
+    if (hashValue != "" &&  hashIndex > -1) {
+      $("#swfText").click();
+    }
+ });
+});
+</script></div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="servicesInterstitial_feature_div" class="feature" data-feature-name="servicesInterstitial">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+</div>
+         
+<div id="leftCol" class="leftCol">
+    
+        
+        
+        
+        
+
+
+
+
+<div id="imageBlock_feature_div" class="feature" data-feature-name="imageBlock">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="imageBlock" class="a-section">
+    <div class="a-fixed-left-grid"><div class="a-fixed-left-grid-inner" style="padding-left:32px">
+        
+        
+            <div id="altImages" class="a-fixed-left-grid-col a-col-left" style="width:40px;margin-left:-40px;_margin-left:-20px;float:left;">
+                
+
+
+
+
+
+
+    <div id="thumbs-image" class="a-hidden" customfunctionname="(function(id, state, onloadFunction){ P.when('A').execute(function(A){ A.trigger('image-block-twister-swatch-click', id, state, onloadFunction) }); });"></div>
+    
+    <ul class="a-nostyle a-button-list a-vertical a-spacing-top-micro"><li class="a-spacing-small item"><span class="a-list-item">
+                    <span class="a-declarative" data-action="thumb-action" data-thumb-action='{"index":"0","thumbnailIndex":"0","type":"image"}'>
+                        <span class="a-button a-button-selected a-button-thumbnail a-button-toggle"><span class="a-button-inner"><input class="a-button-input" type="submit"><span class="a-button-text">
+                            
+                       		    
+                                
+                                    <img alt="" src="http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX38_SY50_CR,0,0,38,50_.jpg"></span></span></span>
+                    </span>
+                </span></li>
+                
+                
+            
+        
+        
+        <li class="a-spacing-small template"><span class="a-list-item">
+            <span class="a-declarative" data-action="thumb-action" data-thumb-action="{}">
+                <span class="a-button a-button-thumbnail a-button-toggle"><span class="a-button-inner"><input class="a-button-input" type="submit"><span class="a-button-text">
+                  <span class="placeHolder"></span>
+                </span></span></span>
+            </span>
+        </span></li>
+        
+        
+        
+    </ul></div>
+            
+        
+        
+        <div class="a-text-center a-fixed-left-grid-col canvas ie7-width-96 a-col-right" style="padding-left:1%;*width:98.6%;float:left;">
+            <div id="twister-main-image" class="a-hidden" customfunctionname="(function(id, state){ P.when('A').execute(function(A){ A.trigger('image-block-twister-swatch-hover', id, state) }); });"></div>
+            <div class="a-row a-spacing-none a-grid-center">
+                <div id="main-image-container" class="a-dynamic-image-container">
+                     
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+<!--     Creating a custom overlay for image not available experience -->
+<div class="variationUnavailable unavailableExp">
+    <div class="inner">
+<!--     TODO: Put heading text in String database -->
+        <div class="a-box a-alert a-alert-error"><div class="a-box-inner a-alert-container"><h4 class="a-alert-heading">Image unavailable</h4><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+            <span class="a-text-bold">
+                Image not available for<br>Color:
+                <span class="unvailableVariation"></span>
+            </span>
+        </div></div></div>
+    </div>
+</div>
+
+<ul class="a-nostyle a-horizontal list maintain-height"><li class="image
+             item itemNo0 selected maintain-height"><span class="a-list-item">
+                <span class="a-declarative" data-action="main-image-click" data-main-image-click="{}">
+                    <div id="imgTagWrapperId" class="imgTagWrapper">
+                        <img alt="" src="http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SY300_.jpg" data-old-hires="" onload="this.onload='';setCSMReq('af');setCSMReq('cf');" class="a-dynamic-image  a-stretch-horizontal" id="landingImage" data-a-dynamic-image='{"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX425_.jpg":[425,425],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX466_.jpg":[466,466],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX342_.jpg":[342,342],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L.jpg":[500,500],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX385_.jpg":[385,385]}' style="max-width:500px;max-height:500px;"></div>
+                </span>
+            </span></li>
+        
+    
+
+    <li class="mainImageTemplate template"><span class="a-list-item">
+        <span class="a-declarative" data-action="main-image-click" data-main-image-click="{}">
+            <div class="imgTagWrapper">
+                <span class="placeHolder"></span>
+            </div>
+        </span>
+    </span></li>
+    
+    <li class="swatchHoverExp a-hidden maintain-height"><span class="a-list-item">
+        <span class="a-declarative" data-action="main-image-click" data-main-image-click="{}">
+            <div class="imgTagWrapper">
+                <span class="placeHolder"></span>
+            </div>
+        </span>
+    </span></li>
+    
+    <li class="itemUnavailable unavailableExp a-hidden"><span class="a-list-item">
+        <span class="a-size-medium a-color-state a-text-bold">
+            Sorry, this item is not available in
+        </span>
+    </span></li>
+    
+    <li class="imageUnavailable unavailableExp a-hidden"><span class="a-list-item">
+        <span class="a-size-medium a-color-state a-text-bold">
+            Image not available
+        </span>
+    </span></li>
+    
+    <li id="noFlashContent" class="noFlash a-hidden"><span class="a-list-item">
+        To view this video download 
+        <a class="a-link-normal" target="_blank" href="http://get.adobe.com/flashplayer">
+            Flash Player
+            <span class="swSprite s_extLink"></span>
+        </a>
+    </span></li>
+</ul></div>
+            </div>
+            
+            
+                <div id="image-canvas-caption" class="a-row">
+                    <div class="a-column a-span12 a-text-center">
+                        <span id="canvasCaption" class="a-color-secondary"></span>
+                    </div>
+                </div>           
+            
+             	      
+            <div class="collections-collect-button"></div>
+            
+        </div>
+        
+    </div></div>
+</div>
+
+<script type="text/javascript">
+maintainHeight = function(){
+    var mainHolder = document.getElementById("main-image-container");
+    var imgTagWrapperId = document.getElementById("imgTagWrapperId");
+    if(mainHolder && typeof mainHolder != 'undefined'){
+        var width = mainHolder.offsetWidth;
+        var ratio = 0.77;
+        var shouldAutoPlay = false;
+        var videoSizes = [[342, 342], [385, 385], [425, 425], [466, 466], [500, 500]];
+        
+        var containerHeight = width/ratio;
+        containerHeight = Math.min(containerHeight, 700);
+        
+        mainHolder.style.height = containerHeight + "px";
+        if(imgTagWrapperId && typeof imgTagWrapperId !== 'undefined' ){
+            imgTagWrapperId.style.height = containerHeight + "px";
+        }
+        
+        if(shouldAutoPlay){
+            var landingImage = document.getElementById("landingImage");
+            
+            if(landingImage){
+                var autoPlayWidth=0, autoPlayHeight=0;
+                for(var i=0; i < videoSizes.length; i++){
+                    if( autoPlayWidth < videoSizes[i][0] ){
+                        autoPlayWidth = videoSizes[i][0];
+                        autoPlayHeight = videoSizes[i][1];
+                    }
+                }
+                if( autoPlayWidth > 0 && autoPlayHeight > 0 ){
+                    var videoRatio = autoPlayWidth/autoPlayHeight;
+                    // increasing height of the slate image by 1px (and width with the ratio) so that black lines doesn't appear on ipad on right side.
+                    var isIpad = navigator.userAgent.match(/ipad/i);
+                    if( isIpad ){
+                        containerHeight = containerHeight + 1;
+                    }
+                    landingImage.style.width = containerHeight * videoRatio + "px";
+                    landingImage.style.height = containerHeight + "px";
+                }
+                
+            }
+        }
+    }
+};
+maintainHeight();
+
+window.onresize = function(){
+    maintainHeight();
+};
+P.when('A').register("ImageBlockATF", function(A){   
+    var data = {
+                'colorImages': { 'initial': [{"hiRes":null,"thumb":"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX38_SY50_CR,0,0,38,50_.jpg","large":"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L.jpg","main":{"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX342_.jpg":[342,342],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX385_.jpg":[385,385],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX425_.jpg":[425,425],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L._SX466_.jpg":[466,466],"http://ecx.images-amazon.com/images/I/51C9SX2GZ5L.jpg":[500,500]}}]}, 
+                'colorToAsin': {'initial': {}},
+                'holderRatio': 0.77,
+                'holderMaxHeight': 700
+                };
+    A.trigger('P.AboveTheFold'); // trigger ATF event.    
+    return data;    
+});
+</script></div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="authorizedRetailerLogo_feature_div" class="feature" data-feature-name="authorizedRetailerLogo">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+</div>
+                 
+<div id="centerCol" class="centerColAlign">        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="title_feature_div" class="feature" data-feature-name="title">
+
+    
+        
+        
+            
+            
+                
+    
+
+
+<div class="a-section a-spacing-none">
+    <h1 id="title" class="a-size-large a-spacing-none">SONY KV-40XBR800 FD Trinitron(R) XBR(R) Wega(TM) Color TV
+    
+    </h1>
+</div>
+                                                                                                                    
+ 
+
+  
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="brandByline_feature_div" class="feature" data-feature-name="brandByline">
+
+    
+        
+        
+            
+            
+                 
+
+
+
+
+    <div class="a-section a-spacing-none">
+    
+        by
+    
+    
+        <a id="brand" class="a-link-normal" href="/s/ref=bl_sr_electronics?ie=UTF8&amp;field-brandtextbin=Sony&amp;node=172282">Sony</a>
+    </div>
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="averageCustomerReviews_feature_div" class="feature" data-feature-name="averageCustomerReviews">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+
+
+	
+    
+    
+    
+        
+        
+    
+    
+    
+<div id="averageCustomerReviews" class="a-spacing-small" data-asin="B0000789GB" data-ref="dp_top_cm_cr_acr_pop_">
+    
+    
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
+    <span class="reviewCountTextLinkedHistogram" title="3.5 out of 5 stars">
+        <a href="javascript:void(0)" class="a-popover-trigger a-declarative">
+            <i class="a-icon a-icon-star a-star-3-5"></i>
+        <i class="a-icon a-icon-popover"></i></a><span class="a-letter-space"></span>
+    </span>
+    
+        
+        
+        
+        
+        
+        
+            
+            
+        
+
+        <a href="/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=dp_top_cm_cr_acr_txt?showViewpoints=1">10 customer reviews</a>
+
+
+    
+    
+</div>
+
+<script type="text/javascript">
+amznJQ.onCompletion("amznJQ.criticalFeature", function() {
+amznJQ.available("popover", function() {
+    var acr = jQuery("#averageCustomerReviews");
+    var dest = "/gp/customer-reviews/common/du/displayHistoPopAjax.html?ref=" + acr.attr("data-ref") + 
+               "&link=1&seeall=1&ASIN=" + acr.attr("data-asin");
+    acr.find(".reviewCountTextLinkedHistogram").amazonPopoverTrigger({
+        destination: dest,
+        group: "reviewsPopover",
+        hoverHideDelay:300,
+        location:"bottom",
+        locationAlign:"left",
+        locationOffset:[-20,-2],
+        paddingLeft: 15,
+        paddingBottom: 5,
+        paddingRight: 15,
+        showOnHover:true,
+        showCloseButton: true,
+        width: null,
+        onShow: function(popover) { 
+            jQuery(document).click(); 
+        }
+    })
+});
+});
+</script></div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="ask_feature_div" class="feature" data-feature-name="ask">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+    
+        
+        
+        
+        
+        <hr><div id="price_feature_div" class="feature" data-feature-name="price">
+
+    
+        
+        
+            
+            
+                
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="primenote_feature_div" class="feature" data-feature-name="primenote">
+
+    
+        
+        
+            
+            
+                
+
+
+    
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="availability_feature_div" class="feature" data-feature-name="availability">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+<div id="availability" class="a-section a-spacing-none">
+    
+    
+    <span class="a-size-medium a-color-success">
+        
+            
+            
+        
+        Available from <a href="/gp/offer-listing/B0000789GB/ref=dp_olp_0?ie=UTF8&amp;condition=all&amp;sr=1-60&amp;qid=1383995290">these sellers</a>.
+    </span>
+    
+    
+</div>
+
+<div id="merchant-info" class="a-section a-spacing-mini">
+    
+
+    
+    
+     
+    
+    
+    
+    
+
+</div>
+
+
+
+
+
+
+
+	
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="dpFastTrack_feature_div" class="feature" data-feature-name="dpFastTrack">
+
+    
+        
+        
+            
+            
+                
+
+
+<div id="fast-track" class="a-section a-spacing-none">
+	
+		
+			
+			
+		
+	
+</div>
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="olp_feature_div" class="feature" data-feature-name="olp">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+
+
+    <div class="a-section a-spacing-small">
+        
+
+        
+            <span class="olp-padding-right"><a href="/gp/offer-listing/B0000789GB/ref=dp_olp_used?ie=UTF8&amp;condition=used">4 used</a> from <span class="a-color-price">$33.01</span></span>
+        
+
+        
+        
+        
+            <span class="olp-padding-right"><a href="/gp/offer-listing/B0000789GB/ref=dp_olp_refurbished?ie=UTF8&amp;condition=refurbished">1 refurbished</a> from <span class="a-color-price">$999.00</span></span>
+        
+        
+    </div>
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="defaultChildDropdown_feature_div" class="feature" data-feature-name="defaultChildDropdown">
+
+    
+        
+        
+            
+            
+                
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="twister_feature_div" class="feature" data-feature-name="twister">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+
+<form id="twister" action="/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance" method="post" class="a-section a-spacing-small">
+    
+
+
+
+<span id="twisterNonJsData">
+    <input type="hidden" name="ASIN"><input type="hidden" name="twisterDimKeys"><input type="hidden" name="noOfDims" value="0"><input type="hidden" name="" id="dummySubmitButton"></span>
+    
+</form>
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="featurebullets_feature_div" class="feature" data-feature-name="featurebullets">
+
+    
+        
+        
+            
+            
+                
+
+
+<div id="feature-bullets" class="a-section a-spacing-medium">
+    <ul class="a-vertical a-spacing-none"><li><span class="a-list-item">Hi-Scan 1080i compatible for HDTV display</span></li>
+        
+            <li><span class="a-list-item">NEW -  DRC(TM) MultiFunction V1 Circuitry</span></li>
+        
+            <li><span class="a-list-item">CineMotion Reverse 3 - 2 PullDown Technology</span></li>
+        
+            <li><span class="a-list-item">Flexible TwinView Two Tuner Picture and Picture</span></li>
+        
+            <li><span class="a-list-item">3D Digital Comb Filter</span></li>
+        
+    </ul></div>
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="vendorPoweredCoupon_feature_div" class="feature" data-feature-name="vendorPoweredCoupon">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="addOnItem_feature_div" class="feature" data-feature-name="addOnItem">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="snsPromo_feature_div" class="feature" data-feature-name="snsPromo">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="dp-holiday-availability-messaging_feature_div" class="feature" data-feature-name="holidayAvailabilityMessaging">
+
+    
+        
+        
+            
+            
+                
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="product-ads-feedback_feature_div" class="feature" data-feature-name="productAdsFeedback">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="giftcard-holiday-availability-messaging_feature_div" class="feature" data-feature-name="giftCardHolidayAvailabilityMessaging">
+
+    
+        
+        
+            
+            
+                
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="andon-cord-pulling_feature_div" class="feature" data-feature-name="andonCordPulling">
+
+    
+        
+        
+            
+            
+                
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="finderFitsWidget_feature_div" class="feature" data-feature-name="finderFitsWidget">
+
+    
+        
+        
+            
+            
+                
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="originalPackagingMessage_feature_div" class="feature" data-feature-name="originalPackagingMessage">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="newerVersion_feature_div" class="feature" data-feature-name="newerVersion">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="recommendations_feature_div" class="feature" data-feature-name="recommendations">
+
+    
+        
+        
+            
+            
+                
+
+
+
+                    
+    
+
+</div>
+
+
+        
+        
+    
+        
+        
+        
+        
+
+
+
+
+<div id="productAlert_feature_div" class="feature" data-feature-name="productAlert">
+
+    
+        
+        
+            
+            
+                
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+</div>
+
+<div id="hqpWrapper" class="centerColAlign">
+    
+        
+        
+        
+        
+
+
+
+
+<div id="heroQuickPromo_feature_div" class="feature" data-feature-name="heroQuickPromo">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+</div>
+
+<script type="text/javascript">setCSMReq('af');</script><div id="hover-zoom-end" class="a-section a-spacing-small a-padding-mini"></div>
+
+<div id="bottomRow">
+    
+        
+        
+        
+        
+
+
+
+
+<div id="bundle_feature_div" class="feature" data-feature-name="bundle">
+
+    
+        
+        
+            
+            
+                
+
+
+
+
+
+                
+            
+        
+        
+        
+        
+        
+        
+    
+
+</div>
+
+
+        
+        
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+      
+
+
+
+      
+    
+
+
+      
+
+
+
+
+
+
+
+      
+
+
+
+
+
+ 
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<div id="purchase-sims-feature" class="use-beacon-styles is-aui">
+<a name="fallbacksession"></a>
+
+<hr noshade size="1" class="bucketDivider"><div class="bucket">
+<div class="simsWrapper auiTestWrapper">
+
+
+
+
+
+
+
+
+<div class="shoveler" id="fallbacksessionShvl">
+    <div class="shoveler-heading">
+        <h2>Customers Who Viewed This Item Also Viewed</h2>
+        
+    </div>
+    
+
+
+<div class="shoveler-pagination" style="display:none">
+
+<span> </span>
+<span>
+Page <span class="page-number"></span>  of  <span class="num-pages"></span> 
+<span class="start-over"><span class="a-text-separator"></span><a href="#" onclick="return false;" class="start-over-link">Start over</a></span>
+</span>
+</div>
+
+    <div class="shoveler-button-wrapper" id="fallbacksessionButtonWrapper">
+        <a class="back-button" href="#Back" style="display:none" onclick="return false;"><span class="auiTestSprite s_shvlBack"><span>Back</span></span></a>
+        <div class="shoveler-content">
+            <ul tabindex="-1"><li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B005QOOACY" data-asin="B005QOOACY" data-ref="pd_sim_sbs_e_1">
+    
+
+
+
+
+
+
+<a href="/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/dp/B005QOOACY/ref=pd_sim_sbs_e_1" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41eZ2McvtBL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    SHINDENGEN MCZ3001DB Replaces - MCZ3001DA &amp; MCZ3001D &amp; 670581001 </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B005QOOACY"><a href="http://www.amazon.com/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/product-reviews/B005QOOACY/ref=pd_sim_sbs_e_cm_cr_acr_img_1"><span class="auiTestSprite s_star_4_5 " title="4.7 out of 5 stars"><span>4.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/product-reviews/B005QOOACY/ref=pd_sim_sbs_e_cm_cr_acr_txt_1">25</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$19.95</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B00BX8QBL0" data-asin="B00BX8QBL0" data-ref="pd_sim_sbs_e_2">
+    
+
+
+
+
+
+
+<a href="/Haier-32-Inch-720p-60Hz-LE32D32200/dp/B00BX8QBL0/ref=pd_sim_sbs_e_2" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/31eMI1Mn4lL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    Haier 32-Inch 720p 60Hz LED HDTV (LE32D32200) </a>
+
+
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$299.99</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B003DPPZJA" data-asin="B003DPPZJA" data-ref="pd_sim_sbs_e_3">
+    
+
+
+
+
+
+
+<a href="/Philips-22PFL4505D-F7-22-Inch-Black/dp/B003DPPZJA/ref=pd_sim_sbs_e_3" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/512XbGRmdKL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    Philips 22PFL4505D/F7 22-Inch 720p LED LCD HDTV, Black (2011 Model) </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B003DPPZJA"><a href="http://www.amazon.com/Philips-22PFL4505D-F7-22-Inch-Black/product-reviews/B003DPPZJA/ref=pd_sim_sbs_e_cm_cr_acr_img_3"><span class="auiTestSprite s_star_3_5 " title="3.7 out of 5 stars"><span>3.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Philips-22PFL4505D-F7-22-Inch-Black/product-reviews/B003DPPZJA/ref=pd_sim_sbs_e_cm_cr_acr_txt_3">187</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B001D0LB6S" data-asin="B001D0LB6S" data-ref="pd_sim_sbs_e_4">
+    
+
+
+
+
+
+
+<a href="/UNIVERSAL-MOUNT-Bracket-Holder-inches/dp/B001D0LB6S/ref=pd_sim_sbs_e_4" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41rOJwF5joL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    UNIVERSAL Tube TV WALL MOUNT Bracket Holder 14-29 inches New </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B001D0LB6S"><a href="http://www.amazon.com/UNIVERSAL-MOUNT-Bracket-Holder-inches/product-reviews/B001D0LB6S/ref=pd_sim_sbs_e_cm_cr_acr_img_4"><span class="auiTestSprite s_star_4_0 " title="4.0 out of 5 stars"><span>4.0 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/UNIVERSAL-MOUNT-Bracket-Holder-inches/product-reviews/B001D0LB6S/ref=pd_sim_sbs_e_cm_cr_acr_txt_4">3</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B0036BNRZA" data-asin="B0036BNRZA" data-ref="pd_sim_sbs_e_5">
+    
+
+
+
+
+
+
+<a href="/Craig-15-6-Inch-120Hz-Black-CLC501/dp/B0036BNRZA/ref=pd_sim_sbs_e_5" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41bS60NnkXL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    Craig 15.6-Inch 720p 120Hz LCD TV, Black (CLC501) </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B0036BNRZA"><a href="http://www.amazon.com/Craig-15-6-Inch-120Hz-Black-CLC501/product-reviews/B0036BNRZA/ref=pd_sim_sbs_e_cm_cr_acr_img_5"><span class="auiTestSprite s_star_2_5 " title="2.7 out of 5 stars"><span>2.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Craig-15-6-Inch-120Hz-Black-CLC501/product-reviews/B0036BNRZA/ref=pd_sim_sbs_e_cm_cr_acr_txt_5">19</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$149.99</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="fallbacksession_B00005MO2M" data-asin="B00005MO2M" data-ref="pd_sim_sbs_e_6">
+    
+
+
+
+
+
+
+<a href="/Dell-E773C-17-CRT-Monitor/dp/B00005MO2M/ref=pd_sim_sbs_e_6" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41843DAA5DL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    <span title='Dell 17" CRT Monitor'>Dell 17" CRT Monitor</span> </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B00005MO2M"><a href="http://www.amazon.com/Dell-E773C-17-CRT-Monitor/product-reviews/B00005MO2M/ref=pd_sim_sbs_e_cm_cr_acr_img_6"><span class="auiTestSprite s_star_4_0 " title="3.9 out of 5 stars"><span>3.9 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Dell-E773C-17-CRT-Monitor/product-reviews/B00005MO2M/ref=pd_sim_sbs_e_cm_cr_acr_txt_6">16</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        
+    </div>
+  </div>
+</li>
+            </ul></div>
+        <a class="next-button" href="#Next" style="display:none" onclick="return false;"><span class="auiTestSprite  s_shvlNext"><span>Next</span></span></a>
+    </div>
+</div>
+
+
+
+
+
+<div id="purchaseSimsData" class="sims-data" style="display:none" data-baseasin="B0000789GB" data-devicetype="desktop" data-featureid="pd_sim_sbs" data-isaui="1" data-pageid="B0000789GBsr_1_60" data-reftag="pd_sim_sbs_e" data-vt="B0000789GB" data-wdg="ce_display_on_website" data-widgetname="fallbacksession">B005QOOACY,B00BX8QBL0,B003DPPZJA,B001D0LB6S,B0036BNRZA,B00005MO2M,B001DGL2W0,B004OBZ1W8</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div style="display:none;" class="p13n-session" data-marketplaceid="ATVPDKIKX0DER" data-mkt="US" data-pageid="B0000789GB" data-requestid="0V9D9XJP5B26QHD75F2V" data-session="191-1794624-8055324"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<!--AMZNJQSECTION-->
+
+
+    
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="bucketDivider" noshade size="1"><div class="bucket" id="quickPromoBucketContent">
+    <a id="productPromotions" name="productPromotions"></a>
+    <h2>Special Offers and Product Promotions</h2>
+    
+    
+    
+    <div class="content">
+      <ul class="qpUL"><li><div class="amabot_widget"><b>Free 30-Day Tech Support:</b> 
+
+This item is eligible for FREE Tech Support for 30 days from the date of delivery. Over the phone, our trained technicians can help you set up, configure, connect, and troubleshoot so you can start enjoying your new purchase. Owners of qualifying products can reach Tech Support by selecting your product on the Contact Us page. <a href="/gp/redirect.html/ref=amb_link_365669362_1?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3D201032500%26pop-up%3D1&amp;token=3A0F170E7CEFE27BDC730D3D7344512BC1296B83&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=special-offers-1&amp;pf_rd_r=0V9D9XJP5B26QHD75F2V&amp;pf_rd_t=201&amp;pf_rd_p=1419586102&amp;pf_rd_i=B0000789GB" target="_blank">Learn more</a></div><br></li><input type="hidden" name="productPromosHidden" id="productPromosHidden"></ul><span class="issuance-banner">
+
+
+<style>
+
+
+    .iss-inline-right {
+        text-align: right;
+    }
+    .iss-inline-center {
+        text-align: center;
+    }
+    .iss-block-right {
+        margin-left: auto;
+    }
+    .iss-block-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    a.iss-banner-ad {
+        font-size: 13px;
+        line-height: 19px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.iss-banner-ad:hover {
+        color: #333333;
+        text-decoration: none;
+    }
+    .iss-banner-ad-content {
+        text-align: left;
+    }
+    .iss-size-large {
+        font-size: 21px;
+        line-height: 1.3;
+        text-rendering: optimizeLegibility;
+    }
+    .iss-size-header {
+        font-size: 17px;
+        line-height: 1.255;
+        font-weight: bold;
+        text-rendering: optimizeLegibility;
+    }
+    .iss-size-small {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #999;
+    }
+    .iss-color-price {
+        color: #900;
+    }
+
+
+    .iss-banner-ad {
+        cursor: pointer;
+        display: block;
+        overflow: hidden;
+        background-color: #ffffff;
+        border: 1px solid #c9e1f4;
+    }
+    .iss-banner-ad img {
+        border: 0;
+    }
+
+
+    .iss-ad-row:before,
+    .iss-ad-row:after {
+        content: " ";
+        display: table;
+    }
+    .iss-ad-row:after {
+        clear: both;
+    }
+    .iss-ad-row {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        zoom: 1;
+    }
+
+
+    .iss-ad-col {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+
+    .iss-ad-asin-image {
+        max-height: 65px;
+        *height: 65px;
+    }
+    .iss-ad-asin-caption {
+        margin-top: 5px;
+    }
+    .iss-ad-asin-caption img {
+        *display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        /* Ad typography */
+        .iss-size-large {
+            color: #e47911;
+        }
+        /* Ad border and padding */
+        .iss-banner-ad {
+            border-width: 1px 0 0 0;
+            padding: 5px 2px 2px 2px;
+        }
+        /* Column Layout */
+        .iss-ad-col2 {
+            float: left;
+            margin-right: 26px;
+        }
+        .iss-ad-col3 {
+            float: left;
+            margin-right: 26px;
+        }
+        .iss-ad-col4 {
+            float: left;
+            padding-top: 10px;
+        }
+        /* Button */
+        .iss-button {
+            font-family: Arial,sans-serif;
+            font-size: 13px;
+            line-height: 29px;
+            color: #111111;
+            text-align: center;
+            white-space: nowrap;
+            padding: 0 10px 0 11px;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+            cursor: pointer;
+            outline: 0 none;
+            border: 1px solid #cccccc;
+            border-color: #BCC1C8 #BABABA #ADB2BB;
+            border-radius: 3px 3px 3px 3px;
+            background-color: #f5f5f5;
+            background-image: -moz-linear-gradient(top, #f7f8fa, #e7e9ec);
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f8fa), to(#e7e9ec));
+            background-image: -webkit-linear-gradient(top, #f7f8fa, #e7e9ec);
+            background-image: -o-linear-gradient(top, #f7f8fa, #e7e9ec);
+            background-image: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+            background-repeat: repeat-x;
+            -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+            -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+            *background-color: #e7e9ec;
+            *display: inline;
+            *overflow: visible;
+            *zoom: 1;
+        }
+    
+
+</style><a class="iss-banner-ad " href="/gp/cobrandcard/marketing-popup.html/ref=cobrand_ch_t1_huc_nm?pr=conplcc&amp;inc=plccgatefomgc&amp;ts=61u62xjwwrp7zq3vf1obznfnjvszh4c&amp;flavor=EXCFIN&amp;dasin=B0000789GB&amp;plattr=nomath&amp;ad=CGC1&amp;place=detailpage&amp;imp=A14ZDL7KNP2HYY" target="_blank" onclick="amz_js_PopWin('/gp/cobrandcard/marketing-popup.html/ref=cobrand_ch_t1_huc_nm?pr=conplcc&amp;inc=plccgatefomgc&amp;ts=61u62xjwwrp7zq3vf1obznfnjvszh4c&amp;flavor=EXCFIN&amp;dasin=B0000789GB&amp;plattr=nomath&amp;ad=CGC1&amp;place=detailpage&amp;imp=A14ZDL7KNP2HYY', '_blank', 'width=925,height=600,resizable=yes,scrollbars=yes,toolbar=yes,status=yes'); return false;">
+    <div class="iss-banner-ad-content ">
+        <div class="iss-ad-row">
+
+                    <div class="iss-ad-col iss-ad-col1">
+                                <div class="iss-size-large">
+            Financing Offers
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="iss-ad-col iss-ad-col2">
+                                <div class="iss-size-header">
+            Get a $10.00 Amazon.com Gift Card instantly
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="iss-size-medium">
+            upon approval for the Amazon.com Store Card. See details and restrictions.
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="iss-ad-col iss-ad-col3">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="iss-ad-col iss-ad-col4">
+                                <div class="iss-size-medium">
+            <button class="iss-button" type="button"> Apply now </button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+        </div>
+    </div>
+</a></span>
+    </div>
+  </div>
+    <script type="text/javascript">
+      if (typeof showHideElement == 'function') {
+        showHideElement('specialOffersHidden', 'specialOffersDiv');
+        showHideElement('productPromosHidden', 'heroQuickPromoDiv');
+      }
+    </script><div id="clicktocallUpdate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div>
+</div>
+
+
+<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    </div>
+
+<a name="moreAboutThisProduct" id="moreAboutThisProduct"></a>
+
+ 
+
+
+
+
+
+<div id="cpsia-product-safety-warning_feature_div">
+</div>
+
+
+
+
+  
+    
+    
+  
+  
+
+    
+
+
+
+
+<div id="technical-data">
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    <hr noshade size="1" class="bucketDivider"><div class="bucket">
+      <a name="technical_details" id="technical_details"></a><h2>Technical Details</h2>
+      
+      <div class="content">
+          
+        <ul><li><b>Brand Name</b>: Sony</li>
+<li><b>Model</b>: KV-40XBR800P</li>
+<li><b>Display Technology</b>: CRT</li>
+<li><b>Display Size</b>: 40 inches</li>
+
+        </ul><div id="technicalProductFeatures"></div>
+        
+        
+      </div>
+    </div>
+
+
+
+
+</div>
+
+<div class="unified_widget rcmBody"><hr>Read about our customers' top-rated TVs on our <b><a href="/b/ref=amb_link_387605402_1?ie=UTF8&amp;node=7139569011&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=center-28&amp;pf_rd_r=0V9D9XJP5B26QHD75F2V&amp;pf_rd_t=201&amp;pf_rd_p=1652373402&amp;pf_rd_i=B0000789GB">TV Reviews</a></b> page. 
+                <div class="h_rule"></div></div>
+
+    
+
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+	
+	
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="detail-bullets">
+
+
+
+
+
+
+
+<hr noshade size="1" class="bucketDivider"><table cellpadding="0" cellspacing="0" border="0"><tr><td class="bucket">
+      <h2>Product Details</h2>
+      <div class="content">
+
+
+
+
+
+
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" style="background-color:#EFF7FE;"><tr><td style="padding:3px 3px 3px 3px;" valign="top"> <a href="" onclick="pluginWindow=window.open('http://ec1.images-amazon.com/media/i3d/01/A/man-migrate/MANUAL000025064.pdf','ProductDisplay','height=500,width=500,dependent=yes,directories=no,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no');return false">Product Manual</a> <span class="tinyGrey">[4.03mb PDF]</span></td>  </tr></table><ul><li><b>
+    Product Dimensions: 
+    </b>
+    26.2 x 43.2 x 33.2 inches
+    </li>
+
+
+
+
+
+<li><b>Shipping Weight:</b> 325 pounds</li>
+
+
+
+
+
+
+
+<li><b>Shipping: </b>Currently, item can be shipped only within the U.S.</li>
+<li><b>ASIN: </b>B0000789GB</li>
+
+
+
+
+
+
+
+
+<li><b>Item model number:</b> KV-40XBR800P</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><b>Average Customer Review:</b> 
+<script type="text/javascript">
+
+      function acrPopoverHover(e, h) {
+        if(h) window.acrAsinHover = e;
+        else if(window.acrAsinHover == e) window.acrAsinHover = null;
+      }
+
+  amznJQ.onReady('popover', function() {
+    (function($) {
+      if($.fn.acrPopover) return;
+      var popoverConfig = {
+        showOnHover:true,
+        showCloseButton: true,
+        width: null,
+        location:'bottom',
+        locationAlign:'left',
+        locationOffset:[-20,0],
+        paddingLeft: 15,
+        paddingBottom: 5,
+        paddingRight: 15,
+        group: 'reviewsPopover',
+        clone:false,
+        hoverHideDelay:300
+      };
+
+      $.fn.acrPopover = function() {
+          return this.each(function() {
+            var $this = $(this);
+            if(!$this.data('init') && typeof $this.amazonPopoverTrigger === 'function') {
+              $this.data('init', 1);
+              var getargs = $this.attr('getargs');
+              var ajaxURL = '/gp/customer-reviews/common/du/displayHistoPopAjax.html?' +
+                         '&ASIN=' + $this.attr('name') +
+                         '&link=1' +
+                         '&seeall=1' +
+                         '&ref=' + $this.attr('ref') +
+                         ((typeof getargs != 'undefined') ? ('&getargs=' + getargs) : '');
+              var myConfig = $.extend(true, { destination: ajaxURL }, popoverConfig);
+              $this.amazonPopoverTrigger(myConfig);
+
+              var w = window.acrAsinHover;
+              if(w && $(w).parents('.asinReviewsSummary').get(0) == this) {
+                $this.trigger('mouseover.amzPopover');
+                window.acrAsinHover = null;
+              }
+            }
+        });
+      };
+
+      window.reviewHistPopoverConfig = popoverConfig;
+      var jqInit = window.jQueryInitHistoPopovers = function(asin) {
+        if (typeof $('.acr-popover[name=' + asin + ']').acrPopover === 'function') {
+          $('.acr-popover[name=' + asin + ']').acrPopover();
+        }
+      };
+      window.doInit_average_customer_reviews = jqInit;
+      window.onAjaxUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdateReselect_average_customer_reviews = jqInit;
+
+      amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+          setTimeout(function() { amznJQ.declareAvailable('acrPopover'); }, 10);
+      });
+    })(jQuery);
+  });
+  amznJQ.onReady('acrPopover', function() {
+    jQuery('.acr-popover,#searchTemplate .asinReviewsSummary').each(function() {
+      if (typeof jQuery(this).acrPopover === 'function') {
+        jQuery(this).acrPopover();
+      }
+    });
+  });
+</script><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover" name="B0000789GB" ref="dp_db_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=dp_db_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0000789GB__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_3_5 " title="3.5 out of 5 stars"><span>3.5 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=dp_db_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0000789GB__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "><span>See all reviews</span></span> </a></span></span>(<a href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=dp_db_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">10 customer reviews</a>)</span></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="SalesRank">
+<b>Amazon Best Sellers Rank:</b> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#251,743 in Electronics (<a href="http://www.amazon.com/gp/bestsellers/electronics/ref=pd_dp_ts_e_1">See Top 100 in Electronics</a>)
+  
+
+
+
+
+
+
+ 
+
+
+
+
+</li>
+
+
+
+
+
+
+
+
+
+
+    <li><b> Date first available at Amazon.com:</b> October 2, 2001</li>
+
+
+
+
+
+		
+	
+		
+	
+		
+	
+			
+		
+	
+		
+	
+			
+            
+            
+            
+			<div id="feedbackFeaturesContainer" class="bucket" style="padding-top:0.5em;padding-bottom:0.5em;">
+	
+	
+			<div id="lwcfContainer" style="padding-top:0.5em"></div><div id="gfixFeaturesContainer" style="padding-top:0.5em">Would you like to <b><a href="https://www.amazon.com/gp/gfix/welcome.html/ref=gfix-product-detail-catalog?ie=UTF8&amp;ASIN=B0000789GB&amp;merchantID=&amp;storeID=electronics">update product info</a></b> or <b><a href="https://www.amazon.com/gp/gfix/imageCorrection.html/ref=gfix-product-detail-image?ie=UTF8&amp;ASIN=B0000789GB&amp;merchantID=&amp;storeID=electronics">give feedback on images</a></b>?</div></div>
+
+
+
+</ul></div>
+    </td>
+  </tr></table></div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<hr noshade size="1" class="bucketDivider"><div class="bucket" id="productDescription">
+ <h2>Product Description</h2>
+
+<div class="content">
+
+
+           <h3 class="productDescriptionSource"></h3>
+       <div class="productDescriptionWrapper">
+       This 40'' HDTV monitor delivers brilliant images and sound you have to hear to believe. A flat screen diminishes distortion, and a Memory Stick« slot lets you display your favorite digital photos on-screen. Immerse yourself in the richness of TruSurround(TM) sound, and use 2-tuner picture-in-picture to watch 2 shows at once without a VCR. Hook up a high-definition receiver for the realism of HDTV broadcasts. It's home entertainment at its finest. <b>Not available in all stores.</b>
+      
+      <div class="emptyClear"> </div>
+      </div> 
+
+
+
+  </div>
+    <script>
+    if(typeof P !== 'undefined' && typeof P.when !== 'undefined') {
+        P.when('product-description-fix').execute(function(productDescription){
+            productDescription.fixTableIssue();      
+        });
+    }
+    </script></div>
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="cpsims-feature" class="use-beacon-styles is-aui">
+<hr class="bucketDivider"><div class="bucket cpsims" id="vtpsims">
+    <h2>What Other Items Do Customers Buy After Viewing This Item?</h2>
+    
+  <ul class="content small"><li>
+  <div class="asinDetails">
+  
+
+
+
+
+
+
+<a href="/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/dp/B005QOOACY/ref=pd_cp_e_0" id="pd_cp_e_0_B005QOOACY"> <img src="http://ecx.images-amazon.com/images/I/41eZ2McvtBL._SL75_SS50_.jpg" width="50" alt="" class="faceout" height="50" border="0"><span class="cpAsinTitle">SHINDENGEN MCZ3001DB Replaces - MCZ3001DA &amp; MCZ3001D &amp; 670581001</span> </a>
+
+    <br><span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B005QOOACY"><a href="http://www.amazon.com/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/product-reviews/B005QOOACY/ref=pd_cp_e_0_cm_cr_acr_img"><span class="swSprite s_star_4_5 " title="4.7 out of 5 stars"><span>4.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/SHINDENGEN-MCZ3001DB-Replaces-MCZ3001DA-670581001/product-reviews/B005QOOACY/ref=pd_cp_e_0_cm_cr_acr_txt">25</a>)</span></span><br><div class="price">$19.95</div>
+  </div>
+</li>
+<div class="vtp-clear"> </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="asinDetails">
+  
+
+
+
+
+
+
+<a href="/Elenco-Electronics-ST-12-Soldering-Tool/dp/B0002LLWZY/ref=pd_cp_e_1" id="pd_cp_e_1_B0002LLWZY"> <img src="http://ecx.images-amazon.com/images/I/51PfCYDW7DL._SL75_SS50_.jpg" width="50" alt="" class="faceout" height="50" border="0"><span class="cpAsinTitle">Elenco Electronics ST-12 Soldering Tool Kit</span> </a>
+
+    <br><span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B0002LLWZY"><a href="http://www.amazon.com/Elenco-Electronics-ST-12-Soldering-Tool/product-reviews/B0002LLWZY/ref=pd_cp_e_1_cm_cr_acr_img"><span class="swSprite s_star_4_0 " title="3.8 out of 5 stars"><span>3.8 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Elenco-Electronics-ST-12-Soldering-Tool/product-reviews/B0002LLWZY/ref=pd_cp_e_1_cm_cr_acr_txt">219</a>)</span></span><br><div class="price">$13.70</div>
+  </div>
+</li>
+<div class="vtp-clear"> </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="asinDetails">
+  
+
+
+
+
+
+
+<a href="/Parts-Express-Solder-Sucker-desoldering/dp/B0002KRAAG/ref=pd_cp_e_2" id="pd_cp_e_2_B0002KRAAG"> <img src="http://ecx.images-amazon.com/images/I/31EL-TmTbXL._SL75_SS50_.jpg" width="50" alt="" class="faceout" height="50" border="0"><span class="cpAsinTitle">Solder Sucker- desoldering pump</span> </a>
+
+    <br><span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B0002KRAAG"><a href="http://www.amazon.com/Parts-Express-Solder-Sucker-desoldering/product-reviews/B0002KRAAG/ref=pd_cp_e_2_cm_cr_acr_img"><span class="swSprite s_star_3_5 " title="3.7 out of 5 stars"><span>3.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Parts-Express-Solder-Sucker-desoldering/product-reviews/B0002KRAAG/ref=pd_cp_e_2_cm_cr_acr_txt">171</a>)</span></span><br><div class="price">$5.95</div>
+  </div>
+</li>
+<div class="vtp-clear"> </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="asinDetails">
+  
+
+
+
+
+
+
+<a href="/AmazonBasics-High-Speed-HDMI-Cable-Meters/dp/B003L1ZYYM/ref=pd_cp_e_3" id="pd_cp_e_3_B003L1ZYYM"> <img src="http://ecx.images-amazon.com/images/I/41%2B%2BsXZpHXL._SL75_SS50_.jpg" width="50" alt="" class="faceout" height="50" border="0"><span class="cpAsinTitle">AmazonBasics High-Speed HDMI Cable (6.5 Feet/2.0 Meters) - Supports Ethernet, 3D, and Audio Return </span> </a>
+
+    <br><span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B003L1ZYYM"><a href="http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Meters/product-reviews/B003L1ZYYM/ref=pd_cp_e_3_cm_cr_acr_img"><span class="swSprite s_star_4_5 " title="4.7 out of 5 stars"><span>4.7 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/AmazonBasics-High-Speed-HDMI-Cable-Meters/product-reviews/B003L1ZYYM/ref=pd_cp_e_3_cm_cr_acr_txt">6,025</a>)</span></span><br><div class="price">$5.79</div>
+  </div>
+</li>
+<div class="vtp-clear"> </div>
+
+
+  </ul><div class="simFooter"><b><span class="caretnext">›</span> <a href="/SONY-KV-40XBR800-Trinitron-Wega-Color/sim/B0000789GB/2/ref=pd_cp_e_sexpl">Explore similar items</a></b></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<div>
+</div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="ask-btf_feature_div">
+    <div id="cf-ask-cel" class="celwidget">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="Ask"></a>
+<div id="ask_lazy_load_div">
+    <hr class="bucketDivider" size="1" noshade><div class="cdQuestionAnswerBucket">
+        <div class="cdQuestionAnswerHeader">
+            Customer Questions &amp; Answers
+        </div>
+        <div class="cdQuestionLazySeeAll">
+            <a href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/forum/-/-/1/ref=cm_cd_dp_lla_ql_ll?_encoding=UTF8&amp;asin=B0000789GB">See questions and answers</a>
+        </div>
+        <div class="loading_ind" style="display:none" width="100%">
+            <img src="http://g-ecx.images-amazon.com/images/G/01/ui/loadIndicators/loadIndicator-large._V192195480_.gif" style="padding:8px 0px 0px 100px"></div>
+    </div>
+</div>
+
+        
+
+    
+
+
+
+
+
+
+<script type="text/JavaScript">
+
+  amznJQ.onReady('lazyLoadLib', function () { 
+      jQuery('#ask_lazy_load_div').lazyLoadContent({
+      threshold : 800,
+      url: "/gp/rcxll/dpview/B0000789GB?ie=UTF8&keywords=TV&qid=1383995290&ref_=sr_1_60&s=tv&sr=1-60&vi=ask",
+      metrics : true,
+      name : 'ask_btf',
+      cache : false
+    });
+  });
+ 
+</script></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="revDivider" class="a-divider a-divider-section"><div class="a-divider-inner"></div></div>
+<a id="customerReviews" class="a-link-normal" href="#">
+</a>
+
+<div id="cm_cr_dpwidget" class="a-section a-spacing-extra-large">
+
+  <div id="reviewContainer" class="a-row">
+    <div id="revMHLContainer" class="a-column a-span8">
+      <div id="reviewTopContainer" class="a-section a-spacing-none a-spacing-top-none a-padding-none">
+        <h2 class="a-spacing-small">Customer Reviews</h2>
+        <div id="summaryContainer" class="a-row a-spacing-medium">
+          <div id="revSum" class="a-section">
+
+
+
+
+<div class="a-fixed-left-grid"><div class="a-fixed-left-grid-inner" style="padding-left:185px">
+  <div class="a-fixed-left-grid-col a-col-left" style="width:185px;margin-left:-185px;_margin-left:-92.5px;float:left;">
+    <div class="a-section">
+      
+
+
+
+
+
+
+
+
+<div id="summaryStars" class="a-row">  
+  <a class="a-link-normal a-text-normal" title="3.5 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_see_all_top?ie=UTF8&amp;showViewpoints=1&amp;sortBy=byRankDescending">
+    <i class="a-icon a-icon-star-medium a-star-medium-3-5"></i>
+    (10)
+  </a>  
+</div>
+<div id="avgRating" class="a-row a-spacing-small a-color-secondary"> 
+  <span>
+    3.5 out of 5 stars
+    </span>
+</div>
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table id="histogramTable" class="a-normal a-align-middle a-spacing-base"><tr class="a-histogram-row"><td class="a-nowrap">
+      <a class="a-link-normal" title="30% of reviews have 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_five?ie=UTF8&amp;filterBy=addFiveStar&amp;showViewpoints=0">5 star</a><span class="a-letter-space"></span>      
+    </td>
+    <td class="a-span10">
+      <a class="a-link-normal" title="30% of reviews have 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_five?ie=UTF8&amp;filterBy=addFiveStar&amp;showViewpoints=0"><div class="a-meter"><div class="a-meter-bar" style="width: 30%;"></div></div></a>
+    </td>
+    <td class="a-nowrap">
+      <span class="a-letter-space"></span><span>3</span>
+    </td>
+  </tr><tr class="a-histogram-row"><td class="a-nowrap">
+      <a class="a-link-normal" title="30% of reviews have 4 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_four?ie=UTF8&amp;filterBy=addFourStar&amp;showViewpoints=0">4 star</a><span class="a-letter-space"></span>      
+    </td>
+    <td class="a-span10">
+      <a class="a-link-normal" title="30% of reviews have 4 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_four?ie=UTF8&amp;filterBy=addFourStar&amp;showViewpoints=0"><div class="a-meter"><div class="a-meter-bar" style="width: 30%;"></div></div></a>
+    </td>
+    <td class="a-nowrap">
+      <span class="a-letter-space"></span><span>3</span>
+    </td>
+  </tr><tr class="a-histogram-row"><td class="a-nowrap">
+      <a class="a-link-normal" title="10% of reviews have 3 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_three?ie=UTF8&amp;filterBy=addThreeStar&amp;showViewpoints=0">3 star</a><span class="a-letter-space"></span>      
+    </td>
+    <td class="a-span10">
+      <a class="a-link-normal" title="10% of reviews have 3 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_three?ie=UTF8&amp;filterBy=addThreeStar&amp;showViewpoints=0"><div class="a-meter"><div class="a-meter-bar" style="width: 10%;"></div></div></a>
+    </td>
+    <td class="a-nowrap">
+      <span class="a-letter-space"></span><span>1</span>
+    </td>
+  </tr><tr class="a-histogram-row"><td class="a-nowrap">
+      <a class="a-link-normal" title="20% of reviews have 2 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_two?ie=UTF8&amp;filterBy=addTwoStar&amp;showViewpoints=0">2 star</a><span class="a-letter-space"></span>      
+    </td>
+    <td class="a-span10">
+      <a class="a-link-normal" title="20% of reviews have 2 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_two?ie=UTF8&amp;filterBy=addTwoStar&amp;showViewpoints=0"><div class="a-meter"><div class="a-meter-bar" style="width: 20%;"></div></div></a>
+    </td>
+    <td class="a-nowrap">
+      <span class="a-letter-space"></span><span>2</span>
+    </td>
+  </tr><tr class="a-histogram-row"><td class="a-nowrap">
+      <a class="a-link-normal" title="10% of reviews have 1 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_one?ie=UTF8&amp;filterBy=addOneStar&amp;showViewpoints=0">1 star</a><span class="a-letter-space"></span>      
+    </td>
+    <td class="a-span10">
+      <a class="a-link-normal" title="10% of reviews have 1 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_qt_hist_one?ie=UTF8&amp;filterBy=addOneStar&amp;showViewpoints=0"><div class="a-meter"><div class="a-meter-bar" style="width: 10%;"></div></div></a>
+    </td>
+    <td class="a-nowrap">
+      <span class="a-letter-space"></span><span>1</span>
+    </td>
+  </tr></table><a class="a-link-emphasis a-text-normal a-nowrap" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_see_all_summary?ie=UTF8&amp;showViewpoints=1&amp;sortBy=byRankDescending">See all 10 customer reviews</a> 
+    
+    
+    </div> 
+  </div> 
+  
+  <div class="a-fixed-left-grid-col a-col-right" style="padding-left:3%;*width:96.6%;float:left;">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+    .quotes-bubble { position: relative; background: #EEEEEE; border: 0; }
+    .quotes-bubble-author { position:relative; left: 42px; top: -15px; }
+    .quotes-table { height:187px; }
+    .quotes-column { padding-left: 10px !important; padding-right: 10px !important; }
+    .quotes-text { font-family: Georgia, serif; font-size: 14px; }
+    .quotes-text:hover { color: #E47911;}
+    .quotes-bubble-author:hover { color: #E47911 !important; }
+    .quotes-bubble-arrow { height: 0; width: 0; left: 18px; border-color: #EEEEEE rgba(238,238,238,0); border-width: 15px 0 0 19px; border-style: solid; position:relative; content:""; }
+    .a-lt-ie9 .quotes-bubble-arrow { border-color: #EEEEEE transparent; }
+  </style><table id="quotesTable" class="a-normal a-spacing-none a-span12 quotes-table"><td class="a-span4 a-align-top quotes-column quotes-column-0"><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R35JP22A4Z45KC/ref=cm_cr_quotes_dprb_1?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><div class="a-box quotes-bubble"><div class="a-box-inner"><span class="quotes-text">The unit was repaired, but failed again (this time the warranty was expired) with the same symptoms.</span></div></div><div class="quotes-bubble-arrow"></div></a><a class="a-link-normal a-text-normal" href="/gp/pdp/profile/A1EQ3UKTGY2FIA/ref=cm_cr_quotes_dprb_1_pdp"><span class="a-size-small a-color-secondary quotes-bubble-author">Eric William Abney</span></a></td><td class="a-span4 a-align-bottom quotes-column quotes-column-1"><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R2U6O27U2Z0BDQ/ref=cm_cr_quotes_dprb_0?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><div class="a-box quotes-bubble"><div class="a-box-inner"><span class="quotes-text">325 pounds on stairs isn't fun, it's big, bulkly and not worth it unless you're in a house you're going to be staying in for a long time.</span></div></div><div class="quotes-bubble-arrow"></div></a><a class="a-link-normal a-text-normal" href="/gp/pdp/profile/A1KPQCUCTBIJ08/ref=cm_cr_quotes_dprb_0_pdp"><span class="a-size-small a-color-secondary quotes-bubble-author">P. Dressel</span></a></td><td class="a-span4 a-align-top quotes-column quotes-column-2"><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R20HRXSNT9XR4T/ref=cm_cr_quotes_dprb_2?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><div class="a-box quotes-bubble"><div class="a-box-inner"><span class="quotes-text">The Pani has a much darker picture so faces in night scene's are much harder to see than my Sony XBR.</span></div></div><div class="quotes-bubble-arrow"></div></a><a class="a-link-normal a-text-normal" href="/gp/pdp/profile/A1X76044GKP2SN/ref=cm_cr_quotes_dprb_2_pdp"><span class="a-size-small a-color-secondary quotes-bubble-author">A.E.R.</span></a></td></table></div> 
+</div></div> 
+</div>
+        </div>
+      </div>
+      <div id="revMHLContainerChild" class="a-section">
+
+        <div class="a-row">
+          <div id="revMH" class="a-column a-span11">
+            
+
+
+
+
+<h3 class="a-spacing-small">Most Helpful Customer Reviews</h3>
+<div id="revMHRL" class="a-section"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="rev-dpReviewsMostHelpfulAUI-R3TD4BRGE83A6A" class="a-section"><div class="a-row a-spacing-micro"><span class="a-size-small a-color-secondary">32 of 33 people found the following review helpful</span><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal a-color-base" title="5.0 out of 5 stars" href="http://www.amazon.com/review/R3TD4BRGE83A6A/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><i class="a-icon a-icon-star a-star-5"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R3TD4BRGE83A6A/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><span class="a-size-base a-text-bold">Great Picture, Great Price</span></a></div><span class="a-color-secondary">
+
+
+
+
+
+
+  <span class="a-size-normal">
+    <span class="a-color-secondary">
+      By
+    </span>
+    <a href="/gp/pdp/profile/A3DE0AJ8WZKBSA/ref=cm_cr_dp_pdp" class="noTextDecoration">Aaron D. Weber</a>
+  </span>
+<span class="a-declarative" data-action="cr-popup" data-cr-popup='{"width":340,"title":"AmazonHelp","height":340}' style="display:inline;"></span> on October 24, 2003</span></div><div id="revData-dpReviewsMostHelpfulAUI-R3TD4BRGE83A6A" class="a-row a-spacing-small">
+
+
+
+
+
+<div class="a-section">
+  I bought this TV a year ago and I love it and would get it today if I could.  Picture is as good as plasma if not better.  It is a 4:3 ratio, but you should just ask yourself what you watch more of TV or Movies.  Right now the HD media that is coming out is getting to be everywhere.  5 NFL games on Sunday.  4-5 Xbox games in HD.  HBO in HD, ESPN in HD, Discovery in HD, Prime time TV for the most part in HD.  The picture has so much color and detail it is like night and day.  Like putting black and white up against color and this TV is a great product to showcase that.  Only knock on it is it ways 300 lbs so the stand (which has bevel edges) is recommended on carpet.  With the stand anyone could move it anyplace in the room with ease.  Great Buy!
+</div>
+
+</div>
+
+
+
+
+<a class="a-link-normal comment-link" title="1" href="http://www.amazon.com/review/R3TD4BRGE83A6A/ref=cm_cr_dp_cmt?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv#wasThisHelpful">1 Comment</a>
+<i class="a-icon a-icon-text-separator"></i>
+
+
+
+
+
+
+
+<a id="R3TD4BRGE83A6A.2115.Helpful.Reviews"></a>
+    <span id="cr-vote-R3TD4BRGE83A6A">
+    <span class="cr-vote-buttons">
+        Was this review helpful to you?
+      <span class="a-declarative" data-action="cr-vote" data-cr-vote='{"rootComponentId":"#cr-vote-R3TD4BRGE83A6A","reviewId":"R3TD4BRGE83A6A"}' style="display: inline">
+
+        <span class="a-button a-button-beside-text a-button-small yesButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3TD4BRGE83A6A/Helpful/1/ref=cm_cr_dp_voteyn_yes?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=C07C83B1948137949B70E23080C8A2B152FDE711&amp;voteAnchorName=R3TD4BRGE83A6A.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="Yes" class="a-button-text a-text-center">
+          Yes 
+        </a></span></span>
+        <span class="a-button a-button-beside-text a-button-small noButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3TD4BRGE83A6A/Helpful/-1/ref=cm_cr_dp_voteyn_no?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=373828A5CD0C8EA14008949C25201A73B8AAF29E&amp;voteAnchorName=R3TD4BRGE83A6A.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="No" class="a-button-text a-text-center">
+          No
+        </a></span></span>
+      </span>
+    </span>
+
+    
+
+
+
+
+
+
+
+  <span class="a-hidden cr-vote-feedback">
+    Sending feedback...
+  </span>
+
+    <div class="a-box a-alert-inline a-alert-inline-success a-hidden cr-vote-success"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      Thank you for your feedback.
+      <span class="a-color-base a-hidden cr-vote-inapp">
+        If this review is inappropriate, <a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3TD4BRGE83A6A/Inappropriate/1/ref=cm_cr_dp_abuse_voteyn?ie=UTF8&amp;target=&amp;token=E282D00771E408E819C2F54AE4B27111E3DBB759&amp;voteAnchorName=R3TD4BRGE83A6A.2115.Inappropriate.Reviews&amp;voteSessionID=191-1794624-8055324" class="noTextDecoration" style="color: #039;">please let us know.</a>
+      </span>
+    </div></div></div>
+
+
+
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to record your vote. Please try again
+  </div></div></div>
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-submit-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to submit your comment. Please try again
+  </div></div></div>
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="rev-dpReviewsMostHelpfulAUI-RINW2VXOO8CYH" class="a-section"><div class="a-row a-spacing-micro"><span class="a-size-small a-color-secondary">10 of 10 people found the following review helpful</span><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal a-color-base" title="4.0 out of 5 stars" href="http://www.amazon.com/review/RINW2VXOO8CYH/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><i class="a-icon a-icon-star a-star-4"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/RINW2VXOO8CYH/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><span class="a-size-base a-text-bold">Great Television, Bad back!!</span></a></div><span class="a-color-secondary">
+
+
+
+
+
+
+  <span class="a-size-normal">
+    <span class="a-color-secondary">
+      By
+    </span>
+    <a href="/gp/pdp/profile/ANV4WARWVI8YT/ref=cm_cr_dp_pdp" class="noTextDecoration">D. Posey</a>
+  </span>
+<span class="a-declarative" data-action="cr-popup" data-cr-popup='{"width":340,"title":"AmazonHelp","height":340}' style="display:inline;"></span> on November 18, 2008</span></div><div id="revData-dpReviewsMostHelpfulAUI-RINW2VXOO8CYH" class="a-row a-spacing-small">
+
+
+
+
+
+<div class="a-section">
+  I have owned this television for 3 years now and I am just as satisfied today when I power it up as I was the day I took it out of the box. The color is superb and the 40" screen is the ONLY one of its kind in a tube television. Sony has definitely proven itself worthy with this television. It's HD ready and the color/picture quality is unmatched by other tubes. You will even be hard pressed to find a LCD/Plasma in this size to compare w/ the quality. Definitely worth the time/money IF you can find one!!!! The ONLY drawback is this beauty's size/weight, find a good/strong friend to help you load/unload this beast!! Otherwise, you will get to experience EVERY single feature of this tv as you nurse your hernia!!!!!
+</div>
+
+</div>
+
+
+
+
+<a class="a-link-normal comment-link" title="0" href="http://www.amazon.com/review/RINW2VXOO8CYH/ref=cm_cr_dp_cmt?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv#wasThisHelpful">Comment</a>
+<i class="a-icon a-icon-text-separator"></i>
+
+
+
+
+
+
+
+<a id="RINW2VXOO8CYH.2115.Helpful.Reviews"></a>
+    <span id="cr-vote-RINW2VXOO8CYH">
+    <span class="cr-vote-buttons">
+        Was this review helpful to you?
+      <span class="a-declarative" data-action="cr-vote" data-cr-vote='{"rootComponentId":"#cr-vote-RINW2VXOO8CYH","reviewId":"RINW2VXOO8CYH"}' style="display: inline">
+
+        <span class="a-button a-button-beside-text a-button-small yesButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/RINW2VXOO8CYH/Helpful/1/ref=cm_cr_dp_voteyn_yes?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=34311E77C6A10EA8E7AFA3B1F92AC2404661C9E3&amp;voteAnchorName=RINW2VXOO8CYH.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="Yes" class="a-button-text a-text-center">
+          Yes 
+        </a></span></span>
+        <span class="a-button a-button-beside-text a-button-small noButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/RINW2VXOO8CYH/Helpful/-1/ref=cm_cr_dp_voteyn_no?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=5AB3755DF4D42E5F55AAA922112ACE91AEA13E42&amp;voteAnchorName=RINW2VXOO8CYH.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="No" class="a-button-text a-text-center">
+          No
+        </a></span></span>
+      </span>
+    </span>
+
+    
+
+
+
+
+
+
+  <span class="a-hidden cr-vote-feedback">
+    Sending feedback...
+  </span>
+
+    <div class="a-box a-alert-inline a-alert-inline-success a-hidden cr-vote-success"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      Thank you for your feedback.
+      <span class="a-color-base a-hidden cr-vote-inapp">
+        If this review is inappropriate, <a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/RINW2VXOO8CYH/Inappropriate/1/ref=cm_cr_dp_abuse_voteyn?ie=UTF8&amp;target=&amp;token=83FAF13B9681E6605EB3C2333DB4C018233CD8C0&amp;voteAnchorName=RINW2VXOO8CYH.2115.Inappropriate.Reviews&amp;voteSessionID=191-1794624-8055324" class="noTextDecoration" style="color: #039;">please let us know.</a>
+      </span>
+    </div></div></div>
+
+
+
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to record your vote. Please try again
+  </div></div></div>
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-submit-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to submit your comment. Please try again
+  </div></div></div>
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="rev-dpReviewsMostHelpfulAUI-R3ACZW4XWDMQ35" class="a-section"><div class="a-row a-spacing-micro"><span class="a-size-small a-color-secondary">7 of 7 people found the following review helpful</span><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal a-color-base" title="4.0 out of 5 stars" href="http://www.amazon.com/review/R3ACZW4XWDMQ35/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><i class="a-icon a-icon-star a-star-4"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R3ACZW4XWDMQ35/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><span class="a-size-base a-text-bold">Great TV with amazing features!!</span></a></div><span class="a-color-secondary">
+
+
+
+
+
+
+  <span class="a-size-normal">
+    <span class="a-color-secondary">
+      By
+    </span>
+    <a href="/gp/pdp/profile/A3LO9PEUSWA6DA/ref=cm_cr_dp_pdp" class="noTextDecoration">S. Miller</a>
+  </span>
+<span class="a-declarative" data-action="cr-popup" data-cr-popup='{"width":340,"title":"AmazonHelp","height":340}' style="display:inline;"></span> on May 23, 2008</span></div><div id="revData-dpReviewsMostHelpfulAUI-R3ACZW4XWDMQ35" class="a-row a-spacing-small">
+
+
+
+
+
+<div class="a-section">
+  i bought this tv as my first dip into the HD TV world, and i am shockingly impressed. the sound is amazing, the picture is flawless and the fact that it does NOT have a $300 bulb that needs to be replaced every few years makes it even better. yes, this TV is a monster, it is big and heavy but once you get it where you want it, it is 100% worth it. the features on the TV are great, and the fact that it has 7 inputs (3 of which are HD) means that i can plug in everything without having to worry about switching cables when it comes time to play a game or watch a DVD.<br><br>Overall this tv gets a 9/10. it would be a 10 if it were not so heavy, that is the ONLY downside.
+</div>
+
+</div>
+
+
+
+
+<a class="a-link-normal comment-link" title="0" href="http://www.amazon.com/review/R3ACZW4XWDMQ35/ref=cm_cr_dp_cmt?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv#wasThisHelpful">Comment</a>
+<i class="a-icon a-icon-text-separator"></i>
+
+
+
+
+
+
+
+<a id="R3ACZW4XWDMQ35.2115.Helpful.Reviews"></a>
+    <span id="cr-vote-R3ACZW4XWDMQ35">
+    <span class="cr-vote-buttons">
+        Was this review helpful to you?
+      <span class="a-declarative" data-action="cr-vote" data-cr-vote='{"rootComponentId":"#cr-vote-R3ACZW4XWDMQ35","reviewId":"R3ACZW4XWDMQ35"}' style="display: inline">
+
+        <span class="a-button a-button-beside-text a-button-small yesButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3ACZW4XWDMQ35/Helpful/1/ref=cm_cr_dp_voteyn_yes?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=5D391F30F11441AA2A1EB4DC91BFCB2919DBE6C2&amp;voteAnchorName=R3ACZW4XWDMQ35.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="Yes" class="a-button-text a-text-center">
+          Yes 
+        </a></span></span>
+        <span class="a-button a-button-beside-text a-button-small noButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3ACZW4XWDMQ35/Helpful/-1/ref=cm_cr_dp_voteyn_no?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=ED15D2F1712F984060885FFC06D1A44F4D6FB86B&amp;voteAnchorName=R3ACZW4XWDMQ35.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="No" class="a-button-text a-text-center">
+          No
+        </a></span></span>
+      </span>
+    </span>
+
+    
+
+
+
+
+
+
+  <span class="a-hidden cr-vote-feedback">
+    Sending feedback...
+  </span>
+
+    <div class="a-box a-alert-inline a-alert-inline-success a-hidden cr-vote-success"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      Thank you for your feedback.
+      <span class="a-color-base a-hidden cr-vote-inapp">
+        If this review is inappropriate, <a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R3ACZW4XWDMQ35/Inappropriate/1/ref=cm_cr_dp_abuse_voteyn?ie=UTF8&amp;target=&amp;token=9366A5908637000AD86D3253DF8208F29703771D&amp;voteAnchorName=R3ACZW4XWDMQ35.2115.Inappropriate.Reviews&amp;voteSessionID=191-1794624-8055324" class="noTextDecoration" style="color: #039;">please let us know.</a>
+      </span>
+    </div></div></div>
+
+
+
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to record your vote. Please try again
+  </div></div></div>
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-submit-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to submit your comment. Please try again
+  </div></div></div>
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="rev-dpReviewsMostHelpfulAUI-R2U6O27U2Z0BDQ" class="a-section"><div class="a-row a-spacing-micro"><span class="a-size-small a-color-secondary">1 of 1 people found the following review helpful</span><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal a-color-base" title="3.0 out of 5 stars" href="http://www.amazon.com/review/R2U6O27U2Z0BDQ/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><i class="a-icon a-icon-star a-star-3"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R2U6O27U2Z0BDQ/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><span class="a-size-base a-text-bold">It's ok, waaaay to heavy</span></a></div><span class="a-color-secondary">
+
+
+
+
+
+
+  <span class="a-size-normal">
+    <span class="a-color-secondary">
+      By
+    </span>
+    <a href="/gp/pdp/profile/A1KPQCUCTBIJ08/ref=cm_cr_dp_pdp" class="noTextDecoration">P. Dressel</a>
+  </span>
+<span class="a-declarative" data-action="cr-popup" data-cr-popup='{"width":340,"title":"AmazonHelp","height":340}' style="display:inline;"></span> on October 27, 2011</span></div><div id="revData-dpReviewsMostHelpfulAUI-R2U6O27U2Z0BDQ" class="a-row a-spacing-small">
+
+
+
+
+
+<div class="a-section">
+  I've had this TV for a little over a year.  I've moved it twice and I have to say it SUCKS.  325 pounds on stairs isn't fun, it's big, bulkly and not worth it unless you're in a house you're going to be staying in for a long time.
+</div>
+
+</div>
+
+
+
+
+<a class="a-link-normal comment-link" title="0" href="http://www.amazon.com/review/R2U6O27U2Z0BDQ/ref=cm_cr_dp_cmt?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv#wasThisHelpful">Comment</a>
+<i class="a-icon a-icon-text-separator"></i>
+
+
+
+
+
+
+
+<a id="R2U6O27U2Z0BDQ.2115.Helpful.Reviews"></a>
+    <span id="cr-vote-R2U6O27U2Z0BDQ">
+    <span class="cr-vote-buttons">
+        Was this review helpful to you?
+      <span class="a-declarative" data-action="cr-vote" data-cr-vote='{"rootComponentId":"#cr-vote-R2U6O27U2Z0BDQ","reviewId":"R2U6O27U2Z0BDQ"}' style="display: inline">
+
+        <span class="a-button a-button-beside-text a-button-small yesButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R2U6O27U2Z0BDQ/Helpful/1/ref=cm_cr_dp_voteyn_yes?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=C09EAF17BFF7E5DB995DE0E071147BB32C8263A8&amp;voteAnchorName=R2U6O27U2Z0BDQ.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="Yes" class="a-button-text a-text-center">
+          Yes 
+        </a></span></span>
+        <span class="a-button a-button-beside-text a-button-small noButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R2U6O27U2Z0BDQ/Helpful/-1/ref=cm_cr_dp_voteyn_no?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=4F9C21D21BA638C029F8B5B082317ABD872DE34E&amp;voteAnchorName=R2U6O27U2Z0BDQ.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="No" class="a-button-text a-text-center">
+          No
+        </a></span></span>
+      </span>
+    </span>
+
+    
+
+
+
+
+
+
+  <span class="a-hidden cr-vote-feedback">
+    Sending feedback...
+  </span>
+
+    <div class="a-box a-alert-inline a-alert-inline-success a-hidden cr-vote-success"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      Thank you for your feedback.
+      <span class="a-color-base a-hidden cr-vote-inapp">
+        If this review is inappropriate, <a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R2U6O27U2Z0BDQ/Inappropriate/1/ref=cm_cr_dp_abuse_voteyn?ie=UTF8&amp;target=&amp;token=EA4232B85A41B0F9D0BC72768EB589900B28526B&amp;voteAnchorName=R2U6O27U2Z0BDQ.2115.Inappropriate.Reviews&amp;voteSessionID=191-1794624-8055324" class="noTextDecoration" style="color: #039;">please let us know.</a>
+      </span>
+    </div></div></div>
+
+
+
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to record your vote. Please try again
+  </div></div></div>
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-submit-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to submit your comment. Please try again
+  </div></div></div>
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="rev-dpReviewsMostHelpfulAUI-R20HRXSNT9XR4T" class="a-section"><div class="a-row a-spacing-micro"><span class="a-size-small a-color-secondary">1 of 1 people found the following review helpful</span><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal a-color-base" title="5.0 out of 5 stars" href="http://www.amazon.com/review/R20HRXSNT9XR4T/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><i class="a-icon a-icon-star a-star-5"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" href="http://www.amazon.com/review/R20HRXSNT9XR4T/ref=cm_cr_dp_title?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv"><span class="a-size-base a-text-bold">BEST AND BIGGEST 40 INCH TV EVER MADE</span></a></div><span class="a-color-secondary">
+
+
+
+
+
+
+  <span class="a-size-normal">
+    <span class="a-color-secondary">
+      By
+    </span>
+    <a href="/gp/pdp/profile/A1X76044GKP2SN/ref=cm_cr_dp_pdp" class="noTextDecoration">A.E.R.</a>
+  </span>
+ on March 17, 2011</span></div><div id="revData-dpReviewsMostHelpfulAUI-R20HRXSNT9XR4T" class="a-row a-spacing-small">
+
+
+
+
+
+<div class="a-section">
+  Great picture and color<br>I have had this TV over 6 years and never had any problems with it at all.<br><br>Has a much better picture in a 4:3: format as well as brightness and contrast control than the Panasonic VIERA TC-P50GT25 50-inch 3D Plasma I just bought. The Pani has a much darker picture so faces in night scene's are much harder to see than my Sony XBR.<br><br>The only down side is that it was $3000 new and is 300 Lbs heavy.
+</div>
+
+</div>
+
+
+
+
+<a class="a-link-normal comment-link" title="0" href="http://www.amazon.com/review/R20HRXSNT9XR4T/ref=cm_cr_dp_cmt?ie=UTF8&amp;ASIN=B0000789GB&amp;nodeID=1266092011&amp;store=tv#wasThisHelpful">Comment</a>
+<i class="a-icon a-icon-text-separator"></i>
+
+
+
+
+
+
+
+<a id="R20HRXSNT9XR4T.2115.Helpful.Reviews"></a>
+    <span id="cr-vote-R20HRXSNT9XR4T">
+    <span class="cr-vote-buttons">
+        Was this review helpful to you?
+      <span class="a-declarative" data-action="cr-vote" data-cr-vote='{"rootComponentId":"#cr-vote-R20HRXSNT9XR4T","reviewId":"R20HRXSNT9XR4T"}' style="display: inline">
+
+        <span class="a-button a-button-beside-text a-button-small yesButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R20HRXSNT9XR4T/Helpful/1/ref=cm_cr_dp_voteyn_yes?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=7DCE4CAFD5C073E22DA43C0D951F3AB291BF44EC&amp;voteAnchorName=R20HRXSNT9XR4T.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="Yes" class="a-button-text a-text-center">
+          Yes 
+        </a></span></span>
+        <span class="a-button a-button-beside-text a-button-small noButton votingButtonReviews"><span class="a-button-inner"><a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R20HRXSNT9XR4T/Helpful/-1/ref=cm_cr_dp_voteyn_no?ie=UTF8&amp;target=aHR0cDovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvQjAwMDA3ODlHQi9yZWY9Y21fY3JfZHB2b3RlcmRyP2llPVVURjgma2V5d29yZHM9VFYmcWlkPTEzODM5OTUyOTAmcz10diZzcj0xLTYw&amp;token=940E0B7F8EDFAFD31F74EBCA54ECD0FA1314883E&amp;voteAnchorName=R20HRXSNT9XR4T.2115.Helpful.Reviews&amp;voteSessionID=191-1794624-8055324" title="No" class="a-button-text a-text-center">
+          No
+        </a></span></span>
+      </span>
+    </span>
+
+    
+
+
+
+
+
+
+  <span class="a-hidden cr-vote-feedback">
+    Sending feedback...
+  </span>
+
+    <div class="a-box a-alert-inline a-alert-inline-success a-hidden cr-vote-success"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+      Thank you for your feedback.
+      <span class="a-color-base a-hidden cr-vote-inapp">
+        If this review is inappropriate, <a href="http://www.amazon.com/gp/voting/cast/Reviews/2115/R20HRXSNT9XR4T/Inappropriate/1/ref=cm_cr_dp_abuse_voteyn?ie=UTF8&amp;target=&amp;token=0D431E0E4B7EF3AD36B5D625F153367246EF8596&amp;voteAnchorName=R20HRXSNT9XR4T.2115.Inappropriate.Reviews&amp;voteSessionID=191-1794624-8055324" class="noTextDecoration" style="color: #039;">please let us know.</a>
+      </span>
+    </div></div></div>
+
+
+
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to record your vote. Please try again
+  </div></div></div>
+  <div class="a-box a-alert-inline a-alert-inline-error a-hidden cr-vote-submit-error"><div class="a-box-inner a-alert-container"><i class="a-icon a-icon-alert"></i><div class="a-alert-content">
+    Sorry, we failed to submit your comment. Please try again
+  </div></div></div>
+
+
+
+
+</span></div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      
+        
+      <div id="revF" class="a-section">
+        
+
+
+
+
+
+  <div class="a-row a-spacing-large">
+    <a class="a-link-emphasis a-text-bold" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_see_all_btm?ie=UTF8&amp;showViewpoints=1&amp;sortBy=bySubmissionDateDescending">
+      See all 10 customer reviews (newest first)
+    </a>
+  </div>
+    <span class="a-button a-button-width-normal"><span class="a-button-inner"><a href="http://www.amazon.com/review/create-review/ref=cm_cr_dp_wrt_btm?ie=UTF8&amp;asin=B0000789GB&amp;channel=detail-glance&amp;nodeID=1266092011&amp;store=tv" title="Write a customer review" class="a-button-text">
+      Write a customer review
+  </a></span></span>
+
+
+      </div>
+
+
+      <div id="revOH" class="a-section">
+        
+      </div>
+    </div>
+
+    <div id="revMRLContainer" class="a-column a-span4 a-span-last">
+      <div id="ADPlaceholder" class="a-section">
+        <script type="text/javascript">var paCusRevAllURL = "http://product-ads-portal.amazon.com/gp/synd/?asin=B0000789GB&pAsin=&gl=23&sq=tv&sa=&se=Amazon&noo=&pt=Detail&spt=Glance&sn=customer-reviews-top&pRID=0V9D9XJP5B26QHD75F2V&ts=1383995654&h=51432638CEC8868361019404C8EF211BFBF99838";</script><div id="DAcrt" class="arid-51380fa6f9c348a1ae1b89d74f3ecba3" style="width:300px;height:280px;"></div><script>(function(w,d,e,o){var i='DAcrt';if(w.uDA=w.ues&&w.uet&&w.uex){ues('wb',i,1);uet('bb',i,{wb:1})}var L=function(){o=w.DA;if(!o){o=w.DA=[];e=d.createElement('script');e.src='http://z-ecx.images-amazon.com/images/G/01/browser-scripts/DA-us/DA-us-3982764779._V352894712_.js';d.getElementsByTagName('head')[0].appendChild(e)}o.push({c:855,a:'site=amazon.us;pt=Detail;slot=customer-reviews-top;pid=B0000789GB;asin=B0000789GB;bn=172659;prid=0V9D9XJP5B26QHD75F2V;arid=51380fa6f9c348a1ae1b89d74f3ecba3;ef=0.00',f:1,g:'',n:1,r:1,v:1,y:'na',u:'amzn.us.dp.electronics/tv_hdtv;sz=300x250;oe=ISO-8859-1;u=51380fa6f9c348a1ae1b89d74f3ecba3;s=i0;s=i1;s=i2;s=i3;s=i5;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=a760;s=u4;s=u1;s=u3;s=u2;z=222;z=1557;z=212;s=3072;s=32;s=1009;s=3717;dc_ref=http%3A%2F%2Fwww.amazon.com;tile=1;ord=0V9D9XJP5B26QHD75F2V',q:'N4215'})};if(d.readyState=='complete') {L();} else {if (typeof w.addEventListener === 'function') { w.addEventListener('load',L,!1)} else {w.attachEvent('onload',L)}}})(window,document)</script></div>
+      
+
+
+
+
+
+
+<style>
+.add-product-image {
+  height:100px;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.add-product-image .a-box-inner {
+  padding-top: 20px;
+}
+.image-right-padding {
+  padding-right:10px;
+}
+</style><div id="custImgContainer" class="a-section">
+
+
+  <a id="customerImages" class="a-link-normal" href="#">
+  </a>
+
+  <h3 class="a-spacing-small">
+    Product Images from Customers
+  </h3>
+  
+  <div class="a-section a-spacing-small">
+      <div class="a-fixed-right-grid"><div class="a-fixed-right-grid-inner" style="padding-right:100px">
+  
+      <div class="a-fixed-right-grid-col a-col-right" style="width:100px;margin-right:-100px;float:left;">
+          <a href="/gp/customer-media/upload/B0000789GB/ref=cm_cr_dp_cust_img_upload_img?ie=UTF8&amp;rnd=1383995654" class="a-touch-link a-box a-color-base add-product-image"><div class="a-box-inner"><i class="a-icon a-icon-touch-link"></i>Add a product image</div></a>
+      </div>
+    </div></div>
+  </div>
+  
+</div>
+
+      
+
+
+
+
+<div id="revMRRL" class="a-section">
+  <h3 id="revMRT" class="a-spacing-small">
+    Most Recent Customer Reviews
+  </h3> 
+  
+
+
+<div class="a-row a-spacing-base"><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal" title="4.0 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2WOKPR6WONLFK"><i class="a-icon a-icon-star a-star-4"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" title="Read the full review by B-E" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2WOKPR6WONLFK"><span class="a-size-base a-text-bold">Reliable + Xlnt Pic</span></a></div><a class="a-link-normal a-text-normal" title="Read the full review by B-E" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2WOKPR6WONLFK">
+
+
+
+  <p class="a-last">
+    <span class="a-color-base">
+      FYI...  Have had this monster-heavy TV for 10+ years, and it has operated flawlessly with incredible color and clarity production.
+    </span> 
+    
+    <span class="a-text-underline">
+      <span class="a-letter-space"></span>Read more
+    </span> 
+  </p> 
+
+
+
+
+
+
+
+
+
+<span class="a-size-small a-color-secondary">
+  Published 21 days ago by B-E
+</span>
+</a></div>
+<div class="a-row a-spacing-base"><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal" title="1.0 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R93PZLAQ2YAO7"><i class="a-icon a-icon-star a-star-1"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" title="Read the full review by D-man" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R93PZLAQ2YAO7"><span class="a-size-base a-text-bold">Starts as a 10 - ends as a 1</span></a></div><a class="a-link-normal a-text-normal" title="Read the full review by D-man" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R93PZLAQ2YAO7">
+
+
+
+  <p class="a-last">
+    <span class="a-color-base">
+      I bought this TV when big screens weren't nearly as common.  LCD, plasma, and LED flat-screens just weren't easily available or too costly.  That was 2003.
+    </span> 
+    
+    <span class="a-text-underline">
+      <span class="a-letter-space"></span>Read more
+    </span> 
+  </p> 
+
+
+
+
+
+
+
+
+
+<span class="a-size-small a-color-secondary">
+  Published on June 28, 2011 by D-man
+</span>
+</a></div>
+<div class="a-row a-spacing-base"><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal" title="2.0 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R35JP22A4Z45KC"><i class="a-icon a-icon-star a-star-2"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" title="Read the full review by Eric William Abney" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R35JP22A4Z45KC"><span class="a-size-base a-text-bold">Sony Knows These Units Have Chipset Problems;Don't Buy!</span></a></div><a class="a-link-normal a-text-normal" title="Read the full review by Eric William Abney" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R35JP22A4Z45KC">
+
+
+
+  <p class="a-last">
+    <span class="a-color-base">
+      I purchased my unit (KV-40XBR800) Sony Trinitron XBR 40" new in 2003.  Within a year it failed to turn on (makes clicks, flashes the standby light, but does not turn on).
+    </span> 
+    
+    <span class="a-text-underline">
+      <span class="a-letter-space"></span>Read more
+    </span> 
+  </p> 
+
+
+
+
+
+
+
+
+
+<span class="a-size-small a-color-secondary">
+  Published on June 14, 2011 by Eric William Abney
+</span>
+</a></div>
+<div class="a-row a-spacing-base"><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal" title="2.0 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2FZ3JL3H384GW"><i class="a-icon a-icon-star a-star-2"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" title="Read the full review by Bad~Papa" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2FZ3JL3H384GW"><span class="a-size-base a-text-bold">Nice when it worked, but so much mass</span></a></div><a class="a-link-normal a-text-normal" title="Read the full review by Bad~Papa" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2FZ3JL3H384GW">
+
+
+
+  <p class="a-last">
+    <span class="a-color-base">
+      I bought this TV back in 2003. Just yesterday I got rid of it. Had a descent picture and was one of the best pictures out there in it's time. The 4:3 mode looked best.
+    </span> 
+    
+    <span class="a-text-underline">
+      <span class="a-letter-space"></span>Read more
+    </span> 
+  </p> 
+
+
+
+
+
+
+
+
+
+<span class="a-size-small a-color-secondary">
+  Published on November 10, 2010 by Bad~Papa
+</span>
+</a></div>
+<div class="a-row a-spacing-base"><div class="a-icon-row a-spacing-none"><a class="a-link-normal a-text-normal" title="5.0 out of 5 stars" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2T7E1DRDMD3J1"><i class="a-icon a-icon-star a-star-5"></i></a><span class="a-letter-space"></span><a class="a-link-normal a-text-normal a-color-base" title="Read the full review by V. Malkin" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2T7E1DRDMD3J1"><span class="a-size-base a-text-bold">Excellent picture and sound quality!</span></a></div><a class="a-link-normal a-text-normal" title="Read the full review by V. Malkin" href="http://www.amazon.com/SONY-KV-40XBR800-Trinitron-Wega-Color/product-reviews/B0000789GB/ref=cm_cr_dp_synop?ie=UTF8&amp;showViewpoints=0&amp;sortBy=bySubmissionDateDescending#R2T7E1DRDMD3J1">
+
+
+
+  <p class="a-last">
+    <span class="a-color-base">
+      Since the day i bought it I had not have one complain about this TV! Great all around.
+    </span> 
+    
+  </p> 
+
+
+
+
+
+
+
+
+
+<span class="a-size-small a-color-secondary">
+  Published on May 4, 2010 by V. Malkin
+</span>
+</a></div>
+
+
+
+
+
+
+
+
+
+
+
+</div> 
+
+
+      <div id="revS" class="a-row">
+        
+
+
+
+<form id="revSearchForm" method="GET" action="http://www.amazon.com/gp/community-content-search/results/ref=cm_cr_dp_srch">
+  <label for="searchCustomerReviewsInput">
+    Search Customer Reviews
+  </label>
+  
+  <div class="a-search"><i class="a-icon a-icon-search"></i><input type="search" id="searchCustomerReviewsInput" name="query" class="a-input-text a-width-medium"></div>
+  
+  <span id="searchCustomerReviewsButton" class="a-button a-button-search"><span class="a-button-inner"><input class="a-button-input" type="submit"><span class="a-button-text">
+    Search
+  </span></span></span>
+  
+  <input type="hidden" name="search-alias" value="community-reviews"><label data-a-input-name="idx.asin" class="a-checkbox"><input type="checkbox" name="idx.asin" value="B0000789GB" checked><span class="a-checkbox-label">
+    Only search this product's reviews
+  </span></label>
+
+  
+
+</form>
+
+
+
+
+
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<script type="text/javascript">
+  if(typeof setCSMReq == 'function') {
+        setCSMReq('cf');
+  }else {
+     if(typeof uet == 'function') {
+        uet('cf');
+     }
+     amznJQ.completedStage('amznJQ.criticalFeature');
+  }
+</script><script type="text/javascript">
+P.when('jQuery', 'cf').execute(function($, cf){
+
+    var markup = "%0A%0A%0A%0A%0A%0A%0A%0A%0A%3Cstyle%3E%0A%0Aa.slateLink%3Alink%7B%20color%3A%20rgb(119%2C119%2C119)%3B%20text-decoration%3Anone%3B%7D%0Aa.slateLink%3Aactive%20%7B%20color%3A%20rgb(119%2C119%2C119)%3B%20text-decoration%3Anone%3B%7D%0Aa.slateLink%3Avisited%7B%20color%3A%20rgb(119%2C119%2C119)%3B%20text-decoration%3Anone%3B%7D%0Aa.slateLink%3Ahover%7B%20color%3A%20rgb(119%2C119%2C119)%3B%20text-decoration%3Anone%3B%7D%0A%0A.shuttleGradient%20%7B%0A%20%20%20%20float%3Aleft%3B%0A%20%20%20%20width%3A100%25%3B%0A%20%20%20%20text-align%3Aleft%3B%0A%20%20%20%20line-height%3A%20normal%3B%0A%20%20%20%20position%3Arelative%3B%0A%20%20%20%20height%3A43px%3B%20%0A%20%20%20%20background-color%3A%23dddddd%3B%20%0A%20%20%20%20background-image%3A%20url(http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fx-locale%2Fcommunities%2Fcustomerimage%2Fshuttle-gradient._V192250138_.gif)%3B%20%0A%20%20%20%20background-position%3A%20bottom%3B%20%0A%20%20%20%20background-repeat%20%3A%20repeat-x%3B%0A%7D%0A%0A.shuttleTextTop%20%7B%0A%20%20%20%20font-size%3A18px%3B%0A%20%20%20%20font-weight%3Abold%3B%0A%20%20%20%20font-family%3Averdana%2Carial%2Chelvetica%2Csans-serif%3B%0A%20%20%20%20color%3A%20rgb(119%2C119%2C119)%3B%0A%20%20%20%20margin-left%3A10px%3B%0A%7D%0A%0A.shuttleTextBottom%20%7B%0A%20%20%20%20margin-top%3A-2px%3B%0A%20%20%20%20font-size%3A15px%3B%0A%20%20%20%20font-family%3Averdana%2Carial%2Chelvetica%2Csans-serif%3B%0A%20%20%20%20color%3A%20rgb(119%2C119%2C119)%3B%0A%20%20%20%20margin-left%3A10px%3B%0A%7D%0A.outercenterslate%7B%0A%20%20%20%20cursor%3Apointer%3B%0A%7D%0A.innercenterslate%7B%0A%20%20%20%20overflow%3A%20hidden%3B%0A%7D%0A%0A.slateoverlay%7B%0A%20%20%20%20position%3A%20absolute%3B%0A%20%20%20%20top%3A%200px%3B%0A%20%20%20%20border%3A%200px%0A%7D%0A%0A.centerslate%20%7B%0A%20%20%20%20display%3A%20table-cell%3B%0A%20%20%20%20background-color%3Ablack%3B%20%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20vertical-align%3A%20middle%3B%0A%7D%0A.centerslate%20*%20%7B%0A%20%20%20%20vertical-align%3A%20middle%3B%0A%7D%0A.centerslate%20%7B%20display%2F*%5C**%2F%3A%20block%5C9%20%7D%20%0A%2F*%5C*%2F%2F*%2F%0A.centerslate%20%7B%0A%20%20%20%20display%3A%20block%3B%0A%7D%0A.centerslate%20span%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20width%3A%201px%3B%0A%7D%0A%2F**%2F%0A%3C%2Fstyle%3E%0A%3C!--%5Bif%20lt%20IE%209%5D%3E%3Cstyle%3E%0A.centerslate%20span%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20height%3A%20100%25%3B%0A%7D%0A%3C%2Fstyle%3E%3C!%5Bendif%5D--%3E%0A%3Cstyle%3E%0A%3C%2Fstyle%3E%0A%0A%3Cscript%20type%3D%22text%2Fjavascript%22%3E%0AamznJQ.addLogical(%22swfobject-2.2%22%2C%20%5B%22http%3A%2F%2Fz-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fmedia%2Fswf%2Famznjq-swfobject-2.2._V210753426_.js%22%5D)%3B%0A%0Awindow.AmznVideoPlayer%3Dfunction(mediaObject%2CtargetId%2Cwidth%2Cheight)%7B%0A%20%20AmznVideoPlayer.players%5BmediaObject.mediaObjectId%5D%3Dthis%3B%0A%20%20this.slateImageUrl%3DmediaObject.slateImageUrl%3B%0A%20%20this.id%3DmediaObject.mediaObjectId%3B%0A%20%20this.preplayWidth%3Dwidth%3B%0A%20%20this.preplayHeight%3Dheight%3B%0A%20%20this.flashDivWidth%3Dwidth%3B%0A%20%20this.flashDivHeight%3Dheight%3B%0A%20%20this.targetId%3DtargetId%3B%0A%20%20this.swfLoading%3D0%3B%0A%20%20this.swfLoaded%3D0%3B%0A%20%20this.preplayDivId%3D'preplayDiv'%2Bthis.id%3B%0A%20%20this.flashDivId%3D'flashDiv'%2Bthis.id%3B%0A%7D%0A%0AAmznVideoPlayer.players%3D%5B%5D%3B%0AAmznVideoPlayer.session%3D'191-1794624-8055324'%3B%0AAmznVideoPlayer.root%3D'http%3A%2F%2Fwww.amazon.com'%3B%0AAmznVideoPlayer.locale%3D'en_US'%3B%0AAmznVideoPlayer.swf%3D'http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fam3%2F20120510035744301%2FAMPlayer._V148501545_.swf'%3B%0AAmznVideoPlayer.preplayTemplate%3D'%3Cdiv%20style%3D%22width%3A0px%3Bheight%3A0px%3B%22%20class%3D%22outercenterslate%22%3E%3Cdiv%20style%3D%22width%3A0px%3Bheight%3A-43px%3B%22%20class%3D%22centerslate%22%20%3E%3Cspan%3E%3C%2Fspan%3E%3Cimg%20border%3D%220%22%20alt%3D%22Click%20to%20watch%20this%20video%22%20src%3D%22slateImageGoesHere%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22shuttleGradient%22%3E%3Cdiv%20class%3D%22shuttleTextTop%22%3EAmazon%3C%2Fdiv%3E%3Cdiv%20class%3D%22shuttleTextBottom%22%3EVideo%3C%2Fdiv%3E%3Cimg%20id%3D%22mediaObjectIdpreplayImageId%22%20style%3D%22height%3A74px%3Bposition%3Aabsolute%3Bleft%3A-31px%3Btop%3A-31px%3B%22%20src%3D%22http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fx-locale%2Fcommunities%2Fcustomerimage%2Fplay-shuttle-off._V192250119_.gif%22%20border%3D%220%22%2F%3E%3C%2Fdiv%3E%3C%2Fdiv%3E'%3B%0AAmznVideoPlayer.rollOn%3D'http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fx-locale%2Fcommunities%2Fcustomerimage%2Fplay-shuttle-on._V192250112_.gif'%3B%0AAmznVideoPlayer.rollOff%3D'http%3A%2F%2Fg-ecx.images-amazon.com%2Fimages%2FG%2F01%2Fx-locale%2Fcommunities%2Fcustomerimage%2Fplay-shuttle-off._V192250119_.gif'%3B%0AAmznVideoPlayer.flashVersion%3D'9.0.115'%3B%0AAmznVideoPlayer.noFlashMsg%3D'To%20view%20this%20video%20download%20%3Ca%20target%3D%22_blank%22%20href%3D%22http%3A%2F%2Fget.adobe.com%2Fflashplayer%2F%22%20target%3D%22_top%22%3EFlash%20Player%3C%2Fa%3E%20(version%209.0.115%20or%20higher)'%3B%0A%0AAmznVideoPlayer.hideAll%3Dfunction()%7B%0A%20%20for(var%20i%20in%20AmznVideoPlayer.players)%7B%0A%20%20%20%20AmznVideoPlayer.players%5Bi%5D.hidePreplay()%3B%0A%20%20%20%20AmznVideoPlayer.players%5Bi%5D.hideFlash()%3B%0A%20%20%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.writePreplayHtml%3Dfunction()%7B%0A%20%20if(typeof%20this.preplayobject%3D%3D'undefined')%7B%0A%20%20%20%20this.preplayobject%3DjQuery(AmznVideoPlayer.preplayTemplate.replace(%22slateImageGoesHere%22%2Cthis.slateImageUrl)%0A%20%20%20%20%20%20%20%20.replace(%22mediaObjectId%22%2Cthis.id).replace(%22-43px%22%2C(this.preplayHeight-43)%2B%22px%22).replace(%22-31px%22%2C(Math.round(this.preplayWidth%2F2)-31)%2B%22px%22))%3B%0A%20%20%20%20this.preplayobject.width(this.preplayWidth%2B%22px%22).height(this.preplayHeight%2B%22px%22)%3B%0A%20%20%20%20this.preplayobject.find(%22.innercenterslate%22).width(this.preplayWidth%2B%22px%22).height(this.preplayHeight%2B%22px%22)%3B%0A%20%20%20%20this.preplayobject.find(%22.centerslate%22).width(this.preplayWidth%2B%22px%22)%3B%0A%20%20%20%20var%20self%3Dthis%3B%0A%20%20%20%20this.preparePlaceholder()%3B%0A%20%20%20%20jQuery(%22%23%22%2Bthis.preplayDivId).click(function()%7Bself.preplayClick()%3B%7D)%3B%0A%20%20%20%20jQuery(%22%23%22%2Bthis.preplayDivId).hover(%0A%20%20%20%20%20%20%20%20function()%7BjQuery(%22%23%22%2Bself.id%2B'preplayImageId').attr('src'%2CAmznVideoPlayer.rollOn)%3B%7D%2C%0A%20%20%20%20%20%20%20%20function()%7BjQuery(%22%23%22%2Bself.id%2B'preplayImageId').attr('src'%2CAmznVideoPlayer.rollOff)%3B%7D)%3B%0A%20%20%20%20jQuery(%22%23%22%2Bthis.preplayDivId).html(this.preplayobject)%3B%0A%20%20%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.writeFlashHtml%3Dfunction()%7B%0A%20%20if(!this.swfLoaded%26%26!this.swfLoading)%7B%0A%20%20%20%20this.swfLoading%3D1%3B%0A%20%20%20%20var%20params%3D%7B'allowscriptaccess'%3A'always'%2C'allowfullscreen'%3A'true'%2C'wmode'%3A'transparent'%2C'quality'%3A'high'%7D%3B%0A%20%20%20%20var%20shiftJISRegExp%20%3D%20new%20RegExp(%22%5Ehttps%3F%3A%22%2BString.fromCharCode(0x5C)%2B%22%2F%22%2BString.fromCharCode(0x5C)%2B%22%2F%22)%3B%0A%20%20%20%20var%20flashvars%3D%7B'xmlUrl'%3AAmznVideoPlayer.root%2B'%2Fgp%2Fmpd%2Fgetplaylist-v2%2F'%2Bthis.id%2B'%2F'%2BAmznVideoPlayer.session%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'mediaObjectId'%3Athis.id%2C'locale'%3AAmznVideoPlayer.locale%2C'sessionId'%3AAmznVideoPlayer.session%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'amazonServer'%3AAmznVideoPlayer.root.replace(shiftJISRegExp%2C'')%2C'swfEmbedTime'%3Anew%20Date().getTime()%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20'allowFullScreen'%3A'true'%2C'amazonPort'%3A'80'%2C'preset'%3A'detail'%2C'autoPlay'%3A'1'%2C'permUrl'%3A'gp%2Fmpd%2Fpermalink'%2C'scale'%3A'noscale'%7D%3B%0A%20%20%20%20var%20self%3Dthis%3B%0A%20%20%20%20swfobject.embedSWF(AmznVideoPlayer.swf%2C'so_'%2Bthis.id%2C%22100%25%22%2C%22100%25%22%2CAmznVideoPlayer.flashVersion%2Cfalse%2Cflashvars%2Cparams%2Cparams%2C%0A%20%20%20%20%20%20function(e)%7B%0A%20%20%20%20%20%20%20%20self.swfLoading%3D0%3B%0A%20%20%20%20%20%20%20%20if(e.success)%7BAmznVideoPlayer.lastPlayedId%3Dself.id%3Bself.swfLoaded%3D1%3Breturn%3B%7D%0A%20%20%20%20%20%20%20%20jQuery('%23'%2Bself.flashDivId).html('%3Cbr%2F%3E%3Cbr%2F%3E%3Cbr%2F%3E%3Cbr%2F%3E%3Cbr%2F%3E%3Cbr%2F%3E%3Cbr%2F%3E'%2BAmznVideoPlayer.noFlashMsg).css(%7B'background'%3A'%23ffffff'%7D)%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20)%3B%0A%20%20%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.showPreplay%3Dfunction()%7B%0A%20%20this.writePreplayHtml()%3B%0A%20%20this.preparePlaceholder()%3B%0A%20%20jQuery(%22%23%22%2Bthis.preplayDivId).show()%3B%0A%20%20return%20this%3B%0A%7D%0A%0AAmznVideoPlayer.prototype.hidePreplay%3Dfunction()%7B%0A%20%20this.preparePlaceholder()%3B%0A%20%20jQuery(%22%23%22%2Bthis.preplayDivId).hide()%3B%0A%20%20return%20this%3B%0A%7D%0A%0AAmznVideoPlayer.prototype.showFlash%3Dfunction()%7B%0A%20%20this.preparePlaceholder()%3B%0A%20%20if(!this.swfLoaded%26%26!this.swfLoading)%7B%0A%20%20%20%20var%20self%3Dthis%3B%0A%20%20%20%20amznJQ.available(%22swfobject-2.2%22%2Cfunction()%7Bself.writeFlashHtml()%3B%7D)%3B%0A%20%20%7D%0A%20%20jQuery(%22%23%22%2Bthis.flashDivId).width(this.flashDivWidth%2B'px').height(this.flashDivHeight%2B'px')%3B%0A%20%20AmznVideoPlayer.lastPlayedId%3Dthis.id%3B%0A%20%20return%20this%3B%0A%7D%0A%0AAmznVideoPlayer.prototype.hideFlash%3Dfunction()%7B%0A%20%20this.preparePlaceholder()%3B%0A%20%20jQuery(%22%23%22%2Bthis.flashDivId).width('0px').height('1px')%3B%0A%20%20return%20this%3B%0A%7D%0A%0AAmznVideoPlayer.prototype.preparePlaceholder%3Dfunction()%7B%0A%20%20if(!(jQuery('%23'%2Bthis.flashDivId).length)%7C%7C!(jQuery('%23'%2Bthis.preplayDivId)))%7B%0A%20%20%20%20var%20preplayDiv%3DjQuery(%22%3Cdiv%20id%3D'%22%2Bthis.preplayDivId%2B%22'%3E%3C%2Fdiv%3E%22).css(%7B'position'%3A'relative'%7D)%3B%0A%20%20%20%20var%20flashDiv%3DjQuery(%22%3Cdiv%20id%3D'%22%2Bthis.flashDivId%2B%22'%3E%3Cdiv%20id%3D'so_%22%2Bthis.id%2B%22'%2F%3E%3C%2Fdiv%3E%22).css(%7B'overflow'%3A'hidden'%2Cbackground%3A'%23000000'%7D)%3B%0A%20%20%20%20var%20wrapper%3DjQuery(%22%3Cdiv%2F%3E%22).css(%7B'position'%3A'relative'%2C'float'%3A'left'%7D).append(preplayDiv).append(flashDiv)%3B%0A%20%20%20%20jQuery('%23'%2Bthis.targetId).html(wrapper)%3B%0A%20%20%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.resizeVideo%3Dfunction(width%2Cheight)%7B%0A%20%20this.flashDivWidth%3Dwidth%3B%0A%20%20this.flashDivHeight%3Dheight%3B%0A%20%20if%20(jQuery(%22%23%22%2Bthis.flashDivId)%26%26jQuery(%22%23%22%2Bthis.flashDivId).width()!%3D0)%7Bthis.showFlash()%3B%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.preplayClick%3Dfunction()%7B%20%0A%20%20if(this.swfLoaded)%7Bthis.play()%3B%7D%20%0A%20%20this.showFlash()%3B%0A%20%20this.hidePreplay()%3B%0A%7D%0A%0AAmznVideoPlayer.prototype.play%3Dfunction()%7B%0A%20%20var%20so%3Dthis.getSO()%3B%0A%20%20if(typeof%20so.playVideo%3D%3D'function')%7B%0A%20%20%20%20if(this.id!%3DAmznVideoPlayer.lastPlayedId)%7B%0A%20%20%20%20%20%20AmznVideoPlayer.players%5BAmznVideoPlayer.lastPlayedId%5D.pause()%3B%0A%20%20%20%20%7D%0A%20%20%20%20AmznVideoPlayer.lastPlayedId%3Dthis.id%3Bso.playVideo()%3B%0A%20%20%7D%0A%7D%0A%0AAmznVideoPlayer.prototype.pause%3Dfunction()%7Bif(this.swfLoading%7C%7Cthis.swfLoaded)%7Bthis.autoplayCancelled%3Dtrue%3B%7Dvar%20so%3Dthis.getSO()%3Bif(so%20%26%26%20typeof%20so.pauseVideo%3D%3D'function')%7Bso.pauseVideo()%3B%7D%7D%0AAmznVideoPlayer.prototype.stop%3Dfunction()%7Bif(this.swfLoading%7C%7Cthis.swfLoaded)%7Bthis.autoplayCancelled%3Dtrue%3B%7Dvar%20so%3Dthis.getSO()%3Bif(so%20%26%26%20typeof%20so.stopVideo%3D%3D'function')%7Bso.stopVideo()%3B%7D%7D%0AAmznVideoPlayer.prototype.getSO%3Dfunction()%7Breturn%20jQuery(%22%23so_%22%2Bthis.id).get(0)%3B%7D%0A%0Afunction%20isAutoplayCancelled(showID)%20%7B%0A%20%20return%20(AmznVideoPlayer.players%5BshowID%5D%20%26%26%20AmznVideoPlayer.players%5BshowID%5D.autoplayCancelled%20%3D%3D%20true)%3B%20%0A%7D%0A%3C%2Fscript%3E%0A";
+    $("<div></div>").insertAfter("#imageBlock").html(decodeURIComponent(markup)); 
+  
+});
+
+P.when('A', 'jQuery', 'ImageBlockATF', 'cf').register('ImageBlockBTF', function(A, $, imageBlockATF, cf){
+  var data = {"indexToColor":["initial"],"visualDimensions":["color_name"],"productGroupID":"ce_display_on_website","newVideoMissing":0,"useIV":1,"useChildVideos":1,"numColors":1,"defaultColor":"initial","logMetrics":1,"staticStrings":{"playVideo":"Click to play video","rollOverToZoom":"Roll over image to zoom in","images":"Images","video":"video","touchToZoom":"Touch the image to zoom in","videos":"Videos","close":"Close","pleaseSelect":"Please select","clickToExpand":"Click to open expanded view","allMedia":"All Media"},"gIsNewTwister":0,"title":"SONY KV-40XBR800 FD Trinitron(R) XBR(R) Wega(TM) Color TV","ivRepresentativeAsin":{},"mainImageSizes":[["342","445"],["385","500"],["425","550"],["466","606"],["522","679"]],"isQuickview":0,"ipadVideoSizes":[[340,444],[384,500]],"colorToAsin":{},"showLITBOnClick":0,"stretchyGoodnessWidth":[1280],"videoSizes":[[342,445],[384,500]],"autoplayVideo":0,"hoverZoomIndicator":0,"sitbReftag":"","useHoverZoom":1,"staticImages":{"spinner":"http://g-ecx.images-amazon.com/images/G/01/ui/loadIndicators/loading-large_labeled._V192238949_.gif","zoomOut":"http://g-ecx.images-amazon.com/images/G/01/detail-page/cursors/zoom-out._V184888738_.bmp","hoverZoomIcon":"http://g-ecx.images-amazon.com/images/G/01/img11/apparel/UX/DP/icon_zoom._V138923886_.png","zoomIn":"http://g-ecx.images-amazon.com/images/G/01/detail-page/cursors/zoom-in._V184888790_.bmp","videoSWFPath":"http://g-ecx.images-amazon.com/images/G/01/Quarterdeck/en_US/video/20110518115040892/Video._V178668404_.swf","zoomLensBackground":"http://g-ecx.images-amazon.com/images/G/01/apparel/rcxgs/tile._V211431200_.gif","arrow":"http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/light/sprite-vertical-popover-arrow._V186877868_.png","videoThumbIcon":"http://g-ecx.images-amazon.com/images/G/01/Quarterdeck/en_US/images/video._V183716339_SX38_SY50_CR,0,0,38,50_.gif"},"videos":[],"gPreferChildVideos":1,"altsOnLeft":1,"ivImageSetKeys":{"initial":0},"useHoverZoomIpad":"","isUDP":1,"alwaysIncludeVideo":1,"widths":[1280,1440,1640,1800],"maxAlts":7,"useChromelessVideoPlayer":0};
+  data["customerImages"] = eval('[]');
+  data["colorImages"] = {};
+  data["landingAsinColor"] = 'initial';
+  data["shouldApplyResizeFix"] = false;
+
+  return data;
+});
+
+</script><script type="text/javascript">
+if (window.amznJQ) {
+  amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+
+
+
+
+
+
+
+
+var precacheDetailImages = function(imageUrls, pids) {
+
+  function transformUrl(imgUrl, pid) {
+    var suffix         = '._SL500_AA300_.jpg',
+        defaultApparel = '._AA300_.jpg',
+        imgUrlSplit    = imgUrl.split("._");
+
+    if (imgUrlSplit.length) {
+      var prefix = imgUrlSplit[0];
+      if ((!pid  && storeName == "books") || pid == "books_display_on_website") {
+        if (imgUrl.match("PIsitb-sticker-arrow")){
+          var OUID = imgUrl.substr(imgUrl.indexOf('_OU'), 6);
+          var lookInsideSticker = '._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20'+ OUID +'.jpg';
+          urls.push(prefix + lookInsideSticker);
+        } else {
+          urls.push(prefix + suffix);
+        }
+      } else if ((!pid && storeName == "apparel") || pid == "apparel_display_on_website") {
+          urls.push(prefix + "._SX342_.jpg");
+          urls.push(prefix + "._SY445_.jpg");
+      } else if ((!pid && storeName == "shoes") || pid == "shoes_display_on_website") {
+          urls.push(prefix + "._SX395_.jpg");
+          urls.push(prefix + "._SY395_.jpg");
+      } else {
+        urls.push(prefix + suffix);
+      }
+    }
+  };
+
+  var urls = [],
+      numImgsPreload = Math.min(6, imageUrls.length),
+      storeName = "tv";
+
+  for (var i = 0; i < numImgsPreload; i++){
+    var currPid = (pids && pids.length) ? pids[i] : "";
+    transformUrl(imageUrls[i], currPid);
+  }
+
+  for (var j = 0; j < urls.length; j++) {
+    var img = new Image();
+    img.src = urls[j];
+  }
+
+};
+
+
+    var win = jQuery(window);
+    var feature = jQuery("#purchaseShvl");
+    var shvlPresent = feature.length > 0 ? 1:0;
+    var lastCheck = 0;
+    var pending = 0;
+    
+    var onScrollPrecache = function() {
+      if (pending) {
+        return; 
+      }
+      var lastCheckDiff = new Date().getTime() - lastCheck;
+      var checkDelay = (lastCheckDiff < 200 ? 200 - lastCheckDiff : 10);
+      pending = 1;
+      var u = function() {
+        if(shvlPresent && (win.scrollTop() + win.height() > feature.offset().top + 200)) {  
+          var p = precacheDetailImages,
+              $ = jQuery;
+          if (p) {
+            var selector = "#purchaseButtonWrapper";
+            var imgElems = $(selector).find("a > div > img");
+            var pgs, imgs = [], i = imgElems.length;
+            while (i-- > 0) {
+              imgs[i] = $(imgElems[i]).attr('src');
+            }
+            p(imgs,pgs);
+          }
+          // unbind listening on scroll once pre-caching completed
+          $(window).unbind('scroll', onScrollPrecache); 
+          return;
+        }
+        pending = 0; //precache not execute yet, wait next invoke
+        lastCheck = new Date().getTime();
+      };
+      setTimeout(u, checkDelay);
+      return;
+    };
+    
+    jQuery(window).bind('scroll', onScrollPrecache);
+  });
+}
+</script><script type="text/javascript">
+
+
+P.when("cf").execute(function(){
+
+});
+
+amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+  amznJQ.available('search-js-jq', function(){});
+  amznJQ.available('amazonShoveler', function(){});
+  amznJQ.available('simsJS', function(){});
+  amznJQ.available('cmuAnnotations', function(){});
+  amznJQ.available('externalJS.tagging', function(){});
+  amznJQ.available('amzn-ratings-bar', function(){});
+  amznJQ.available('accessoriesJS', function(){});
+  amznJQ.available('priceformatterJS', function(){});
+  amznJQ.available('CustomerPopover', function(){});
+
+if(typeof(amznJQ) != "undefined"){
+    amznJQ.onCompletion("amznJQ.AboveTheFold", function() {
+        var imgLogger;
+        amznJQ.available("DPClientLogger", function(){
+            if( typeof window.DPClientLogger != 'undefined' ) {
+                imgLogger = new window.DPClientLogger.ImpressionLogger("dpbxapps", "bxapps-atfMarker", true, true);
+            }
+            if(imgLogger){
+                if((typeof(loadState) != "undefined") && !loadState){
+                    if(jQuery.browser.msie){
+                        imgLogger.logImpression("msie-img-not-loaded");
+                    } else if(jQuery.browser.mozilla) {
+                        imgLogger.logImpression("mozilla-img-not-loaded");
+                    } else if(jQuery.browser.safari) {
+                        imgLogger.logImpression("safari-img-not-loaded");
+                    } else if(jQuery.browser.webkit) {
+                        imgLogger.logImpression("webkit-img-not-loaded");
+                    } else {
+                        imgLogger.logImpression("unknown-img-not-loaded");
+                    }
+                }
+                if((typeof(prefetchURL) != "undefined") && (typeof(imageSrc) != "undefined") && (prefetchURL != imageSrc)){
+                    imgLogger.logImpression("log-img-mismatch");
+                }
+            }
+        });
+    });
+}
+if (!window.DPClientLogger) {
+    window.DPClientLogger = {};
+}
+
+window.DPClientLogger.ImpressionLogger = function( program_group, feature, forceUpload, controlledLogging) {
+    var self = this,
+    data = {};
+    var isBooksUdploggingDisabled = false;
+    var enableNewCSMs = false;
+    var newCSMs = ["ma-books-image-ftb-shown","ma-books-image-listen-shown","log-img-mismatch","unknown-img-not-loaded","webkit-img-not-loaded","safari-img-not-loaded","mozilla-img-not-loaded","msie-img-not-loaded","ma-img-gallery-opened","ma-img-gallery-zoom","ma-img-gallery-thumb"];
+
+    enableNewCSMs = true;
+
+    self.logImpression = function(key) {
+      if(!(isBooksUdploggingDisabled && controlledLogging !== undefined && controlledLogging)){
+          var isNewCSM = self.isKeyNewCSM(key);
+          if(!isNewCSM || ( isNewCSM && enableNewCSMs)){
+              data[key]=1;
+              setTimeout( self.upload, 2000 ); // upload client side metrics after 2secs of recording it.
+          }
+      } 
+    };
+
+    self.isKeyNewCSM = function(key){
+      var isNewCSM = false;
+      jQuery.each(newCSMs, function(index,csm){
+          if(csm == key){
+              isNewCSM = true;
+          }
+      });
+      return isNewCSM;
+    };
+
+    self.upload = function() {
+      var t = [];
+      jQuery.each(data, function(k,v){ t.push(k); });
+      data = {};
+      if(t.length > 0){
+        var protocol = location.protocol == "https:" ? "https://" : "http://",
+            url = protocol + ue.furl + "/1/action-impressions/1/OP/" + program_group + "/action/" + feature + ":" + t.join() + "?marketplaceId=" + ue.mid + "&requestId=" + ue.rid + "&session=" + ue.sid + "&_=" + (new Date()).getTime();
+        (new Image()).src = url;
+      }
+    };
+
+    if(forceUpload) {
+        jQuery(window).unload(function() { self.upload();});
+    }
+};
+amznJQ.onReady("jQuery", function(){
+  amznJQ.declareAvailable("DPClientLogger");
+});
+
+});
+</script><!--AMZNJQSECTION--><table border="0" cellpadding="0" cellspacing="0" align="right"><tr><td valign="top" width="100%"></td></tr></table><div style="display: none">
+  <div id="nav-prime-menu" class="nav-empty nav-flyout-content nav-ajax-prime-menu">
+    <div class="nav_dynamic"></div>
+    <div class="nav-ajax-message"></div>
+    <div class="nav-ajax-error-msg">
+      <p class="nav_p nav-bold">There's a problem loading this menu right now.</p>
+      <p class="nav_p"><a href="/gp/prime/ref=nav_prime_ajax_err" class="nav_a">Learn more about Amazon Prime.</a></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<style>
+  #nav-prime-tooltip{
+    padding: 0 20px 2px 20px;
+    background-color: white;
+    font-family: arial,sans-serif;
+  }
+  .nav-npt-text-title{
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #E47923;
+  }
+  .nav-npt-text-detail, a.nav-npt-a{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333333;
+    white-space: nowrap;
+    margin: 2px 0px;
+  }
+  a.nav-npt-a {
+    text-decoration: underline;
+  }
+</style><div style="display: none">
+  <div id="nav-prime-tooltip">
+    <div class="nav-npt-text-title"> Watch. Read. Shop. Relax. </div>
+    <div class="nav-npt-text-detail"> Millions of Amazon Prime members enjoy instant videos, free Kindle books and unlimited free two-day shipping. </div>
+    <div class="nav-npt-text-detail">
+      &gt;
+      <a class="nav-npt-a" href="/gp/prime/ref=nav_tooltip_redirect">Get started</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+#sign-in-back-popover-anchor-point
+{
+    display: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+#ap_overlay div
+{
+    opacity: 0.4 !important;
+}
+
+</style><div id="sign-in-back-popover-anchor-point">
+  <div id="sign-in-back-popover-body">
+    <div id="bb_inttext" class="para" style="padding-top:8px">
+      If the secure sign in page does not appear in a few seconds,please <a id="custrec-popup-lightbox" href="#"> click here </a>
+      <div> </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+(function () {
+    var useAUI = (typeof window.P === "object" && typeof window.P.when === "function");
+        
+    var redirectCallBack = function ($) {
+        if (!$) { return; }
+        
+        var returnUrl = null;
+        var redirectLink = "https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2FB0000789GB%3Fie%3DUTF8%26keywords%3DTV%26qid%3D1383995290%26ref_%3Dcustrec_signin_inline_nav%26s%3Dtv%26sr%3D1-60";
+        
+        var custrecReturnURL = function($) {
+            var newPathName = "https://" + window.location.host;
+            var pathArray = window.location.pathname.split('/');
+            var urlParameters = window.location.search.substring(1).split('&');
+            if ($.browser.msie) {
+                var wholeURL = $(location).attr('href');
+                var tmpSplit = wholeURL.split('?');
+                urlParameters = tmpSplit[tmpSplit.length - 1].split('&');
+            }
+            var urlPattern = /^ref=/;
+            for ( i=0; i<pathArray.length; i++) {
+                if (!urlPattern.test(pathArray[i]) && pathArray[i] != "") {
+                    newPathName += "/" + pathArray[i];
+                }
+            }
+            var paramPattern = /^ref_=/;
+            newPathName += "?";
+            for ( i=0; i<urlParameters.length; i++) {
+                if (!paramPattern.test(urlParameters[i])) {
+                    newPathName += urlParameters[i] + "&";
+                }
+            }
+            newPathName = newPathName.replace(/undefined&$/,"");
+            newPathName = newPathName.replace(/[&?]$/,"");
+            return newPathName;
+        }
+        
+        var custrecReplaceReturnURL = function(originalLink, signInType, refTag) {
+            //signInType: 1 - inline ; 2 - lightbox ; 3 - redirect
+        	var newLink = "";
+        	var URLs = originalLink.split('?');
+        	newLink = URLs[0] + "?";
+        	var pathArray = URLs[1].split( '&' );
+        	var paramPattern = null;
+        	paramPattern = /^openid.return_to=/;
+            for ( i=0; i<pathArray.length; i++) {
+                if (!paramPattern.test(pathArray[i])) {
+                    newLink += pathArray[i] + "&";
+                } else {
+                    var parameters = pathArray[i].split('=');
+                    var tmpReturnURL = decodeURIComponent(parameters[1]);
+                    var returnParameters = tmpReturnURL.split('?');
+                    if (signInType == 1) {
+                        paramPattern = /^custrec-return_=/;
+                        var inlineReturnURL = returnParameters[0] + '?';
+        	            var inlinePathArray = returnParameters[1].split( '&' );
+        	            for ( v=0; v<pathArray.length; v++) {
+        	                if (!paramPattern.test(inlinePathArray[v])) {
+                                inlineReturnURL += inlinePathArray[v] + "&";
+                            } else {
+                                var inlineParameters = inlinePathArray[v].split('=');
+                                inlineReturnURL += inlineParameters[0] + '=' + encodeURIComponent(returnUrl + '&ref_=' + refTag);
+                            }
+        	            }
+        	            newLink += parameters[0] + '=' + encodeURIComponent(inlineReturnURL);
+                    } else {
+                        newLink += parameters[0] + '=' + encodeURIComponent(returnUrl + '&ref_=' + refTag);
+                    }   
+                }
+            }
+            newLink = newLink.replace(/[&?]$/,"");
+            return newLink;
+        }
+        
+        function signInPopUp(domArray, $) {
+            domArray.bind('click',{$:$},function(event) {
+                var $=event.data.$;
+                if (0) {
+                    returnUrl = custrecReturnURL($);
+                    redirectLink = custrecReplaceReturnURL(redirectLink, 3, 'custrec_signin_inline_nav');
+                }
+                // use default sign in
+                domArray.attr("href", redirectLink);
+            });
+        }
+        var domArray= $(
+            '#nav-your-account,' +
+            '#sign-in-tooltip-body .cust-rec-aui-button.cust-rec-inline-tag .a-button-text,' +
+            '#nav_your_account_flyout a.nav-action-button.nav-sprite'
+        );
+        
+        signInPopUp(domArray, $);
+    };
+    if (useAUI) {
+        //hook up AUI (trying to protect against a random global P that is not the AUI P)
+        window.P.when('jQuery', 'ready', 'legacy-popover').execute(redirectCallBack);
+    } else if (window.amznJQ) {
+        //hook up amaznJQ
+        window.amznJQ.available('jQuery', function() {
+            window.amznJQ.available('popover', function() {
+                window.amznJQ.jQuery(document).ready(function (){
+                    redirectCallBack(window.amznJQ.jQuery);
+                });
+            });
+        });
+    }
+})();
+</script><a name="suggestion-box"> <br></a>
+<center>
+  <div style="background-color:#eff7fe;border:1px solid #0f3c6d;padding:10px;text-align:left;" class="small">
+      <img src="http://g-ecx.images-amazon.com/images/G/01/x-locale/communities/reputation/suggestionbox._V192249929_.gif" width="1" align="left" height="1" border="0"><div name="hmdFormDiv" id="hmdFormDiv">          
+      <table border="0" cellpadding="0" cellspacing="0"><tr><td>
+      <h2>Feedback</h2>
+      <span style="line-height:200%;">
+      <table border="0"><tr><td>
+	   <img src="http://g-ecx.images-amazon.com/images/G/01/icons/orange-arrow._V192570247_.gif" width="5" style="vertical-align:middle !important" height="9" border="0">
+	  If you have a question or problem, visit our  <a href="/gp/help/customer/display.html/ref=cm_r8n_hmd_contact?ie=UTF8&amp;nodeId=508510"><b>Help pages</b></a>.
+	  </td></tr><tr><td>
+			  
+	
+	
+		
+	
+		
+	
+		
+	
+			
+		
+	
+		
+	
+			
+            
+            
+            
+			<img src="http://g-ecx.images-amazon.com/images/G/01/icons/orange-arrow._V192570247_.gif" width="5" style="vertical-align:middle !important" height="9" border="0"> Would you like to <b><a href="https://www.amazon.com/gp/gfix/welcome.html/ref=gfix-hmd-catalog?ie=UTF8&amp;ASIN=B0000789GB&amp;merchantID=&amp;storeID=tv">update product info</a></b> or <b><a href="https://www.amazon.com/gp/gfix/imageCorrection.html/ref=gfix-hmd-image?ie=UTF8&amp;ASIN=B0000789GB&amp;merchantID=&amp;storeID=tv">give feedback on images</a></b>?
+          </td></tr><tr><td>
+	  <img src="http://g-ecx.images-amazon.com/images/G/01/icons/orange-arrow._V192570247_.gif" width="5" style="vertical-align:middle !important" height="9" border="0">
+          If you are a seller for this product and want to change product data, click <b><a target="_blank" href="https://sellercentral.amazon.com/gp/contact-us/contact-amazon-form.html/ref=asin_feedback_box?asin_or_isbn=B0000789GB&amp;categoryID=20008&amp;typeID=20023">here</a></b> (you may have to sign in with your seller id).
+          </td></tr></table></span>
+    </td>
+    </tr></table></div>
+  </div>
+</center>
+<br><style type="text/css">
+#rhf_table {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    border-collapse: separate;
+}
+#rhf_container {
+    margin-top: 0px;
+}
+
+
+#rhf_container .rhf-sign-in-button {
+    margin-bottom: 27px;
+}
+
+.rhf-box-tl {
+    background-position: 0px 0px;
+    background-repeat:no-repeat;
+}
+.rhf-box-tc {
+    background-position: 0px -41px;
+    background-repeat:repeat-x;
+}
+.rhf-box-tr {
+    background-position: 0px -81px;
+    background-repeat:no-repeat;
+}
+.rhf-box-l {
+    background-position: -7px 0px;
+    background-repeat:repeat-y;
+}
+.rhf-box-r {
+    background-position: 9px 0px;
+    background-repeat:repeat-y;
+}
+.rhf-box-br {
+    background-position: 0px -123px;
+    background-repeat:no-repeat;
+}
+.rhf-box-bc {
+    background-position: 0px -139px;
+    background-repeat:repeat-x;
+}
+.rhf-box-bl {
+    background-position: 0px -158px;
+    background-repeat:no-repeat;
+}
+.rhfHistoryWrapper {
+    padding: 0 10px;
+}
+
+</style><br><div id="rhf" style="clear:both">
+    <table id="rhf_table" align="center" width="100%" cellpadding="0" cellspacing="0"><tr><td class="rhf-box-corner-sprite rhf-box-tl" width="15"></td>
+            <td class="rhf-box-corner-sprite rhf-box-tc">
+            <div class="rhf_header"><span id="rhfMainHeading">Your Recently Viewed Items and Featured Recommendations</span> </div>
+            </td>
+            <td class="rhf-box-corner-sprite rhf-box-tr" width="15"></td>
+        </tr><tr><td class="rhf-box-sides-sprite rhf-box-l" width="15"> </td>
+	    <td>
+            
+
+
+
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top: 10px"><tr valign="top"><td valign="top">
+            <div class="rhfHistoryWrapper">
+                <p>After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in.</p>
+            </div>
+        </td>
+    </tr><tr><td>
+    <div style="padding:10px 10px 0 10px; text-align:left;">
+        <b><span style="color: rgb(204, 153, 0); font-weight: bold; font-size: 13px;"> › </span>
+        <a href="/gp/yourstore/pym/ref=pd_pyml_rhf">View and Edit Your Browsing History</a>
+        </b></div>
+    </td></tr></table></td>
+            <td class="rhf-box-sides-sprite rhf-box-r" width="15"></td>
+        </tr></table></div>
+    <br><div id="navFooter" role="contentinfo"><table class="navFooterVerticalColumn" cellspacing="0" align="center"><tr><td class="navFooterLinkCol"><div class="navFooterColHead">Get to Know Us</div><ul><li class="nav_first"><a href="/gp/jobs/ref=gw_m_b_careers" class="nav_a">Careers</a></li><li><a href="/gp/redirect.html/ref=gw_m_b_ir?_encoding=UTF8&amp;location=http%3A%2F%2Fphx.corporate-ir.net%2Fphoenix.zhtml%3Fc%3D97664%26p%3Dirol-irhome&amp;token=F9CAD8A11D4336B5E0B3C3B089FA066D0A467C1C" class="nav_a">Investor Relations</a></li><li><a href="/gp/redirect.html/ref=gw_m_b_pr?_encoding=UTF8&amp;location=http%3A%2F%2Fphx.corporate-ir.net%2Fphoenix.zhtml%3Fc%3D176060%26p%3Dirol-mediaHome&amp;token=F9CAD8A11D4336B5E0B3C3B089FA066D0A467C1C" class="nav_a">Press Releases</a></li><li><a href="/b/ref=gw_m_b_corpres?ie=UTF8&amp;node=13786321" class="nav_a">Amazon and Our Planet</a></li><li class="nav_last"><a href="/b/ref=gw_m_b_ourcomm?ie=UTF8&amp;node=13786411" class="nav_a">Amazon in the Community</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Make Money with Us</div><ul><li class="nav_first"><a href="/gp/redirect.html/ref=footer_soaT?_encoding=UTF8&amp;location=http%3A%2F%2Fwww.amazonservices.com%2Fcontent%2Fsell-on-amazon.htm%2Fref%3Dfooter_soaT%3Fld%3DAZFSSOAT&amp;token=1E60AB4AC0ECCA00151B45353E21782E539DC601" class="nav_a">Sell on Amazon</a></li><li><a href="https://affiliate-program.amazon.com" class="nav_a">Become an Affiliate</a></li><li><a href="http://services.amazon.com/content/product-ads-on-amazon.htm/ref=footer_pads?ld=AZPADSFooter" class="nav_a">Advertise Your Products</a></li><li><a href="/gp/seller-account/mm-summary-page.html?ie=UTF8&amp;ld=AZFooterSelfPublish&amp;topic=200260520" class="nav_a">Independently Publish with Us</a></li><li class="nav_last nav_a_carat"><span class="nav_a_carat">›</span><a href="/gp/seller-account/mm-landing.html/ref=footer_seeall?ie=UTF8&amp;ld=AZSOAviewallMakeM" class="nav_a">See all</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Amazon Payment Products</div><ul><li class="nav_first"><a href="/gp/cobrandcard/marketing.html/ref=footer_cbcc?ie=UTF8&amp;place=camp&amp;plattr=CBFOOT&amp;pr=con321" class="nav_a">Amazon.com Rewards Visa Card</a></li><li><a href="/gp/cobrandcard/marketing.html/ref=footer_plcc?ie=UTF8&amp;place=camp&amp;plattr=PLCCFOOT&amp;pr=conplcc" class="nav_a">Amazon.com Store Card</a></li><li><a href="/earn-spend-rewards-points/b/ref=footer_swp?ie=UTF8&amp;node=2634438011" class="nav_a">Shop with Points</a></li><li><a href="/compare-credit-card-offers/b/ref=footer_ccmp?ie=UTF8&amp;node=3561432011" class="nav_a">Credit Card Marketplace</a></li><li class="nav_last"><a href="/Currency-Converter/b/ref=footer_tfx?ie=UTF8&amp;node=388305011" class="nav_a">Amazon Currency Converter</a></li></ul></td><td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Let Us Help You</div><ul><li class="nav_first"><a href="https://www.amazon.com/gp/css/homepage.html/ref=footer_ya" class="nav_a">Your Account</a></li><li><a href="/gp/help/customer/display.html/ref=footer_shiprates?ie=UTF8&amp;nodeId=468520" class="nav_a">Shipping Rates &amp; Policies</a></li><li><a href="/gp/prime/ref=footer_prime" class="nav_a">Amazon Prime</a></li><li><a href="/gp/css/returns/homepage.html/ref=hy_f_4" class="nav_a">Returns &amp; Replacements</a></li><li><a href="/gp/digital/fiona/manage/ref=footer_myk" class="nav_a">Manage Your Kindle</a></li><li class="nav_last"><a href="/gp/help/customer/display.html/ref=gw_m_b_he?ie=UTF8&amp;nodeId=508510" class="nav_a">Help</a></li></ul></td></tr></table><div class="navFooterLine navFooterLogoLine"><a href="/ref=footer_logo"><img src="http://g-ecx.images-amazon.com/images/G/01/gno/images/general/navAmazonLogoFooter._V169459313_.gif" width="126" alt="amazon.com" height="24" border="0"></a></div>
+
+<div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class="nav_first"><a href="http://www.amazon.com.br" class="nav_a">Brazil</a></li><li><a href="http://www.amazon.ca/" class="nav_a">Canada</a></li><li><a href="http://www.amazon.cn/" class="nav_a">China</a></li><li><a href="http://www.amazon.fr/" class="nav_a">France</a></li><li><a href="http://www.amazon.de/" class="nav_a">Germany</a></li><li><a href="http://www.amazon.in/" class="nav_a">India</a></li><li><a href="http://www.amazon.it/" class="nav_a">Italy</a></li><li><a href="http://www.amazon.co.jp/" class="nav_a">Japan</a></li><li><a href="http://www.amazon.com.mx/" class="nav_a">Mexico</a></li><li><a href="http://www.amazon.es/" class="nav_a">Spain</a></li><li class="nav_last"><a href="http://www.amazon.co.uk/" class="nav_a">United Kingdom</a></li></ul></div>
+
+<div class="navFooterLine navFooterLinkLine navFooterDescLine"><table cellspacing="0"><tr><td class="navFooterDescSpacer" style="width: 36.0%"></td>
+<td class="navFooterDescItem"><a href="http://www.6pm.com/" class="nav_a">6pm<br><span class="navFooterDescText">Score deals<br> on fashion brands</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.abebooks.com/" class="nav_a">AbeBooks<br><span class="navFooterDescText">Rare Books<br> &amp; Textbooks</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.afterschool.com/" class="nav_a">AfterSchool.com<br><span class="navFooterDescText">Kids’ Sports, Outdoor<br> &amp; Dance Gear</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://fresh.amazon.com" class="nav_a">AmazonFresh<br><span class="navFooterDescText">Groceries &amp; More<br> Right To Your Door</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://amazonlocal.com/" class="nav_a">Amazon Local<br><span class="navFooterDescText">Great Local Deals<br> in Your City</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.amazonsupply.com/" class="nav_a">AmazonSupply<br><span class="navFooterDescText">Business, Industrial<br> &amp; Scientific Supplies</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&amp;sc_campaign=amazonfooter" class="nav_a">Amazon Web Services<br><span class="navFooterDescText">Scalable Cloud<br> Computing Services</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://askville.amazon.com/" class="nav_a">Askville<br><span class="navFooterDescText">Community<br> Answers</span></a></td>
+<td class="navFooterDescSpacer" style="width: 36.0%"></td>
+</tr><tr><td> </td></tr><tr><td class="navFooterDescSpacer" style="width: 36.0%"></td>
+<td class="navFooterDescItem"><a href="http://www.audible.com/" class="nav_a">Audible<br><span class="navFooterDescText">Download<br> Audio Books</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.beautybar.com/" class="nav_a">BeautyBar.com<br><span class="navFooterDescText">Prestige Beauty<br> Delivered</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.bookdepository.com/" class="nav_a">Book Depository<br><span class="navFooterDescText">Books With Free<br> Delivery Worldwide</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.bookworm.com" class="nav_a">Bookworm.com<br><span class="navFooterDescText">Books For Children<br> Of All Ages</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.casa.com/" class="nav_a">Casa.com<br><span class="navFooterDescText">Kitchen, Storage<br> &amp; Everything Home</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.createspace.com/" class="nav_a">CreateSpace<br><span class="navFooterDescText">Indie Print Publishing<br> Made Easy</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.diapers.com/" class="nav_a">Diapers.com<br><span class="navFooterDescText">Everything<br> But The Baby</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.dpreview.com/" class="nav_a">DPReview<br><span class="navFooterDescText">Digital<br> Photography</span></a></td>
+<td class="navFooterDescSpacer" style="width: 36.0%"></td>
+</tr><tr><td> </td></tr><tr><td class="navFooterDescSpacer" style="width: 36.0%"></td>
+<td class="navFooterDescItem"><a href="http://www.eastdane.com/welcome" class="nav_a">East Dane<br><span class="navFooterDescText">Designer Men's<br> Fashion</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.fabric.com/" class="nav_a">Fabric<br><span class="navFooterDescText">Sewing, Quilting<br> &amp; Knitting</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.imdb.com/" class="nav_a">IMDb<br><span class="navFooterDescText">Movies, TV<br> &amp; Celebrities</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.junglee.com/" class="nav_a">Junglee.com<br><span class="navFooterDescText">Shop Online<br> in India</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://kdp.amazon.com/" class="nav_a">Kindle Direct Publishing<br><span class="navFooterDescText">Indie Digital Publishing<br> Made Easy
+</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.look.com/" class="nav_a">Look.com<br><span class="navFooterDescText">Kids' Clothing<br> &amp; Shoes</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.myhabit.com/" class="nav_a">MYHABIT<br><span class="navFooterDescText">Private Fashion<br> Designer Sales</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.shopbop.com/welcome" class="nav_a">Shopbop<br><span class="navFooterDescText">Designer<br> Fashion Brands</span></a></td>
+<td class="navFooterDescSpacer" style="width: 36.0%"></td>
+</tr><tr><td> </td></tr><tr><td class="navFooterDescSpacer" style="width: 36.0%"></td>
+<td class="navFooterDescItem"><a href="http://www.soap.com/" class="nav_a">Soap.com<br><span class="navFooterDescText">Health, Beauty &amp;<br> Home Essentials</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.vine.com/" class="nav_a">Vine.com<br><span class="navFooterDescText">Everything<br> to Live Life Green</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.wag.com/" class="nav_a">Wag.com<br><span class="navFooterDescText">Everything<br> For Your Pet</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="/b/ref=footer_wrhsdls?ie=UTF8&amp;node=1267877011" class="nav_a">Warehouse Deals<br><span class="navFooterDescText">Open-Box<br> Discounts</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.woot.com/" class="nav_a">Woot!<br><span class="navFooterDescText">Discounts and <br> Shenanigans</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.yoyo.com/" class="nav_a">Yoyo.com<br><span class="navFooterDescText">A Happy Place<br> To Shop For Toys</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"><a href="http://www.zappos.com/c/top-searches" class="nav_a">Zappos<br><span class="navFooterDescText">Shoes &amp;<br> Clothing</span></a></td>
+<td class="navFooterDescSpacer" style="width: 4%"></td>
+<td class="navFooterDescItem"> </td>
+<td class="navFooterDescSpacer" style="width: 36.0%"></td>
+</tr></table></div>
+
+<div class="navFooterLine navFooterLinkLine navFooterPadItemLine"><ul><li class="nav_first"><a href="/gp/help/customer/display.html/ref=footer_cou?ie=UTF8&amp;nodeId=508088" class="nav_a">Conditions of Use</a></li><li><a href="/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&amp;nodeId=468496" class="nav_a">Privacy Notice</a></li><li><a href="/interestbasedads" class="nav_a">Interest-Based Ads</a></li><li class="nav_last">© 1996-2013, Amazon.com, Inc. or its affiliates</li></ul></div>
+</div>
+<!-- whfh-loRjB0YBcQ2cilkD6TKgzomuC3llrYKrS0VO490LJs2NtvaoPVbS9XzVAjBaE8Ze rid-0V9D9XJP5B26QHD75F2V -->
+<div id="sis_pixel_r2" style="height:1px;"></div><script>(function(a,b){a.attachEvent?a.attachEvent("onload",b):a.addEventListener&&a.addEventListener("load",b,!1)})(window,function(){setTimeout(function(){var el=document.getElementById("sis_pixel_r2");el&&(el.innerHTML='<iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a2=0101dfcf381d0052e666be3c29ff01662458c78dc0673ad57899bd868b604c2e3cbe&old_oo=0&cb=1383995655128" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>')},300)});</script><!--AMZNJQFINAL--></div>
+    </div><div id="be" style="display:none;visibility:hidden;"><form name="ue_backdetect"><input name="ue_back" value="1" type="hidden"></form><script type="text/javascript">
+(function(a){if(document.ue_backdetect&&document.ue_backdetect.ue_back){a.ue.bfini=document.ue_backdetect.ue_back.value}if(a.uet){a.uet("be")}if(a.onLdEnd){if(window.addEventListener){window.addEventListener("load",a.onLdEnd,false)}else{if(window.attachEvent){window.attachEvent("onload",a.onLdEnd)}}}if(a.ueh){a.ueh(0,window,"load",a.onLd,1)}})(ue_csm);
+</script><a href="/gp/uedata/nvp/unsticky/191-1794624-8055324//ntpoffrw?tepes=1&amp;id=0V9D9XJP5B26QHD75F2V">v</a>
+<noscript><img src="/gp/uedata/nvp/unsticky/191-1794624-8055324//ntpoffrw?noscript&amp;id=0V9D9XJP5B26QHD75F2V"></noscript>
+
+<img src="//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:191-1794624-8055324:0V9D9XJP5B26QHD75F2V%24uedata=s:uedata%3Fstaticb%26id%3D0V9D9XJP5B26QHD75F2V:1000"></div>
+<script type="text/javascript">
+(function(a){a._uec=function(d){var h=window,b=h.performance,f=b?b.navigation.type:0;if(f==0){var e="; expires="+new Date(+new Date+604800000).toGMTString(),c=+new Date-ue_t0;if(c>0){var g="|"+ +new Date;document.cookie="csm-hit="+(d/c).toFixed(2)+g+e+"; path=/"}}}})(ue_csm);
+_uec(206486);
+</script></body>

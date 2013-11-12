@@ -1,0 +1,4490 @@
+<body class="dp">
+ <div class="singlecolumnminwidth" id="divsinglecolumnminwidth">
+  
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+  amznJQ.available('navbarJS-jQuery', function(){});
+  amznJQ.available('finderFitsJS', function(){});
+  amznJQ.available('twister', function(){});
+  amznJQ.available('swfjs', function(){});
+
+});
+</script><!-- BeginNav --><!-- From remote config v3--><script type="text/javascript"><!--
+(function(d){var e=function(d){function b(f,c,b){f[b]=function(){a._replay.push(c.concat({m:b,a:[].slice.call(arguments)}))}}var a={};a._sourceName=d;a._replay=[];a.getNow=function(a,b){return b};a.when=function(){var a=[{m:"when",a:[].slice.call(arguments)}],c={};b(c,a,"run");b(c,a,"declare");b(c,a,"publish");b(c,a,"build");return c};b(a,[],"declare");b(a,[],"build");b(a,[],"publish");b(a,[],"importEvent");e._shims.push(a);return a};e._shims=[];d.$Nav||(d.$Nav=e("rcx-nav"));d.$Nav.make||(d.$Nav.make=
+e)})(window);window.$Nav.when("exposeSBD.enable","img.horz","img.vert","img.spin","$popover","btf.full").run(function(d,e,j,b){function a(a){switch(typeof a){case "boolean":h=a;i=!0;break;case "function":g=a;c++;break;default:c++}i&&2<c&&g(h)}function f(a,b){var c=new Image;b&&(c.onload=b);c.src=a;return c}var c=0,g,h,i=!1;f(e,d&&a);f(j,d&&a);window.$Nav.declare("protectExposeSBD",a);window.$Nav.declare("preloadSpinner",function(){f(b)})});
+
+window.$NavTimeout={ timeout:1,useSetImmediate:false
+};
+window.amznJQ && amznJQ.available('navbarJS-beacon', function(){});
+window._navbarSpriteUrl = 'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01-fw._V355247711_.png';
+$Nav.importEvent('navbarJS-beacon');
+$Nav.importEvent('NavAuiJS');
+$Nav.declare('exposeSBD.enable',false);
+$Nav.declare('img.spin','http://g-ecx.images-amazon.com/images/G/01/javascripts/lib/popover/images/snake._V192571611_.gif');
+$Nav.when('$').run(function($){
+  var ie6 = $.browser.msie && parseInt($.browser.version) <= 6;
+  $Nav.declare('img.horz', ie6 ?
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-8bit-h._V155961234_.png' :
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-h-v2._V137157005_.png');
+  $Nav.declare('img.vert', ie6 ?
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-8bit-v._V155961234_.png' :
+    'http://g-ecx.images-amazon.com/images/G/01/gno/beacon/nav-pop-v-v2._V137157005_.png');
+});
+--></script><img src="http://g-ecx.images-amazon.com/images/G/01/gno/beacon/BeaconSprite-US-01-fw._V355247711_.png" style="display:none" alt=""><img src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif" style="display:none" alt="" id="nav_trans_pixel"><!--Pilu --><script type="text/javascript">
+window.uet && uet('ns');
+
+window._navbar = (function (o) {
+  o.componentLoaded = o.loading = function(){};
+  o.browsepromos = {};
+  o.issPromos = [];
+  return o;
+}(window._navbar || {}));
+
+window.$Nav && $Nav.declare('logEvent.enabled',
+  false);
+
+
+window.$Nav && $Nav.declare('config.lightningDeals',{});
+window.$Nav && $Nav.declare('config.swmStyleData',{});
+window.$Nav && $Nav.declare('config.ajaxProximity', [141,7,60,150]);
+
+</script><!-- navp-J6ppRFMXjuJExe3fkvoBqJkagUxtUCZonPBSaHkPxJnAFddeeP9xc3ociyQDof3uB70BFvG8dIY= rid-0GJ3PK92GXB3YEFZF1A1 (Sat Nov  9 03:36:46 2013) --><style type="text/css"><!--
+    .nav-searchfield-width {
+      padding: 0 2px 0 84px;
+    }
+
+    #nav-search-in {
+      width: 84px;
+    }
+
+  --></style><style type="text/css"><!--
+    select#searchDropdownBox {
+      visibility: visible;
+      display: block;
+    }
+    div.nav-searchfield-width {
+      padding-left: 200px;
+    }
+    .nav-aui span#nav-search-in, .nav-beacon span#nav-search-in {
+      width: 200px;
+    }
+    #nav-search-in span#nav-search-in-content {
+      display: none;
+    }
+--></style><header><div id="navbar" role="navigation" class="nav-aui nav-aui-default nav-subnav nav-prime-menu">
+
+    <div id="nav-cross-shop" class="nav-size-large">
+
+      <a href="/ref=gno_logo" id="nav-logo" class="nav_a nav-sprite" alt="Amazon">
+        Amazon
+        <span class="nav-prime-tag nav-sprite"></span>
+      </a>
+      <a href="/gp/product/B00DBYBNEE/ref=gno_joinprmlogo" id="nav-prime-ttt" class="nav_a">Try Prime</a>
+
+
+      <ul id="nav-cross-shop-links"><li class="nav-xs-link nav_first"><a href="/gp/yourstore/home/ref=topnav_ys" class="nav_a">Recommendations</a></li>
+                          <li class="nav-xs-link "><a href="/gp/goldbox/ref=cs_top_nav_gb27" class="nav_a">Today's Deals</a></li>
+                          <li class="nav-xs-link "><a href="/gift-cards/b/ref=topnav_giftcert?ie=UTF8&amp;node=2238192011" class="nav_a">Gift Cards</a></li>
+                          <li class="nav-xs-link "><a href="/gp/seller-account/mm-product-page.html/ref=mm_soa_csnavt1?ie=UTF8&amp;ld=AZSOAUSCSNavT1" class="nav_a">Sell</a></li>
+                          <li class="nav-xs-link "><a href="/Help/b/ref=topnav_help?ie=UTF8&amp;node=508510" class="nav_a">Help</a></li>
+                  </ul><div id="welcomeRowTable" style="height:50px">
+        <!--[if IE ]><div class='nav-ie-min-width' style='width: 770px'></div><![endif]-->
+        <div id="nav-ad-background-style" style="background-position: -800px 0px; background-image: url(http://g-ecx.images-amazon.com/images/G/01/img13/egg/generic/EGG_SWM_slot_DEALS_NEST._V353354803_.png);  height: 56px; margin-bottom: -6px; position: relative;background-repeat: no-repeat;">
+          <div id="navSwmSlot">
+            <div id="navSwmHoliday" style="background-image: url(http://g-ecx.images-amazon.com/images/G/01/img13/egg/generic/EGG_SWM_slot_DEALS_NEST._V353354803_.png); width: 400px; height: 50px; overflow: hidden;"><img alt="Electronics Holiday Gift Guide" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif" border="0" width="400px" height="50px" usemap="#nav-swm-holiday-map"></div><div style="display: none;"><map id="nav-swm-holiday-map" name="nav-swm-holiday-map"><area shape="rect" coords="1,2,400,50" href="/Electronics-Gift-Guide/b/ref=egg_swm_nest?ie=UTF8&amp;node=7258612011&amp;pf_rd_p=1652443822&amp;pf_rd_s=nav-sitewide-msg&amp;pf_rd_t=4201&amp;pf_rd_i=navbar-4201&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1" alt="Electronics Holiday Gift Guide"></map></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div id="nav-bar-outer">
+
+      <div id="nav-logo-borderfade"><div class="nav-fade-mask"></div><div class="nav-fade nav-sprite"></div></div>
+
+      <div id="nav-bar-inner" class="nav-sprite">
+
+        <a id="nav-shop-all-button" href="/gp/site-directory/ref=topnav_sad" class="nav_a nav-button-outer nav-menu-inactive" alt="Shop By Department">
+          <span class="nav-button-mid nav-sprite">
+            <span class="nav-button-inner nav-sprite">
+              <span class="nav-button-title nav-button-line1">Shop by</span>
+              <span class="nav-button-title nav-button-line2">Department</span>
+            </span>
+          </span>
+          <span class="nav-down-arrow nav-sprite"></span>
+        </a>
+
+                  <label id="nav-search-label" for="twotabsearchtextbox">
+            Search
+          </label>
+        
+        <div>
+          <form action="/s/ref=nb_sb_noss" method="get" name="site-search" class="nav-searchbar-inner nav-prime-menu" role="search" accept-charset="utf-8">
+          
+
+            <span id="nav-search-in" class="nav-sprite">
+              <span id="nav-search-in-content" data-value="search-alias=electronics">
+                Electronics
+              </span>
+              <span class="nav-down-arrow nav-sprite"></span>
+              <select data-nav-digest="rpeo8Cq8h/GgqsX71jOg2jgXa3g" data-nav-selected="14" name="url" id="searchDropdownBox" class="searchSelect" title="Search in"><option value="search-alias=aps">All Departments</option><option value="search-alias=instant-video">Amazon Instant Video</option><option value="search-alias=appliances">Appliances</option><option value="search-alias=mobile-apps">Apps for Android</option><option value="search-alias=arts-crafts">Arts, Crafts &amp; Sewing</option><option value="search-alias=automotive">Automotive</option><option value="search-alias=baby-products">Baby</option><option value="search-alias=beauty">Beauty</option><option value="search-alias=stripbooks">Books</option><option value="search-alias=mobile">Cell Phones &amp; Accessories</option><option value="search-alias=apparel">Clothing &amp; Accessories</option><option value="search-alias=collectibles">Collectibles &amp; Fine Art</option><option value="search-alias=computers">Computers</option><option value="search-alias=financial">Credit Cards</option><option value="search-alias=electronics" selected>Electronics</option><option value="search-alias=gift-cards">Gift Cards Store</option><option value="search-alias=grocery">Grocery &amp; Gourmet Food</option><option value="search-alias=hpc">Health &amp; Personal Care</option><option value="search-alias=garden">Home &amp; Kitchen</option><option value="search-alias=industrial">Industrial &amp; Scientific</option><option value="search-alias=jewelry">Jewelry</option><option value="search-alias=digital-text">Kindle Store</option><option value="search-alias=magazines">Magazine Subscriptions</option><option value="search-alias=movies-tv">Movies &amp; TV</option><option value="search-alias=digital-music">MP3 Music</option><option value="search-alias=popular">Music</option><option value="search-alias=mi">Musical Instruments</option><option value="search-alias=office-products">Office Products</option><option value="search-alias=lawngarden">Patio, Lawn &amp; Garden</option><option value="search-alias=pets">Pet Supplies</option><option value="search-alias=shoes">Shoes</option><option value="search-alias=software">Software</option><option value="search-alias=sporting">Sports &amp; Outdoors</option><option value="search-alias=tools">Tools &amp; Home Improvement</option><option value="search-alias=toys-and-games">Toys &amp; Games</option><option value="search-alias=videogames">Video Games</option><option value="search-alias=watches">Watches</option><option value="search-alias=wine">Wine</option></select></span>
+
+            <div class="nav-searchfield-outer nav-sprite">
+              <div class="nav-searchfield-inner nav-sprite">
+                <div class="nav-searchfield-width">
+                  <div id="nav-iss-attach">
+                    <input type="text" id="twotabsearchtextbox" title="Search For" value="TV" name="field-keywords" autocomplete="off"></div>
+                </div>
+                <!--[if IE ]><div class='nav-ie-min-width' style='width: 360px'></div><![endif]-->
+              </div>
+            </div>
+
+            <div class="nav-submit-button nav-sprite">
+              <input type="submit" value="Go" class="nav-submit-input" title="Go"></div>
+
+          </form>
+        </div>
+
+        <a id="nav-your-account" href="https://www.amazon.com/ap/signin?_encoding=UTF8&amp;openid.assoc_handle=usflex&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Fhomepage.html%3Fie%3DUTF8%26ref_%3Dgno_yam_ya" class="nav_a nav-button-outer nav-menu-inactive nav-prime-menu" alt="Your Account">
+          <span class="nav-button-mid nav-sprite">
+            <span class="nav-button-inner nav-sprite">
+              <span id="nav-signin-title" class="nav-button-title nav-button-line1">
+                Hello.
+                <span id="nav-signin-text" class="nav-button-em">Sign in</span>
+              </span>
+              <span class="nav-button-title nav-button-line2">Your Account</span>
+            </span>
+          </span>
+          <span class="nav-down-arrow nav-sprite"></span>
+        </a>
+
+          <span class="nav-divider nav-divider-prime"></span>
+
+          <a id="nav-your-prime" href="/gp/product/B00DBYBNEE/ref=nav_prime_join" class="nav_a nav-button-outer nav-menu-inactive" alt="Try Prime">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+                <span class="nav-button-title nav-button-line1">Try</span>
+                <span class="nav-button-title nav-button-line2">Prime</span>
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <span class="nav-divider nav-divider-account"></span>
+
+          <a id="nav-cart" href="/gp/cart/view.html/ref=gno_cart" class="nav_a nav-button-outer nav-menu-inactive" alt="Shopping Cart">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+
+                <span class="nav-button-title nav-button-line1"> </span>
+                <span class="nav-button-title nav-button-line2">Cart</span>
+
+                <span class="nav-cart-button nav-sprite"></span>
+                <span id="nav-cart-count" class="nav-cart-0">0</span>
+
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <span class="nav-divider nav-divider-cart"></span>
+
+          <a id="nav-wishlist" href="/gp/registry/wishlist/ref=wish_list" class="nav_a nav-button-outer nav-menu-inactive" alt="Wish List">
+            <span class="nav-button-mid nav-sprite">
+              <span class="nav-button-inner nav-sprite">
+                <span class="nav-button-title nav-button-line1">Wish</span>
+                <span class="nav-button-title nav-button-line2">List</span>
+              </span>
+            </span>
+            <span class="nav-down-arrow nav-sprite"></span>
+          </a>
+
+          <!-- nav-linktree-category -->
+          <!-- nav-linktree-subnav -->
+          <ul id="nav-subnav" data-category="electronics" data-digest="JVQqu62UGDhowcoPj9iZtGFLF+I"><li class="nav-subnav-item nav-category-button"><a href="/Televisions-Video/b/ref=topnav_storetab_e?ie=UTF8&amp;node=1266092011" class="nav_a">Televisions &amp; Video<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_0?ie=UTF8&amp;node=3079714011" class="nav_a">Deals<span></span></a></li><li class="nav-subnav-item"><a href="/gp/bestsellers/electronics/1266092011/ref=sv_e_1" class="nav_a">Best Sellers<span></span></a></li><li class="nav-subnav-item"><a href="/TVs-Televisions-Audio-Video/b/ref=sv_e_2?ie=UTF8&amp;node=979929011" class="nav_a">Televisions<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_3?ie=UTF8&amp;node=3213025011" class="nav_a">Blu-ray Players<span></span></a></li><li class="nav-subnav-item"><a href="/Digital-Video-Recorders/b/ref=sv_e_4?ie=UTF8&amp;node=13447451" class="nav_a">Streaming Media Players<span></span></a></li><li class="nav-subnav-item"><a href="/Projectors-Monitors-Computer-Add-Ons-Computers/b/ref=sv_e_5?ie=UTF8&amp;node=300334" class="nav_a">Video Projectors<span></span></a></li><li class="nav-subnav-item"><a href="/b/ref=sv_e_6?ie=UTF8&amp;node=3237803011" class="nav_a">Sound Bar Speakers<span></span></a></li><li class="nav-subnav-item"><a href="/Audio-Video-Accessories-Supplies/b/ref=sv_e_7?ie=UTF8&amp;node=172532" class="nav_a">A/V Accessories<span></span></a></li><li class="nav-subnav-item"><a href="/electronics-store/b/ref=sv_e_8?ie=UTF8&amp;node=172282" class="nav_a">All Electronics<span></span></a></li>          </ul></div>
+    </div>
+
+    
+  </div>
+</header><script type="text/javascript"><!--
+window.$Nav && $Nav.declare('config.dynamicMenuUrl',
+  '/gp/navigation/ajax/dynamicmenu.html');
+
+window.$Nav && $Nav.declare('config.dismissNotificationUrl',
+  '/gp/navigation/ajax/dismissnotification.html');
+
+window.$Nav && $Nav.declare('config.enableDynamicMenus', true);
+
+window.$Nav && $Nav.declare('config.subnavFlyoutUrl',
+  '/gp/navigation/ajax/subnav-flyout');
+
+window.$Nav && $Nav.declare('config.recordEvUrl',
+  '/gp/navigation/ajax/recordevent.html');
+window.$Nav && $Nav.declare('config.recordEvInterval', 5000);
+window.$Nav && $Nav.declare('config.sessionId', '182-6616344-7251335');
+window.$Nav && $Nav.declare('config.requestId', '0GJ3PK92GXB3YEFZF1A1');
+
+window.$Nav && $Nav.declare('config.readyOnATF', false);
+
+window.$Nav && $Nav.declare('config.dynamicMenuArgs',
+  {"rid":"0GJ3PK92GXB3YEFZF1A1","isPrime":0,"primeMenuWidth":310});
+
+window.$Nav && $Nav.declare('config.signOutText',
+  null);
+
+window.$Nav && $Nav.declare('config.yourAccountPrimeURL',
+  null);
+
+(function (i) {
+i.onload = function() {window.uet && uet('ne')};
+i.src = window._navbarSpriteUrl;
+}(new Image()));
+
+window.$Nav && $Nav.declare('config.autoFocus', false);
+
+
+window.$Nav && $Nav.declare('config.responsiveTouchAgents', ["ie10touch"]);
+
+window.$Nav && $Nav.declare('config.responsiveGW',false);
+
+window.$Nav && $Nav.declare('config.newFlyouts',true);
+
+window.$Nav && $Nav.declare('config.velocityFlyoutToggling', true);
+window.$Nav && $Nav.declare('config.velocityFlyoutThreshold', 40);
+
+window.$Nav && $Nav.declare('config.twoClickFlyouts',true);
+
+window.$Nav && $Nav.declare('config.sslTriggerType','');
+window.$Nav && $Nav.declare('config.sslTriggerRetry',0);
+
+    
+    window.$Nav && $Nav.declare('config.browsePromos', window._navbar.browsepromos);
+
+--></script><!--Tilu --><!-- EndNav --><div id="instant-order-update_feature_div">
+
+
+
+
+</div>
+
+
+<div id="cp-merchandising-widget_feature_div">
+</div>
+<div id="rwImages_hidden" style="display:none;">
+<img src="http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SY300_.jpg" style="display:none;"></div>
+
+
+ 
+
+
+     
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+   
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+    
+
+        
+        
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+        
+        
+      
+
+
+    
+
+
+
+
+            
+
+  
+  
+      
+
+    
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div id="prime_feature_div">
+
+
+
+
+
+
+
+
+
+<div id="prime_outer_div">
+<div id="PrimeStripe">
+<div id="prime_feature_div">
+
+
+    
+    
+
+</div></div>
+</div>
+<div id="parentPrimeStripe" style="display:none">
+</div>
+</div>
+<br><form method="post" id="handleBuy" name="handleBuy" action="http://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance" style="margin: 0pt;" autocomplete="off">
+
+<input type="hidden" id="session-id" name="session-id" value="182-6616344-7251335"><input type="hidden" id="ASIN" name="ASIN" value="B00C5B1844"><input type="hidden" id="isMerchantExclusive" name="isMerchantExclusive" value="0"><input type="hidden" id="merchantID" name="merchantID" value="ATVPDKIKX0DER"><input type="hidden" id="nodeID" name="nodeID" value="1266092011"><input type="hidden" id="offerListingID" name="offerListingID" value="mvU1ZQ%2FH1TSXYVAUOXtFXzIZlt6QGVpzvahW2p8yjXWeF2F0QxJl8MPVWYDJf3dsdxNSJlmNTJHue%2BGbe2h7S%2BSBZ2E%2FEuYWBOhcFqzee7iOWYwzVS5bGA%3D%3D"><input type="hidden" id="sellingCustomerID" name="sellingCustomerID" value="A2R2RITDJNW1Q6"><input type="hidden" id="sourceCustomerOrgListID" name="sourceCustomerOrgListID" value=""><input type="hidden" id="sourceCustomerOrgListItemID" name="sourceCustomerOrgListItemID" value=""><input type="hidden" id="qid" name="qid" value=""><input type="hidden" id="sr" name="sr" value=""><input type="hidden" id="storeID" name="storeID" value="tv"><input type="hidden" id="tagActionCode" name="tagActionCode" value=""><input type="hidden" id="viewID" name="viewID" value="glance"><input type="hidden" name="isAddon" id="isAddon" value="0"><table border="0" cellpadding="0" cellspacing="0" width="215" class="buyingDetailsGrid" align="right"><tr><td valign="top" width="100%">
+
+<div id="tell-a-friend-box_feature_div">
+
+        
+
+
+
+ 
+    
+    
+      
+
+    
+
+
+
+  
+  
+  
+
+
+
+
+<div style="text-align: center; padding: 5px 0;">
+
+
+
+
+    <div id="tafContainerDiv"><a href="/gp/pdp/taf/ref=cm_sw_l_view_dp_p5HFsb0JP9GBY?ie=UTF8&amp;contentID=B00C5B1844&amp;contentName=item&amp;contentType=asin&amp;contentURI=%2Fdp%2FB00C5B1844&amp;emailCaptionStrID=&amp;emailCustomMsgStrID=&amp;emailDescStrID=&amp;emailImageURL=&amp;emailSubjectStrID=&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;eventID=&amp;imageURL=&amp;isDynamicSWF=0&amp;itemInfo=B00C5B1844&amp;learnMoreButton=&amp;merchantID=&amp;params=&amp;parentASIN=&amp;placementID=dp_p5HFsb0JP9GBY&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB00C5B1844%252Fref%253D&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;suppressPurchaseReqLogin=&amp;titleText=&amp;type=SH&amp;viaAccount=amazon" title="Share via e-mail" id="swftext" class="vam"><span class="tafShareText">Share</span></a><a href="/gp/pdp/taf/ref=cm_sw_l_view_dpi_p5HFsb0JP9GBY?ie=UTF8&amp;contentID=B00C5B1844&amp;contentName=item&amp;contentType=asin&amp;contentURI=%2Fdp%2FB00C5B1844&amp;emailCaptionStrID=&amp;emailCustomMsgStrID=&amp;emailDescStrID=&amp;emailImageURL=&amp;emailSubjectStrID=&amp;emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&amp;eventID=&amp;imageURL=&amp;isDynamicSWF=0&amp;itemInfo=B00C5B1844&amp;learnMoreButton=&amp;merchantID=&amp;params=&amp;parentASIN=&amp;placementID=dp_p5HFsb0JP9GBY&amp;referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB00C5B1844%252Fref%253D&amp;relatedAccounts=amazondeals%2Camazonmp3&amp;suppressPurchaseReqLogin=&amp;titleText=&amp;type=SH&amp;viaAccount=amazon" title="Share via e-mail" class="linkImage" id="swftext_img"><span class="tafEmailIcon vam"></span></a><a href="/gp/redirect.html/ref=cm_sw_cl_fa_dp_p5HFsb0JP9GBY?_encoding=UTF8&amp;location=http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB00C5B1844%252Fref%253Dcm_sw_r_fa_dp_p5HFsb0JP9GBY&amp;token=6BD0FB927CC51E76FF446584B1040F70EA7E88E1" target="_blank" title="Share on Facebook" onclick="window.open(this.href, '_blank', 'location=yes,width=700,height=400');return false;"><span class="tafSocialButton vam" style="background-position: -18px 0px; height: 16px; width: 16px;;"></span></a><a href="/gp/redirect.html/ref=cm_sw_cl_tw_dp_p5HFsb0JP9GBY?_encoding=UTF8&amp;location=http%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Foriginal_referer%3Dhttp%25253A%25252F%25252Fwww.amazon.com%25252Fgp%25252Fproduct%25252FB00C5B1844%25252Fref%25253Dcm_sw_r_tw_dp_p5HFsb0JP9GBY%26related%3Damazondeals%252Camazonmp3%26text%3DVIZIO%2520M321i-A2%252032-Inch%25201080p%2520120Hz%2520Smart%2520LED%2520HDTV%2520by%2520VIZIO%26url%3Dhttp%253A%252F%252Fwww.amazon.com%252Fdp%252FB00C5B1844%252Fref%253Dcm_sw_r_tw_dp_p5HFsb0JP9GBY%26via%3Damazon&amp;token=7A1A4AE8F6CE0BD277D8295E58702D283F329C0F" target="_blank" title="Share on Twitter" onclick="window.open(this.href, '_blank', 'location=yes,width=700,height=400');return false;"><span class="tafSocialButton vam" style="background-position: -34px 0px; height: 16px; width: 16px;;"></span></a></div>
+
+
+<script language="JavaScript" type="text/JavaScript">
+
+if (typeof window.amznJQ != 'undefined') {
+
+  amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+    amznJQ.available("share-with-friends-js-new", function() {
+      var popoverParams = { url: "/gp/pdp/taf/dpPop.html/ref=cm_sw_p_view_dp_p5HFsb0JP9GBY?ie=UTF8&contentID=B00C5B1844&contentName=item&contentType=asin&contentURI=%2Fdp%2FB00C5B1844&emailCaptionStrID=&emailCustomMsgStrID=&emailDescStrID=&emailSubjectStrID=&emailTemplate=%2Fgp%2Fpdp%2Fcommon%2Femail%2Fshare-product&forceSprites=1&id=B00C5B1844&imageURL=&isDynamicSWF=0&isEmail=0&learnMoreButton=&merchantID=&parentASIN=&placementID=dp_p5HFsb0JP9GBY&ra=taf&referer=http%253A%252F%252Fwww.amazon.com%252Fgp%252Fproduct%252FB00C5B1844%252Fref%253D&registryViewType=&relatedAccounts=amazondeals%2Camazonmp3&suppressPurchaseReqLogin=&titleText=&tt=sh&viaAccount=amazon", title: "Share this item via Email" , closeText: "Close", isCompact:  false, token: "62859067946A4BEFEDC6511ED01F80788AC62AF1"};
+      amz_taf_triggers.swftext = popoverParams;
+      amz_taf_generatePopover("swftext", true);
+
+    
+
+    });
+  });
+}
+
+</script></div>
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="buy-box_feature_div">
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+
+    
+  
+
+
+    
+    
+    
+  
+
+    
+  
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+  
+  
+
+
+
+
+
+
+
+        
+        
+
+
+        
+        
+
+
+
+
+
+    
+    
+ 
+ 
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+
+
+        
+        
+            
+
+
+
+
+
+
+        
+        
+        
+        <div id="twister-atf-emwa_feature_div"></div>
+    
+   <div id="buyboxDivId" class="buying" style="; width:215;">
+   <div id="addonBuyboxID"></div>
+    <div class="cBox buyTopBox">
+    <span class="cBoxTL"><!-- &nbsp; --></span>
+    <span class="cBoxTR"><!-- &nbsp; --></span>
+    <span class="cBoxR"><!-- &nbsp; --></span>
+    
+    <div id="goldBoxBuyBoxDivId" class="cBoxInner" style="text-align: center; display: none;"></div>
+    <div id="buyBoxContent" class="cBoxInner" style="text-align: center; ">
+ 
+   
+
+
+
+
+<div align="center" style="margin-bottom: 4px; " id="quantityDropdownDiv">
+      <span style="color:#666;"><label for="quantity">Quantity:</label></span>
+    <select name="quantity" id="quantity"><option value="1" selected>1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></div>
+<script type="text/javascript">
+
+var legacyOnSelectedQuantityChange = function () {
+    if (jQuery("#pricePlusShippingQty").length > 0) {
+      jQuery.ajax({
+        url: "/gp/product/du/quantity-sip-update.html?_encoding=UTF-8",
+        data: {
+          qt: jQuery("#quantityDropdownDiv select").val(),
+          a : jQuery("#ASIN").val(),
+          me: jQuery("#merchantID").val(),
+          ddmState:    jQuery("#ddmState").text(),
+          ddmCity:     jQuery("#ddmCity").text(),
+          ddmDistrict: jQuery("#ddmDistrict").text()
+        },
+        dataType: "html",
+        success: function(sipHtml){
+          jQuery("#pricePlusShippingQty").html(sipHtml);
+        }
+      });
+    }
+};
+amznJQ.onReady('jQuery', function() {
+  jQuery("#quantityDropdownDiv select").change(legacyOnSelectedQuantityChange);
+  amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+    amznJQ.available('quantityDropDownJS', function() {
+        var qdd = new jQuery.fn.quantityDropDown();
+        qdd.setPopoverContent("<strong>We're sorry.  This item is limited to %d per customer.</strong>","<br /><br />We strive to provide customers with great prices, and sometimes that means we limit quantity to ensure that the majority of customers have an opportunity to order products that have very low prices or a limited supply.<br /><br />We may also adjust quantity in checkout if you have recently purchased this item.");
+        qdd.setMaxQuantity(4);
+    });
+  });
+});
+
+</script><div id="buyboxTwisterJS"></div>
+
+
+
+  
+           
+
+<div align="center" style="margin-bottom: 4px; display: none;" id="buyNewDiv"><b class="small"></b></div>
+
+
+
+
+    <div style="padding-bottom: 8px">
+  <div id="BBPricePlusShipID">
+    
+    
+
+
+  </div>
+  <div id="BBAvailPlusMerchID">
+    
+    
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- No Scheduled Delivery for AFN non-Prime -->
+
+
+ 
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+     
+
+<div id="prime-rcx-subs-checkbox-outer" style="display:none;">
+    <div class="buying" style="margin:0px 0px 12px 10px">
+        <input type="checkbox" id="bbop-check-box" style="float:left"><label for="bbop-check-box" id="bbop-check-box-msg" style="float:left;text-align:left;margin-left:3px">
+                Yes, I want <b>FREE Two-Day<br>Shipping</b> with
+                <a name="primeLearnMorePopElem" href="#" id="primeLearnMoreLink">Amazon Prime</a>
+            </label>
+        <div style="clear:both"></div>
+    </div> 
+</div>
+
+
+
+<div id="primeLearnMoreDiv" style="display:none">
+    <table width="385px"><tr><td>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="left">
+                                <span style="color: rgb(204, 153, 0); font-size: 14px;"><strong>Amazon Prime Free Trial</strong></span>
+                            </td>
+                        </tr></tbody></table>
+             
+                FREE Two-Day Shipping is available to Amazon Prime members. To join, select "Yes, I want FREE Two-Day Shipping with Amazon Prime" above the Add to Cart button and confirm your Amazon Prime free trial sign-up during checkout.<br><br><b>Amazon Prime members enjoy:</b><br><ul class="primeBuyBox"><li> Unlimited Free Two-Day Shipping</li>
+                    <li> Instant streaming of over 40,000 movies and TV episodes</li>
+                    <li> A Kindle book to borrow for free each month - with no due dates</li>
+                </ul><br><b>Important: </b> Your credit card will NOT be charged when you start your free trial or if you cancel during the trial period. If you're happy with Amazon Prime, do nothing. At the end of the free trial, your membership will automatically upgrade to a full year for $79. 
+           </td>
+        </tr></table></div>
+<script type="text/javascript">
+amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+    amznJQ.available('bbopCheckBoxJS', function() {
+        var bbopJS = new jQuery.fn.bbopCheckBox();
+        bbopJS.initialize(1,0,"To get FREE Two-Day Shipping on this item, proceed to checkout using &quot;Add to Cart&quot;");
+    });
+});               
+</script><div class="handleBuyButton">
+  <div class="hbbBlockedMsg" style="display: none;">
+    <div class="buying" style="padding:7px; border:1px solid #5C9EBF; background-color:#FFFFFF; text-transform: none; text-size: small; text-align: center">
+      To Add to Shopping Cart,<br>choose from options to the left
+    </div>
+  </div>
+  <div id="twisterAddToCartOrig"> <input type="image" title="" alt="Add to Shopping Cart" border="0" class="dpSprite s_bbAdd2Cart " id="bb_atc_button" value="" name="submit.add-to-cart" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif"></div>
+</div>
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+    var gbSecure1Click = true;
+if(typeof(gbSecure1Click) != 'undefined' && gbSecure1Click){
+  amznJQ.onReady('jQuery',
+    function () {
+      jQuery("#oneClickBuyButton").click(
+        function () {
+          var hbbAction = jQuery('#handleBuy').attr("action").replace("http:", "https:");
+          jQuery('#handleBuy').attr("action", hbbAction );
+          return true;
+        }
+      );
+    }
+  );
+}
+</script><div id="oneClickDivId" class="oneClickDiv">
+
+
+<script type="text/javascript">
+if(window.gbvar){
+amznJQ.onReady('jQuery', function() {
+    jQuery("#oneClickSignInLinkID").attr("href",window.gbvar);
+  });
+}
+else{
+window.gbvar = "https://www.amazon.com/gp/product/utility/edit-one-click-pref.html?ie=UTF8&query=&returnPath=%2Fgp%2Fproduct%2FB00CW6QESM";
+}
+</script><div style="padding:3px 0px;">
+      <b>or</b>
+</div>
+<div class="tiny">
+
+
+<script type="text/javascript">
+if(window.gbvar){
+amznJQ.onReady('jQuery', function() {
+    jQuery("#oneClickSignInLinkID").attr("href",window.gbvar);
+  });
+}
+else{
+window.gbvar = "https://www.amazon.com/gp/product/utility/edit-one-click-pref.html?ie=UTF8&query=&returnPath=%2Fgp%2Fproduct%2FB00CW6QESM";
+}
+</script><a href="https://www.amazon.com/gp/product/utility/edit-one-click-pref.html?ie=UTF8&amp;query=&amp;returnPath=%2Fgp%2Fproduct%2FB00CW6QESM" id="oneClickSignInLinkID" class="oneClickSignInLink">Sign in</a> to turn on 1-Click ordering.
+</div></div>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<div id="abbBox">
+<div id="abbHeader">
+<strong>Include</strong>
+</div>
+<div id="abbWrapper">
+<fieldset class="forScreenreaders"><legend><span>Include</span></legend>
+<input type="hidden" name="itemCount" value="2"><div class="abbListItem">
+<input type="hidden" name="quantity.1" value="1"><input type="hidden" name="asin.1" value="B005STXNMA"><input class="abbListInput" type="checkbox" name="offeringID.1" value="a5K8TJkSErj1uSE8DA8rWikMesVfn2lqGnSMKhbJCt%2BIePZr4yydbrH6rWUS7EmAkIk%2FTzDjuPOyXAxI30QGdKKnIx%2FiLmhlM09ij8rURnVwwmKVuwN5vn1zcxtae8OmnQ%2FpRjRdq9wyUUYH2xLxMw%3D%3D" title="SquareTrade 5-Year TV Protection Plan ($350-$400)"><div class="abbItemText"> <a title="SquareTrade 5-Year TV Protection Plan ($350-$400)" href="http://www.amazon.com/SquareTrade-5-Year-Protection-Plan-350/dp/B005STXNMA/ref=pd_abb_B00C5B1844_B005STXNMA_1_l">5-Year Warranty</a>
+<span class="price">$53.89</span>
+</div>
+</div>
+
+</fieldset></div>
+</div>
+      
+    </div>
+  </div>
+
+            
+            <div class="cBox buyBottomBox">
+            
+            <span class="cBoxR"><!-- &nbsp; --></span>
+            <span class="cBoxBL"><!-- &nbsp; --></span>
+            <span class="cBoxBR"><!-- &nbsp; --></span>
+            <span class="cBoxB"><!-- &nbsp; --></span>
+            <div class="cBoxInner" style="text-align: center;">
+            
+
+
+
+
+
+
+<div class="GFTButtonCondo" style="display: block;">
+<input type="hidden" name="rsid" value="182-6616344-7251335"><input type="hidden" name="sourceVendorId" value="website.wishlist.detail.add"><div align="center" style="padding: 4px;" id="wishlistAddButtonActive"><input border="0" type="image" title="Add to Wish List" alt="Add to Wish List" class="dpSprite s_add2WishList" id="" value="" name="submit.add-to-registry.wishlist" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif"></div>
+
+
+
+<script language="Javascript" type="text/javascript">
+  amznJQ.onReady('popover', function() {
+    var $ = jQuery;
+      });
+</script></div>
+
+
+
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+  
+
+<script type="text/javascript">
+var form = document.handleBuy;
+if(form != undefined) {
+  form['offerListingID'].value = "mvU1ZQ%2FH1TSXYVAUOXtFXzIZlt6QGVpzvahW2p8yjXWeF2F0QxJl8MPVWYDJf3dsdxNSJlmNTJHue%2BGbe2h7S%2BSBZ2E%2FEuYWBOhcFqzee7iOWYwzVS5bGA%3D%3D";
+  form['merchantID'].value = "ATVPDKIKX0DER";
+  form['ASIN'].value = "B00C5B1844";
+}
+</script></div>
+</td></tr><tr><td valign="top" width="100%"></td></tr><tr><td valign="top" width="100%">
+
+<div id="trade-in-buybox_feature_div">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="more-buying-choices_feature_div">
+
+
+    
+
+
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+
+
+
+    
+    
+
+
+    
+    
+  
+
+
+    
+
+
+  
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+<div style="margin-top: 3px;" class="cBox mbcBox">
+  <span class="cBoxTL"><!-- &nbsp; --></span>
+  <span class="cBoxTR"><!-- &nbsp; --></span>
+  <span class="cBoxR"><!-- &nbsp; --></span>
+  <span class="cBoxBL"><!-- &nbsp; --></span>
+  <span class="cBoxBR"><!-- &nbsp; --></span>
+  <span class="cBoxB"><!-- &nbsp; --></span>
+  <div class="mbcContainer">
+    <div class="mbcTitle">More Buying Choices</div>
+    <div id="more-buying-choice-content-div">
+<table class="mbcOffers" cellpadding="0" cellspacing="0"><tr id="mbc_B00C5B1844_ACYAP6LDDX1EI"><td class="mbcOfferRowTD">
+   	<table class="mbcOfferRow" cellpadding="0" cellspacing="0"><tr class="mbcMerch"><td width="65%">AnchorElect... </td>
+   	<td align="right" valign="top">
+   	<span id="mbc_B00C5B1844_ACYAP6LDDX1EI_atc"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=dp_ebb_1?ie=UTF8&amp;itemCount=1&amp;nodeID=1266092011&amp;offeringID.1=Q15lksTygh1%252BDAAGBAfwSoBWJaISnm36cSB8umEkSIQaGmKWtqdS6Pe%252BeIywroHVuh3ijKXL6rVZELOl5CLu0B5HUKbuCJTLw%252FlpSIn2t62hHYSVlwWizuNZRNd30bBFg8ph1qisNC54J6QJkwX0EpL7IDkC%252B13l&amp;session-id=182-6616344-7251335&amp;signInToHUC=0&amp;storeID=tv&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a>
+   	</span>
+   	</td>
+   	</tr><tr><td colspan="2" class="mbcPriceCell">$363.90<span class="plusShippingText"> + Free Shipping</span></td>
+   	</tr></table></td>
+   	</tr><script>
+  if (!touchDeviceDetected) {
+      amznJQ.available('popover', function() {
+        jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI').amazonPopoverTrigger({
+          showOnHover: true,
+          width: 280,
+          hoverShowDelay: 300,
+          hoverHideDelay: 200,
+          locationOffset: [-5,0],
+          showCloseButton: false,
+          attached: true,
+          location: "left",
+          align: "middle",
+          destination: "/gp/product/du/mbc-seller-information.html/ref=dp_mbc_info_1?a=B00C5B1844&me=ACYAP6LDDX1EI&c=new&s=VIZ-V321IA2_NB",
+          group: "mbc_info_popover",
+          ajaxTimeout: 5000,
+          ajaxErrorContent: function(a,t,s) {
+            var errMsg = '';
+            if( t == "timeout") errMsg = '<div class="buying">Sorry we encountered a problem.</div>';
+            return errMsg;
+          },
+          onFilled: function(p) {
+            jQuery('#SSOFpopoverLink_ACYAP6LDDX1EI').amazonPopoverTrigger({
+              closeText: 'Close',
+              title: 'What is Fulfillment by Amazon?',
+              locationElement: jQuery("#SSOFpopoverLink_ACYAP6LDDX1EI"),
+              align: "center",
+              location: "bottom",
+              width: 430,
+              localContent: "#SSOFpopover_ACYAP6LDDX1EI"
+            });
+          },
+          onShow: function(p) {
+            jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI').addClass("mbcPopoverOfferRowSelect");
+          },
+          onHide: function(p) {
+            jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI').removeClass("mbcPopoverOfferRowSelect");
+          }
+        }).bind("mouseenter", function() {
+            jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI').addClass("mbcOfferRowSelect");
+        }).bind("mouseleave", function() {
+            jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI').removeClass("mbcOfferRowSelect");
+        });
+        jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI_atc').bind("click", function() {
+            window.location.href = jQuery('#mbc_B00C5B1844_ACYAP6LDDX1EI_atc a').attr('href');
+            return false;
+        });
+      });
+  }
+</script><tr id="mbc_B00C5B1844_A3B9RJKTLZ285S"><td class="mbcOfferRowTD">
+   	<table class="mbcOfferRow" cellpadding="0" cellspacing="0"><tr class="mbcMerch"><td width="65%">TechNGnet </td>
+   	<td align="right" valign="top">
+   	<span id="mbc_B00C5B1844_A3B9RJKTLZ285S_atc"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=dp_ebb_2?ie=UTF8&amp;itemCount=1&amp;nodeID=1266092011&amp;offeringID.1=W1HWok3Ysb76jDo8vhhRJ%252BzeuMGV0P8qbxFdZ4VcSXmURxkVvqP3JR5wlLndjBmm8Muw38L9%252FW4%252FS4nSUYE%252BG9j3bMCrbuKTxSjcsDK1gL6xVD4mbPwr0hKAco6nLbvOH69Tq%252BqISD6fuW3mfRwZScLDMz3QY%252FTL&amp;session-id=182-6616344-7251335&amp;signInToHUC=0&amp;storeID=tv&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a>
+   	</span>
+   	</td>
+   	</tr><tr><td colspan="2" class="mbcPriceCell">$388.95<span class="plusShippingText"> + $39.95 shipping</span></td>
+   	</tr></table></td>
+   	</tr><script>
+  if (!touchDeviceDetected) {
+      amznJQ.available('popover', function() {
+        jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S').amazonPopoverTrigger({
+          showOnHover: true,
+          width: 280,
+          hoverShowDelay: 300,
+          hoverHideDelay: 200,
+          locationOffset: [-5,0],
+          showCloseButton: false,
+          attached: true,
+          location: "left",
+          align: "middle",
+          destination: "/gp/product/du/mbc-seller-information.html/ref=dp_mbc_info_2?a=B00C5B1844&me=A3B9RJKTLZ285S&c=new&s=845226008863",
+          group: "mbc_info_popover",
+          ajaxTimeout: 5000,
+          ajaxErrorContent: function(a,t,s) {
+            var errMsg = '';
+            if( t == "timeout") errMsg = '<div class="buying">Sorry we encountered a problem.</div>';
+            return errMsg;
+          },
+          onFilled: function(p) {
+            jQuery('#SSOFpopoverLink_A3B9RJKTLZ285S').amazonPopoverTrigger({
+              closeText: 'Close',
+              title: 'What is Fulfillment by Amazon?',
+              locationElement: jQuery("#SSOFpopoverLink_A3B9RJKTLZ285S"),
+              align: "center",
+              location: "bottom",
+              width: 430,
+              localContent: "#SSOFpopover_A3B9RJKTLZ285S"
+            });
+          },
+          onShow: function(p) {
+            jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S').addClass("mbcPopoverOfferRowSelect");
+          },
+          onHide: function(p) {
+            jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S').removeClass("mbcPopoverOfferRowSelect");
+          }
+        }).bind("mouseenter", function() {
+            jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S').addClass("mbcOfferRowSelect");
+        }).bind("mouseleave", function() {
+            jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S').removeClass("mbcOfferRowSelect");
+        });
+        jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S_atc').bind("click", function() {
+            window.location.href = jQuery('#mbc_B00C5B1844_A3B9RJKTLZ285S_atc a').attr('href');
+            return false;
+        });
+      });
+  }
+</script><tr id="mbc_B00C5B1844_A18IJX3G7FD5MC"><td class="mbcOfferRowTD">
+   	<table class="mbcOfferRow" cellpadding="0" cellspacing="0"><tr class="mbcMerch"><td width="65%">ToysOnline </td>
+   	<td align="right" valign="top">
+   	<span id="mbc_B00C5B1844_A18IJX3G7FD5MC_atc"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=dp_ebb_3?ie=UTF8&amp;itemCount=1&amp;nodeID=1266092011&amp;offeringID.1=TCGHacPWrwdWQ3wgntmTTARbqDevUbSi%252FGLmd3vBG5j8hpAWv4H4kdVBiliKNW1prceVZ8qSC02ATek8H5zKoecLJ3esxC%252Babi95cKJT2ve0DMXC8jpTRRW9QKlQmbNcU68LiMYz9pZqJKwPlTumdg%253D%253D&amp;session-id=182-6616344-7251335&amp;signInToHUC=0&amp;storeID=tv&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a>
+   	</span>
+   	</td>
+   	</tr><tr><td colspan="2" class="mbcPriceCell">$503.26<span class="plusShippingText"> + $16.49 shipping</span></td>
+   	</tr></table></td>
+   	</tr><script>
+  if (!touchDeviceDetected) {
+      amznJQ.available('popover', function() {
+        jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC').amazonPopoverTrigger({
+          showOnHover: true,
+          width: 280,
+          hoverShowDelay: 300,
+          hoverHideDelay: 200,
+          locationOffset: [-5,0],
+          showCloseButton: false,
+          attached: true,
+          location: "left",
+          align: "middle",
+          destination: "/gp/product/du/mbc-seller-information.html/ref=dp_mbc_info_3?a=B00C5B1844&me=A18IJX3G7FD5MC&c=new&s=WAL-845226008863",
+          group: "mbc_info_popover",
+          ajaxTimeout: 5000,
+          ajaxErrorContent: function(a,t,s) {
+            var errMsg = '';
+            if( t == "timeout") errMsg = '<div class="buying">Sorry we encountered a problem.</div>';
+            return errMsg;
+          },
+          onFilled: function(p) {
+            jQuery('#SSOFpopoverLink_A18IJX3G7FD5MC').amazonPopoverTrigger({
+              closeText: 'Close',
+              title: 'What is Fulfillment by Amazon?',
+              locationElement: jQuery("#SSOFpopoverLink_A18IJX3G7FD5MC"),
+              align: "center",
+              location: "bottom",
+              width: 430,
+              localContent: "#SSOFpopover_A18IJX3G7FD5MC"
+            });
+          },
+          onShow: function(p) {
+            jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC').addClass("mbcPopoverOfferRowSelect");
+          },
+          onHide: function(p) {
+            jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC').removeClass("mbcPopoverOfferRowSelect");
+          }
+        }).bind("mouseenter", function() {
+            jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC').addClass("mbcOfferRowSelect");
+        }).bind("mouseleave", function() {
+            jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC').removeClass("mbcOfferRowSelect");
+        });
+        jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC_atc').bind("click", function() {
+            window.location.href = jQuery('#mbc_B00C5B1844_A18IJX3G7FD5MC_atc a').attr('href');
+            return false;
+        });
+      });
+  }
+</script></table><div id="secondaryUsedAndNew" class="mbcOlp">
+<div class="mbcOlpLink"><a class="buyAction" href="/gp/offer-listing/B00C5B1844/ref=dp_olp_all_mbc?ie=UTF8&amp;condition=all&amp;qid=1383996774&amp;sr=1-17">41 used &amp; new</a> from <span class="price">$289.95</span></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="extendedBuyBox" align="center" id="SDPBlock">
+  
+    Have one to sell? 
+
+<span style="align: absmiddle;"><a class="dpSprite s_sellYoursHere " href="http://catalog-retail.amazon.com/abis/syh/DisplayCondition/ref=dp_sdp_sell?_encoding=UTF8&amp;asin=B00C5B1844&amp;colid=&amp;coliid=&amp;ld=AMZDP&amp;qid=1383996774&amp;sr=1-17"><span>Sell yours here</span></a></span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+</td></tr><tr><td valign="top" width="100%">
+
+
+
+
+
+
+
+
+<div class="fallbackGFTButtonCondo" style="display: none;">
+<input type="hidden" name="rsid" value="182-6616344-7251335"><input type="hidden" name="sourceVendorId" value="website.wishlist.detail.add"><div align="center" style="padding: 4px"><input border="0" type="image" title="Add to Wish List" alt="Add to Wish List" class="dpSprite s_add2WishList" id="" value="" name="submit.add-to-registry.wishlist" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif"></div>
+
+
+<script language="Javascript" type="text/javascript">
+  amznJQ.onReady('popover', function() {
+    var $ = jQuery;
+      });
+</script></div>
+
+
+</td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="280" class="productImageGrid" align="left"><tr><td valign="top" width="100%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+    
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main-image-widget" class="size0 left-thumbs main-image-widget-for-dp standard">
+    <div id="main-image-content">
+        <div id="main-image-relative-container" style="position:relative">
+            <div id="main-image-fixed-container">
+                <div id="main-image-wrapper-outer">
+                    <div id="main-image-wrapper" class="main">
+                        <div id="holderMainImage" class="holder image">
+                            <div id="twister-main-image" customfunctionname="ImageBlock.TwisterReArchModule.getMainImageMarkup" style="display:none"></div>
+                            <noscript><img id="main-image-nonjs" src="http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SY300_.jpg" alt=""></noscript>
+                            <img id="main-image" src="http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SY300_.jpg" alt="" rel="http://ecx.images-amazon.com/images/I/81qL%2BHiz5NL._SL1500_.jpg" onload="; ; if(typeof measureATFDiff == 'function'){ measureATFDiff(new Date().getTime(),0)};if(typeof setCSMReq=='function'){setCSMReq('af');setCSMReq('cf'); }else if (typeof uet=='function'){uet('af');uet('cf'); amznJQ.completedStage('amznJQ.AboveTheFold');}"></div>
+                    </div>
+                </div>
+                <div id="thumbs-image" class="thumbs left" customfunctionname="ImageBlock.TwisterReArchModule.getAltsImageMarkup"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb0 selected" src="http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SS30_.jpg" data-index="0"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb1" src="http://ecx.images-amazon.com/images/I/31MJ1e0wj4L._SS30_.jpg" data-index="1"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb2" src="http://ecx.images-amazon.com/images/I/318YDVDGAeL._SS30_.jpg" data-index="2"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb3" src="http://ecx.images-amazon.com/images/I/41iFVsJMhzL._SS30_.jpg" data-index="3"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb4" src="http://ecx.images-amazon.com/images/I/415rRBsfQyL._SS30_.jpg" data-index="4"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb5" src="http://ecx.images-amazon.com/images/I/41l-pklccdL._SS30_.jpg" data-index="5"><a href="http://www.amazon.com/gp/product/images/B00C5B1844/ref=dp_otherviews?ie=UTF8&amp;color_name=x" class="altThumb" target="AmazonHelp" onclick='return amz_js_PopWin(this.href,"AmazonHelp","width=700,height=600,resizable=1,scrollbars=1,toolbar=0,status=1");'></a><img class="border thumb6" src="http://ecx.images-amazon.com/images/I/41fWFSgPLbL._SS30_.jpg" data-index="6"></div>
+            </div>
+            <div id="main-image-unavailable">
+                <div class="wrapper">
+                    <div class="item-not-available">
+                        <b>Sorry, this item is not available in<b class="all-variations"></b></b>
+                    </div>
+                    <div class="text-color">
+                        <b>Image not available for<br>Color:<b class="color"></b></b>
+                    </div>
+                    <div class="text-no-color"><b>Image not available</b></div>
+                </div>
+            </div>
+            <p id="noFlashContent">
+                To view this video download <a href="http://get.adobe.com/flashplayer" target="_blank">
+                Flash Player<span class="swSprite s_extLink"></span></a>
+            </p>
+        </div>
+<div id="main-image-caption" class="tiny"> </div>
+    <div class="amiLinkRow">
+        <a href="/gp/customer-media/product-gallery/B00C5B1844/ref=cm_ciu_pdp_images_dav">See all 4 customer images</a>
+    </div>
+    <div class="amiLinkRow">
+        <a href="/gp/customer-media/upload/B00C5B1844/ref=cm_ciu_pdp_dav?ie=UTF8&amp;rnd=1383997006">Share your own customer images</a>
+    </div>
+        <div id="prodImageCell" style="display:none"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var imageSrc = "http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SY300_.jpg";
+    var colorImages = {"initial":[{"large":"http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL.jpg","landing":["http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/81qL%2BHiz5NL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/81qL%2BHiz5NL._SY300_.jpg","http://ecx.images-amazon.com/images/I/81qL%2BHiz5NL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/31MJ1e0wj4L.jpg","landing":["http://ecx.images-amazon.com/images/I/31MJ1e0wj4L._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/71qtZOT22LL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/31MJ1e0wj4L._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/71qtZOT22LL._SY300_.jpg","http://ecx.images-amazon.com/images/I/71qtZOT22LL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/318YDVDGAeL.jpg","landing":["http://ecx.images-amazon.com/images/I/318YDVDGAeL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/71seJ8KT46L._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/318YDVDGAeL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/71seJ8KT46L._SY300_.jpg","http://ecx.images-amazon.com/images/I/71seJ8KT46L._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/41iFVsJMhzL.jpg","landing":["http://ecx.images-amazon.com/images/I/41iFVsJMhzL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/91JFe3AujQL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/41iFVsJMhzL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/91JFe3AujQL._SY300_.jpg","http://ecx.images-amazon.com/images/I/91JFe3AujQL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/415rRBsfQyL.jpg","landing":["http://ecx.images-amazon.com/images/I/415rRBsfQyL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/A18fDpgOY%2BL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/415rRBsfQyL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/A18fDpgOY%2BL._SY300_.jpg","http://ecx.images-amazon.com/images/I/A18fDpgOY%2BL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/41l-pklccdL.jpg","landing":["http://ecx.images-amazon.com/images/I/41l-pklccdL._SY300_.jpg"],"thumb":"http://ecx.images-amazon.com/images/I/41l-pklccdL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/41l-pklccdL._SY300_.jpg","http://ecx.images-amazon.com/images/I/41l-pklccdL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/41fWFSgPLbL.jpg","landing":["http://ecx.images-amazon.com/images/I/41fWFSgPLbL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/91anwTV%2Bf4L._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/41fWFSgPLbL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/91anwTV%2Bf4L._SY300_.jpg","http://ecx.images-amazon.com/images/I/91anwTV%2Bf4L._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/41erM4FXBTL.jpg","landing":["http://ecx.images-amazon.com/images/I/41erM4FXBTL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/81%2BgSURVpLL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/41erM4FXBTL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/81%2BgSURVpLL._SY300_.jpg","http://ecx.images-amazon.com/images/I/81%2BgSURVpLL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/51gGEEmQE2L.jpg","landing":["http://ecx.images-amazon.com/images/I/51gGEEmQE2L._SY300_.jpg"],"thumb":"http://ecx.images-amazon.com/images/I/51gGEEmQE2L._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/51gGEEmQE2L._SY300_.jpg","http://ecx.images-amazon.com/images/I/51gGEEmQE2L._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/31hlmhZouqL.jpg","landing":["http://ecx.images-amazon.com/images/I/31hlmhZouqL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/71aXdaMg2zL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/31hlmhZouqL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/71aXdaMg2zL._SY300_.jpg","http://ecx.images-amazon.com/images/I/71aXdaMg2zL._SY300_.jpg"]},{"large":"http://ecx.images-amazon.com/images/I/31JEigkA%2BjL.jpg","landing":["http://ecx.images-amazon.com/images/I/31JEigkA%2BjL._SY300_.jpg"],"hiRes":"http://ecx.images-amazon.com/images/I/71y3slcsxYL._SL1500_.jpg","thumb":"http://ecx.images-amazon.com/images/I/31JEigkA%2BjL._SS30_.jpg","main":["http://ecx.images-amazon.com/images/I/71y3slcsxYL._SY300_.jpg","http://ecx.images-amazon.com/images/I/71y3slcsxYL._SY300_.jpg"]}]};
+
+    (function(doc) {
+        var mi = doc.getElementById("main-image");
+        mi.style.display = "inline";
+    })(document);
+</script></td></tr><tr><td valign="top" width="100%">
+
+<div>
+
+    
+  
+    
+
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="view-wia-rich-media_feature_div">
+
+
+
+
+
+
+</div>
+</td></tr></table><div id="product-title_feature_div">
+
+    
+
+    
+
+
+
+
+    
+  
+  
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="buying">
+
+
+<h1 class="parseasinTitle ">
+<span id="btAsinTitle">VIZIO M321i-A2 32-Inch 1080p 120Hz Smart LED HDTV</span>
+
+
+</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span>  
+by <span id="amsPopoverTrigger"><a href="/VIZIO/pages/2530743011/ref=ams_dp_byline_2530743011">VIZIO</a> <a href="/VIZIO/pages/2530743011/ref=ams_dp_byline_2530743011"><span class="swSprite s_chevron "><span>See the Amazon Page for this brand</span></span></a></span>
+<script type="text/javascript">amznJQ.onReady('popover', function() {amznJQ.onCompletion('amznJQ.criticalFeature', function() {jQuery('#amsPopoverTrigger').amazonPopoverTrigger({attached:true,showOnHover:true,followLink:true,showCloseButton:false,width:null,location:'right',align:'middle',locationOffset:[20,0],paddingLeft:19,paddingBottom:10,paddingRight:19,group:'amsPopovers',clone:false,hoverHideDelay:300,destination:"/ams/dpBylinePopoverContent?bn=2530743011&brandId=ENTITY2CF2CJ59NGADL&brandName=VIZIO&asin=B00C5B1844&searchUrl=%2Fs%2Fref%3Dbl_sr_tv%3F_encoding%3DUTF8%26field-brandtextbin%3DVIZIO%26node%3D172282"});});});</script></span>
+
+  
+</div>
+
+
+</div>
+
+
+<div id="jump-bar_feature_div">
+
+
+
+<div class="jumpBar">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="tiny">
+<script type="text/javascript">
+
+      function acrPopoverHover(e, h) {
+        if(h) window.acrAsinHover = e;
+        else if(window.acrAsinHover == e) window.acrAsinHover = null;
+      }
+
+  amznJQ.onReady('popover', function() {
+    (function($) {
+      if($.fn.acrPopover) return;
+      var popoverConfig = {
+        showOnHover:true,
+        showCloseButton: true,
+        width: null,
+        location:'bottom',
+        locationAlign:'left',
+        locationOffset:[-20,0],
+        paddingLeft: 15,
+        paddingBottom: 5,
+        paddingRight: 15,
+        group: 'reviewsPopover',
+        clone:false,
+        hoverHideDelay:300
+      };
+
+      $.fn.acrPopover = function() {
+          return this.each(function() {
+            var $this = $(this);
+            if(!$this.data('init') && typeof $this.amazonPopoverTrigger === 'function') {
+              $this.data('init', 1);
+              var getargs = $this.attr('getargs');
+              var ajaxURL = '/gp/customer-reviews/common/du/displayHistoPopAjax.html?' +
+                         '&ASIN=' + $this.attr('name') +
+                         '&link=1' +
+                         '&seeall=1' +
+                         '&ref=' + $this.attr('ref') +
+                         ((typeof getargs != 'undefined') ? ('&getargs=' + getargs) : '');
+              var myConfig = $.extend(true, { destination: ajaxURL }, popoverConfig);
+              $this.amazonPopoverTrigger(myConfig);
+
+              var w = window.acrAsinHover;
+              if(w && $(w).parents('.asinReviewsSummary').get(0) == this) {
+                $this.trigger('mouseover.amzPopover');
+                window.acrAsinHover = null;
+              }
+            }
+        });
+      };
+
+      window.reviewHistPopoverConfig = popoverConfig;
+      var jqInit = window.jQueryInitHistoPopovers = function(asin) {
+        if (typeof $('.acr-popover[name=' + asin + ']').acrPopover === 'function') {
+          $('.acr-popover[name=' + asin + ']').acrPopover();
+        }
+      };
+      window.doInit_average_customer_reviews = jqInit;
+      window.onAjaxUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdateReselect_average_customer_reviews = jqInit;
+
+      amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+          setTimeout(function() { amznJQ.declareAvailable('acrPopover'); }, 10);
+      });
+    })(jQuery);
+  });
+  amznJQ.onReady('acrPopover', function() {
+    jQuery('.acr-popover,#searchTemplate .asinReviewsSummary').each(function() {
+      if (typeof jQuery(this).acrPopover === 'function') {
+        jQuery(this).acrPopover();
+      }
+    });
+  });
+</script><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover non-lazy" name="B00C5B1844" ref="dp_top_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=dp_top_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00C5B1844__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_4_0 " title="4.2 out of 5 stars"><span>4.2 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=dp_top_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00C5B1844__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "><span>See all reviews</span></span> </a></span></span>(<a href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=dp_top_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">314 customer reviews</a>)</span></span> <span class="byLinePipe">|</span> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="font-size: 10px;"><a href="#Ask" class="CDAsk" name="asin=B00C5B1844&amp;sourceWidget=AskATF" style="text-decoration: underline; font-size: 10px; color: #003399;">46 answered questions</a></span>
+
+
+
+
+
+</div>
+<hr noshade size="1" id="product-title-divider"></div>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top" width="100%">
+
+<div id="price_feature_div">
+
+
+
+    
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+
+
+
+        
+  
+  
+  
+
+
+    
+    
+    
+  
+
+    
+  
+
+
+
+  
+
+
+
+    
+    
+
+
+
+
+
+  
+    
+        
+        
+    
+
+
+    
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+   
+
+
+  
+
+    
+    
+    
+
+      
+
+
+
+    
+        
+        
+    
+    
+    
+
+
+
+
+
+
+<div id="price_inner_div">
+
+
+
+
+
+
+
+
+
+
+
+<div class="buying" id="priceBlock">
+
+<table class="product"><tr><td class="priceBlockLabel">List Price:</td>
+    <td><span id="listPriceValue" class="listprice">$399.99</span></td>
+  </tr><tr id="actualPriceRow"><td id="actualPriceLabel" class="priceBlockLabelPrice">Price:</td>
+    <td id="actualPriceContent"><span id="actualPriceValue"><b class="priceLarge">$378.00</b></span>
+    <span id="actualPriceExtraMessaging">
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This item qualifies for the TV Low Price Guarantee and FREE Shipping. 
+
+
+
+
+
+
+
+
+<a id="tvDetailsLauncher" href="#" style="color: #004B91;"> Details </a>
+
+<script type="text/javascript">
+  amznJQ.available("popover", function()
+                   {
+                     jQuery("#tvDetailsLauncher").amazonPopoverTrigger
+                       ({
+                       showOnHover: false,
+                       modal: false,
+                       draggable: false,
+                       showCloseButton: true,
+                       forceAlignment: true,
+                       skin: "default",
+                       closeEventExclude: "CLICK_OUTSIDE",
+                       title: 'TV Details',
+                       literalContent: "<b> TV Low Price Guarantee </b> <br/>Most TVs sold by Amazon are eligible for our TV Low Price Guarantee. TVs sold by third party sellers on Amazon.com are not eligible. If you purchase an eligible TV and find a lower price or promotion within 14 days we can refund the difference or match the promotional offer. <a href=\"/gp/help/customer/display.html/ref=tvlpg_lm_lpg?ie=UTF8&nodeId=200726210&pop-up=1\" target=\"AmazonHelp\" onclick=\"return amz_js_PopWin(this.href,'AmazonHelp','width=500,height=600,resizable=1,scrollbars=1,toolbar=1,status=1');\"  >Learn More</a><br/><br/><b> FREE Shipping </b> <br/> Amazon.com offers FREE Shipping on most orders over $35. <a href=\"/gp/help/customer/display.html/ref=tvlpg_lm_sss?ie=UTF8&nodeId=527692&pop-up=1\" target=\"AmazonHelp\" onclick=\"return amz_js_PopWin(this.href,'AmazonHelp','width=500,height=600,resizable=1,scrollbars=1,toolbar=1,status=1');\"  >Learn More</a><br/><br/>",
+                       closeText: "Close",
+                       location: "bottom",
+                       align: "center"
+                        });
+                   }
+                  );
+</script></span></td>
+</tr><tr id="dealPriceRow" style="display: none;"><td id="dealPriceLabel" class="priceBlockLabel">Deal Price: </td>
+  <td id="dealPriceContent">
+    <span id="dealPriceValue"></span>
+    <span id="dealPriceExtraMessaging"></span>
+  </td>
+</tr><script type="text/javascript">
+    amznJQ.declareAvailable('gbPriceBlockFields');
+</script><tr id="youSaveRow" class="youSavePriceRow"><td id="youSaveLabel" class="priceBlockLabel">You Save:</td>
+    <td id="youSaveContent" class="price"><span id="youSaveValue">$21.99
+        (5%)</span>
+    </td>
+  </tr><tr style="height: 0px; line-height: 0px;"><td style="visibility: hidden;"></td><td style="visibility: hidden;"><span style="line-height: 0px;">o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o</span></td></tr></table></div>
+
+
+
+
+</div>
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="notes-field_feature_div">
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="availability_feature_div">
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+
+<div class="buying" style="padding-bottom: 0.75em;">
+<span class="availGreen">In Stock.</span><br> Ships from and sold by <b>Amazon.com</b>. Gift-wrap available.
+
+</div>
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="dp-fast-track_feature_div">
+
+
+
+
+
+  
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+    
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    
+
+
+
+  
+    
+  
+    
+    
+  
+    
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+<div id="ftMessage" class="buying">
+<b>Want it Monday, Nov. 11?</b>
+Choose <b>One-Day Shipping</b> at checkout.
+
+
+<a href="/gp/help/customer/display.html/ref=ftinfo_dp_?ie=UTF8&amp;nodeId=3510241&amp;pop-up=1" target="AmazonHelp" onclick="return amz_js_PopWin('/gp/help/customer/display.html/ref=ftinfo_dp_?ie=UTF8&amp;nodeId=3510241&amp;pop-up=1','AmazonHelp','width=550,height=600,resizable=1,scrollbars=1,toolbar=1,status=1');">Details</a>
+<br><input type="hidden" name="promise-promised-shipoption.B00C5B1844" value="next"><input type="hidden" name="promise-type" value="1-click"><input type="hidden" name="promise-item.B00C5B1844" value="1384228800"><input type="hidden" name="promise-cutoff-time.B00C5B1844" value="1384026300"><script language="Javascript1.2" type="text/javascript">
+        onAjaxUpdate_fast_track('B00C5B1844'); 
+</script></div>
+
+
+           
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+      
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+    
+
+
+
+<div class="cBox dkBlueBox">
+<span class="cBoxTL"><!--&nbsp;--></span>
+<span class="cBoxTR"><!--&nbsp;--></span>
+<span class="cBoxR"><!--&nbsp;--></span>
+<span class="cBoxBL"><!--&nbsp;--></span>
+<span class="cBoxBR"><!--&nbsp;--></span>
+<span class="cBoxB"><!--&nbsp;--></span>
+<div class="cBoxInner">
+    <table class="variations" cellspacing="0" cellpadding="0" border="0" style="width:100%; margin-right: -9px"><tbody><tr><td class="topLeft">
+				    <div style="visibility: hidden; height: 0px; line-height: 0px">
+					    <span>o o o o o o o o o o o o o o o o o o o o o o o o o </span>
+				    </div>
+                    <div id="twisterNonJsData">
+                      <input type="hidden" name="twisterDimKeys" value="size_name"><input type="hidden" name="noOfDims" value="1"><input type="hidden" id="dummySubmitButton"></div>
+				    
+    
+    
+    
+    
+
+
+ <div id="selected_size_name" class="variationSelected">
+ 	<b class="variationDefault">Size:  </b>
+ 	<b class="variationLabel">32-Inch</b>
+ </div>
+ <div class="clearfix spacediv"> 
+ 
+ 
+    
+    
+    
+    
+
+
+	<div title="Click to select  32-Inch" tabindex="0" class="swatchOuter" count="0" key="size_name">
+        <div id="size_name_0" class="swatchSelect">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">32-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  40-Inch" tabindex="0" class="swatchOuter" count="1" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00CI3BP06/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_1" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">40-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  47-Inch" tabindex="0" class="swatchOuter" count="2" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00C5B18CQ/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_2" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">47-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  50-Inch" tabindex="0" class="swatchOuter" count="3" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00CCYZ13S/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_3" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">50-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  60-Inch" tabindex="0" class="swatchOuter" count="4" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00CHKPYPW/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_4" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">60-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  65-Inch" tabindex="0" class="swatchOuter" count="5" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00CBQNB7K/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_5" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">65-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  70-Inch" tabindex="0" class="swatchOuter" count="6" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00CHKPYM0/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_6" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">70-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+    
+    
+
+
+	<div title="Click to select  80-Inch" tabindex="0" class="swatchOuter" count="7" key="size_name">
+        <a href="http://www.amazon.com/gp/product/B00F5OEOKS/ref=twister_B00C5B1844?ie=UTF8&amp;psc=1">
+        <div id="size_name_7" class="swatchAvailable">
+        <div class="swatchTextBgClass">
+		  <div class="swatchInnerText">80-Inch</div>
+        </div>
+		<div class="selectedArrow"></div>
+	</div>
+            </a>
+	</div>
+
+
+
+ <div style="height:5px;clear:both;"></div>
+ </div>
+
+ 
+
+		    </td></tr></tbody></table></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="subscribe-and-save-price_feature_div">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="addon-message_feature_div">
+
+    </div>
+</td></tr><tr><td valign="top" width="100%">
+
+</td></tr><tr><td valign="top" width="100%"></td></tr><tr><td valign="top" width="100%">
+
+<div id="dp-holiday-availability-messaging_feature_div">
+
+
+  
+    
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="giftcard-holiday-availability-messaging_feature_div">
+
+
+
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="olp-condition-link_feature_div">
+
+    
+    
+
+
+
+
+
+<div id="olpDivId">
+<span class="olpCondLink"><a class="buyAction olpBlueLink" href="/gp/offer-listing/B00C5B1844/ref=dp_olp_new?ie=UTF8&amp;condition=new">8 new</a> from <span class="price">$363.90</span></span>
+<span class="olpCondLink"><a class="buyAction olpBlueLink" href="/gp/offer-listing/B00C5B1844/ref=dp_olp_used?ie=UTF8&amp;condition=used">31 used</a> from <span class="price">$289.95</span></span>
+<span class="olpCondLink"><a class="buyAction olpBlueLink" href="/gp/offer-listing/B00C5B1844/ref=dp_olp_refurbished?ie=UTF8&amp;condition=refurbished">2 refurbished</a> from <span class="price">$321.80</span></span>
+
+</div>
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%"></td></tr><tr><td valign="top" width="100%">
+
+<div id="original-packaging-message_feature_div">
+
+
+
+
+
+
+
+<br><div class="buying">
+ <b>Is this a gift?</b> This item ships in its own packaging. To keep the contents concealed, select <b>This will be a gift</b> during checkout. 
+</div>
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+<div>
+
+    
+
+
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td></tr><tr><td valign="top" width="100%">
+
+<div id="finderFitsWidget_feature_div">
+
+    
+    
+
+
+    
+    
+
+
+
+
+
+</div>
+</td></tr><tr><td valign="top" width="100%"></td></tr><tr><td valign="top" width="100%"></td></tr></table><div id="heroQuickPromo_feature_div">
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" class="qpDivTop"><tbody><tr><td>
+
+
+<div class="cBox grayBox">
+  <span class="cBoxTL"><!-- &nbsp; --></span>
+  <span class="cBoxTR"><!-- &nbsp; --></span>
+  <span class="cBoxR"><!-- &nbsp; --></span>
+  <span class="cBoxBL"><!-- &nbsp; --></span>
+  <span class="cBoxBR"><!-- &nbsp; --></span>
+  <span class="cBoxB"><!-- &nbsp; --></span>
+  
+  <div class="cBoxInner">        
+        <span style="font-size: 0.82em;"> 
+          
+<div class="qpImage"><a href="/gp/feature.html/ref=amb_link_377422742_1?ie=UTF8&amp;docId=1001071971&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=hero-quick-promo&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1634958842&amp;pf_rd_i=B00C5B1844">
+<img src="http://g-ecx.images-amazon.com/images/G/01/electronics/CE500/prime_348_50._SL50_V353838216_.png" width="50" align="left" alt="Prime Promo" height="50" border="0"></a></div>
+<span class="qpHeadline">Prime Members Save $30 on This TV</span><br>
+Members of Amazon Prime qualify for a lower price on this model (when sold by Amazon.com).  <a href="/gp/prime/signup/videos/ref=amb_link_377422742_3?ie=UTF8&amp;redirectURL=L2RwL0IwMEM1QjE4NDQ%3D&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=hero-quick-promo&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1634958842&amp;pf_rd_i=B00C5B1844">Join Prime first.</a> After signing up, add the item to your cart and the discount will be applied at checkout. <a href="/gp/feature.html/ref=amb_link_377422742_4?ie=UTF8&amp;docId=1001071971&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=hero-quick-promo&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1634958842&amp;pf_rd_i=B00C5B1844">Learn more</a> 
+        <div class="hqpDiv" name="heroQuickPromoDiv" id="heroQuickPromoDiv">
+          <strong class="hqpBold">› </strong>
+          <a href="#productPromotions">See more product promotions</a>
+        </div>
+      
+          <div style="clear: left;"></div>
+        </span>
+      </div>
+</div>  
+
+
+
+</td></tr></tbody></table></div>
+
+
+<div id="ob-replacement_feature_div">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="ob-replacement_feature_div">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<input type="hidden" name="itemCount" value="2"></form>
+<script type="text/javascript">
+
+
+if(typeof measureATFDiff == 'function'){measureATFDiff(0, new Date().getTime())};if(typeof setCSMReq == 'function'){setCSMReq('af');}else if(typeof uet == 'function'){uet('af');}
+</script><div class="buying">
+
+
+<div id="premium-delivery-message_feature_div">
+
+  
+   
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+<div class="buying" id="promoGrid">
+
+
+<div id="productAlert_feature_div">
+<div align="left"><iframe marginheight="0" marginwidth="0" style="padding: 0; margin:0; float: left;" height="39" width="100" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/rebrand/AIV-logo-100.jpg" scrolling="no" frameborder="0"></iframe><table border="0" cellpadding="4" cellspacing="0"><tr><td></td><td><b>Amazon Instant Video on VIZIO: </b><a href="/gp/feature.html/ref=amb_link_354925022_1?ie=UTF8&amp;docId=1000777561&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=product-alert&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1646051762&amp;pf_rd_i=B00C5B1844">Register</a> your VIZIO HDTV or Blu-ray player with <a href="/Instant-Video/b/ref=amb_link_354925022_2?ie=UTF8&amp;node=2858778011&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=product-alert&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1646051762&amp;pf_rd_i=B00C5B1844">Amazon Instant Video</a> and you can instantly watch thousands of movies and TV shows (in both standard definition and in HD) from Amazon.com.  <a href="/gp/feature.html/ref=amb_link_354925022_3?ie=UTF8&amp;docId=1000777561&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=product-alert&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1646051762&amp;pf_rd_i=B00C5B1844">Learn more</a>.
+         </td></tr></table></div></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="hover-zoom-end" style="display:none;"></div>
+
+
+<div id="dp-out-of-stock-top_feature_div">
+
+    
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div id="feature-bullets_feature_div">
+
+
+
+
+
+
+
+
+
+
+
+<div id="feature-bullets-btf">
+<hr noshade size="1" class="bucketDivider"><table cellpadding="0" cellspacing="0" border="0"><tr><td class="bucket normal">
+      <h2>Product Features</h2>
+
+
+
+
+
+    <div class="disclaim">Size: <strong>32-Inch</strong></div>
+
+
+
+
+          <div class="content">
+        <ul style="list-style-type: disc; margin-left: 25px;"><li>VIZIO Internet Apps Plus -Instantly enjoy the latest hit movies, TV shows, music and even more apps made for the big screen</li>
+	   <li>Razor LED with Smart Dimming for a more vibrant picture with deeper contrast -all in an ultra-thin design</li>
+	   <li>Built-In Wi-Fi -easily connect to the Internet with ultra fast wireless to use apps provided by Vizio.</li>
+	   <li>M-Series Signature Design -Give your room a designer upgrade with the M-Series razor thin, near borderless signature design</li>
+	   <li>120Hz effective refresh rate enhanced with backlight scanning -Enjoy clear fast action scenes</li>
+        </ul><div>
+            <span class="caretnext"></span>
+                    <a href="#productDetails">
+    See more product details </a>
+                </div>
+      </div>
+    </td>
+  </tr></table></div>
+
+</div>
+
+
+<div id="promotions_feature_div">
+
+
+
+
+
+
+<hr class="bucketDivider" noshade size="1"><div class="bucket" id="quickPromoBucketContent">
+    <a id="productPromotions" name="productPromotions"></a>
+    <h2>Special Offers and Product Promotions</h2>
+    
+
+
+
+
+    <div class="disclaim">Size: <strong>32-Inch</strong></div>
+
+
+
+
+    
+    <div class="content">
+      <ul class="qpUL"><li><div class="amabot_widget"><b>Free 30-Day Tech Support:</b> 
+
+This item is eligible for FREE Tech Support for 30 days from the date of delivery. Over the phone, our trained technicians can help you set up, configure, connect, and troubleshoot so you can start enjoying your new purchase. Owners of qualifying products can reach Tech Support by selecting your product on the Contact Us page. <a href="/gp/redirect.html/ref=amb_link_365669362_1?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fhelp%2Fcustomer%2Fdisplay.html%3FnodeId%3D201032500%26pop-up%3D1&amp;token=3A0F170E7CEFE27BDC730D3D7344512BC1296B83&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=special-offers-1&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1419586102&amp;pf_rd_i=B00C5B1844" target="_blank">Learn more</a></div><br></li><input type="hidden" name="productPromosHidden" id="productPromosHidden"></ul></div>
+  </div>
+    <script type="text/javascript">
+      if (typeof showHideElement == 'function') {
+        showHideElement('specialOffersHidden', 'specialOffersDiv');
+        showHideElement('productPromosHidden', 'heroQuickPromoDiv');
+      }
+    </script></div>
+
+
+
+
+    
+
+
+
+
+
+
+<div id="clicktocallUpdate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div id="services-widget-1_feature_div">
+</div>
+
+
+<div id="buyxgety_feature_div">
+
+
+    
+    
+    
+
+      
+
+
+
+      
+    
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+            
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+   
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="bucketDivider"><div class="bucket " id="sims_fbt">
+    <h2>Frequently Bought Together</h2>
+
+    <div class="dp-feature-content content">
+        <form action="/gp/item-dispatch/ref=pd_bxgy_e_button_0" method="post" name="BuyXGetYhandleBuy">
+            <input name="session-id" type="hidden" value="182-6616344-7251335"><table class="bxgyBundle"><tr><td id="fbt_x_img"> 
+          <img src="http://ecx.images-amazon.com/images/I/51Z4M%2Bom5NL._SL500_SS75_.jpg" width="75" alt="VIZIO M321i-A2 32-Inch 1080p 120Hz Smart LED HDTV" id="" height="75" border="0"></td>
+            <td class="plus" id="fbt_y_plus">+ </td>
+            <td id="fbt_y_img"> 
+          
+
+
+
+
+
+
+<a href="http://www.amazon.com/SquareTrade-4-Year-Protection-Plan-350/dp/B0043BX98C/ref=pd_bxgy_e_img_y"><img src="http://ecx.images-amazon.com/images/I/41Z-RA9b3hL._SL500_SS100_.jpg" width="75" alt="SquareTrade 4-Year TV Protection Plan ($350-$400)" id="" height="75" border="0"></a>
+
+  
+ </td>
+        </tr></table><div id="fbt_price_block">
+    <span id="fbt_bpt">Price for both:</span> <span class="price" id="fbt_buying_price">$418.41</span>
+
+    <br><input type="image" title="" alt="Add both to Cart" border="0" class="dpSprite s_addBothToCart button-margin" id="fbt_cartadd_button" value="" name="submit.addToCart" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._TTD_.jpg"><input type="image" src="http://g-ecx.images-amazon.com/images/G/01/x-locale/common/transparent-pixel._V386942464_.gif" width="146" align="top" alt="Add both to Wish List" name="submit.add-to-registry.wishlist" id="fbt_wladd_button" class="wl-button-sprite button-margin wl_two" height="22" border="0"><p id="fbt_shipping_details"><span>These items are shipped from and sold by different sellers.</span> <a href="#" class="inlineLink" id="fbt_ship_details_link" style="display:none">Show details</a></p>
+</div>
+
+
+            
+    <fieldset class="forScreenreaders"><legend><span>Buy the selected items together</span></legend>
+        <ul id="fbt_item_details" tabindex="-1"><li class="fbt_item">
+                <label>
+                    <input name="offeringID.1" value="OfWGZw%2BkM1DJ1PIqok5NvVpYjfLX39Ki6aDz377V3j5NW2JGWR0%2B9IC3KqHlF1VzR2Y2kEdQM2wH4C1JR5tH9UJzyx2JlAWtSCp3SUsLjoadpshOGr%2FCEQ%3D%3D" type="checkbox" id="fbt_x_check" style="display: none;" class="check" checked><span id="fbt_x_title"><strong>This item: </strong>
+
+
+VIZIO M321i-A2 32-Inch 1080p 120Hz Smart LED HDTV 
+<span class="price bxgy-item-price">$378.00</span><span class="price">
+</span></span>
+                </label>
+                <div id="xInfoWrapper" class="bxgySellerLoading" style="display:none"> </div>
+            </li>
+
+            <li class="fbt_item">
+                <input name="offeringID.2" value="6K9oQbGjZLvlu8uQD3evN56cXPKM29zdkRZhFadh3kc%2FK3mKMAoBL9b%2Fg3II61wKCGo36zetmiocNe2M7ZdMjalQGnNQjWYF02SzcUCVSin6%2FdtXdaftBboDjewTqICfYEgY9ntwpOTQCzRXg3oUwQ%3D%3D" type="checkbox" id="fbt_y_check" style="display: none;" class="check" checked title="
+
+
+SquareTrade 4-Year TV Protection Plan ($350-$400)"><span id="fbt_y_title">
+
+
+
+
+<a href="http://www.amazon.com/SquareTrade-4-Year-Protection-Plan-350/dp/B0043BX98C/ref=pd_bxgy_e_text_y">SquareTrade 4-Year TV Protection Plan ($350-$400)</a> 
+<span class="price bxgy-item-price">$40.41</span><span class="price">
+</span></span>
+                <div id="yInfoWrapper" class="bxgySellerLoading" style="display:none"></div>
+            </li>
+        </ul></fieldset></form>
+    </div>
+    
+</div>
+
+<div id="fbt_item_data" style="display:none;">{"currencyCode":"USD","itemData":[{"priceBreaksMAP":null,"buyingPrice":378,"ASIN":"B00C5B1844","isPreorder":0},{"priceBreaksMAP":null,"buyingPrice":40.41,"ASIN":"B0043BX98C","isPreorder":0}],"shippingId":"B00C5B1844::OfWGZw%2BkM1DJ1PIqok5NvVpYjfLX39Ki6aDz377V3j5NW2JGWR0%2B9IC3KqHlF1VzR2Y2kEdQM2wH4C1JR5tH9UJzyx2JlAWtSCp3SUsLjoadpshOGr%2FCEQ%3D%3D,B0043BX98C::6K9oQbGjZLvlu8uQD3evN56cXPKM29zdkRZhFadh3kc%2FK3mKMAoBL9b%2Fg3II61wKCGo36zetmiocNe2M7ZdMjalQGnNQjWYF02SzcUCVSin6%2FdtXdaftBboDjewTqICfYEgY9ntwpOTQCzRXg3oUwQ%3D%3D","sprites":{"addToWishlist":["wl_one","wl_two","wl_three"],"addToCart":["s_addToCart","s_addBothToCart","s_add3ToCart"],"preorder":["s_preorderThis","s_preorderBoth","s_preorderAll3"]},"shippingDetails":{"xy":"sellers"},"tags":["x","y","z"],"strings":{"showDetails":"Show details","addToWishlist":["add to wishlist","Add both to Wish List","Add all three to Wish List"],"addToCart":["Add to Cart","Add both to Cart","Add all three to Cart"],"showDetailsDefault":"Show availability and shipping details","shippingError":"An error occurred, please try again","differentSellers":"These items are shipped from and sold by different sellers.","hideDetailsDefault":"Hide availability and shipping details","priceLabel":["Price:","Price for both:","Price for all three:"],"hideDetails":"Hide details","preorder":["Pre-order this item","Pre-order both items","Pre-order all three items"]}}</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div>
+
+
+<div id="product-details-grid_feature_div">
+
+
+<div id="product-details-grid_feature_div">
+
+
+
+
+
+  
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+    
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr noshade size="1" class="bucketDivider" style="clear:both;"><div id="prodDetails">
+<a id="productDetails" name="productDetails"></a>
+<noscript><style type="text/css">
+#prodDetails .attrG .pdTab{display:block}
+#need-help-deciding{display:none}
+#prodDetails .pdSprite{display:none}
+#prodDetails .pdSectionSummary{display:none}
+#prodDetails #wnsRM{display:none}
+#prodDetails #wnsPostData{display:inline}
+#prodDetails .expandFeature{display:none}
+#prodDetails .collapseFeature{display:none}
+</style></noscript>
+<h2>Product Information</h2>
+
+
+
+
+
+    <div class="disclaim">Size: <strong>32-Inch</strong></div>
+
+
+
+
+    
+<div class="wrapper USlocale">
+<div class="container">
+  <div class="column col1 ">
+
+      <div class="section techD">
+         <div class="secHeader">
+           <span>Technical Details</span>
+         </div>
+         <div class="content pdClearfix">
+     <div class="attrG" style="border:none">
+     <div class="pdTab" style="display:block;">
+     <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="label">Brand Name</td><td class="value">VIZIO</td></tr><tr class="size-weight"><td class="label">Item Weight</td><td class="value">23.2 pounds</td></tr><tr class="size-weight"><td class="label">Product Dimensions</td><td class="value">7.5 x 28.6 x 18.8 inches</td></tr><tr class="item-model-number"><td class="label">Item model number</td><td class="value">M321i-A2</td></tr><tr class="batteries"><td class="label">Batteries:</td><td class="value">2 AA batteries required. (included)</td></tr><tr><td class="label">Output Wattage</td><td class="value">10 watts</td></tr><tr><td class="label">Color Name</td><td class="value">Black</td></tr><tr><td class="label">Specification Met</td><td class="value">Energy Star</td></tr><tr><td class="label">Special Features</td><td class="value">Built-in Subwoofer</td></tr><tr><td class="lAttr"> </td><td class="lAttr"> </td></tr></tbody></table></div>
+     </div>
+</div>
+      </div>
+
+</div>
+</div>
+  <div class="column col2 ">
+
+      <div class="section techD">
+         <div class="secHeader">
+           <span>Additional Information</span>
+         </div>
+         <div class="content pdClearfix">
+     <div class="attrG" style="border:none">
+     <div class="pdTab" style="display:block;">
+     <table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="label">ASIN</td><td class="value">B00C5B1844</td></tr><tr class="average_customer_reviews"><td class="label">Customer Reviews</td>  <td class="value"><script type="text/javascript">
+  amznJQ.onReady('popover', function() {
+    (function($) {
+      if($.fn.acrPopover) return;
+      var popoverConfig = {
+        showOnHover:true,
+        showCloseButton: "ontouchstart" in document.documentElement,
+        width: null,
+        location:'bottom',
+        locationAlign:'left',
+        locationOffset:[-20,0],
+        group: 'reviewsPopover',
+        clone:false,
+        hoverHideDelay:300
+      };
+
+      $.fn.acrPopover = function() {
+          return this.each(function() {
+            var $this = $(this);
+            if(!$this.data('init') && typeof $this.amazonPopoverTrigger === 'function') {
+              $this.data('init', 1);
+              var ajaxURL = '/gp/customer-reviews/common/du/displayHistoPopAjax.html?' +
+                         '&ASIN=' + $this.attr('name') +
+                         '&link=1' +
+                         '&seeall=1' +
+                         '&ref=' + $this.attr('ref');
+              var myConfig = $.extend(true, { destination: ajaxURL }, popoverConfig);
+              $this.amazonPopoverTrigger(myConfig);
+            }
+        });
+      };
+
+      window.reviewHistPopoverConfig = popoverConfig;
+      var jqInit = window.jQueryInitHistoPopovers = function(asin) {
+        if (typeof $('.acr-popover[name=' + asin + ']').acrPopover === 'function') {
+          $('.acr-popover[name=' + asin + ']').acrPopover();
+        }
+      };
+      window.doInit_average_customer_reviews = jqInit;
+      window.onAjaxUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdateReselect_average_customer_reviews = jqInit;
+
+      amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+          setTimeout(function() { amznJQ.declareAvailable('acrPopover'); }, 10);
+      });
+    })(jQuery);
+  });
+  amznJQ.onReady('acrPopover', function() {
+    jQuery('.acr-popover').each(function() {
+      if (typeof jQuery(this).acrPopover === 'function') {
+        jQuery(this).acrPopover();
+      }
+    });
+  });
+
+</script><div id="averageCustomerReview-dpProductDetail-B00C5B1844" class="reviews txtsmall inlineblock">
+  <div id="averageCustomerReviewStars" class="fl acr-popover" style="cursor:pointer;" name="B00C5B1844" ref="dp_db_cm_cr_pop">
+    <span class="swSprite s_star_4_0 " title="4.2 out of 5 stars" style="position:static;"><span>4.2 out of 5 stars</span></span>
+
+
+<span style="margin-left:3px;"><span class="swSprite s_chevron " style="position:static;"><span>See all reviews</span></span></span>
+  </div>
+  <div id="averageCustomerReviewCount" class="fl gl5 txtnormal"><a href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=dp_db_cm_cr_see_all_top?ie=UTF8&amp;showViewpoints=1&amp;sortBy=bySubmissionDateDescending" class="noTextDecoration">314 reviews</a></div>
+  <div id="averageCustomerReviewRating" class="txtnormal clearboth">4.2 out of 5 stars</div>
+</div></td></tr><tr id="SalesRank"><td class="label">Best Sellers Rank</td><td class="value">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#569 in Electronics (<a href="http://www.amazon.com/gp/bestsellers/electronics/ref=pd_dp_ts_e_1">See top 100</a>)
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+</td></tr><tr class="shipping-weight"><td class="label">Shipping Weight</td><td class="value">24 pounds (<a href="http://www.amazon.com/gp/help/seller/shipping.html/ref=dp_pd_shipping?ie=UTF8&amp;asin=B00C5B1844&amp;seller=ATVPDKIKX0DER">View shipping rates and policies</a>)</td></tr><tr class="shipping-restrictions"><td class="label">Shipping</td><td class="value">Currently, item can be shipped only within the U.S.</td></tr><tr><td class="label">Shipping Advisory:</td><td class="value">This item must be shipped separately from other items in your order.  Additional shipping charges will not apply.</td></tr><tr class="date-first-available"><td class="label">Date First Available</td><td class="value">May 1, 2013</td></tr><tr><td class="lAttr"> </td><td class="lAttr"> </td></tr></tbody></table></div>
+     </div>
+</div>
+      </div>
+
+
+      <div class="section techD">
+         <div class="secHeader">
+           <span>Feedback</span>
+         </div>
+         <div class="content pdClearfix">
+		
+	
+		
+	
+		
+	
+			
+		
+	
+		
+	
+			
+            
+            
+            
+			<div id="feedbackFeaturesContainer" class="bucket" style="padding-top:0.5em;padding-bottom:0.5em;">
+	
+	
+			<div id="lwcfContainer" style="padding-top:0.5em"></div><div id="gfixFeaturesContainer" style="padding-top:0.5em">Would you like to <b><a href="https://www.amazon.com/gp/gfix/welcome.html/ref=gfix-product-details-catalog?ie=UTF8&amp;ASIN=B00C5B1844&amp;merchantID=ATVPDKIKX0DER&amp;storeID=tv">update product info</a></b> or <b><a href="https://www.amazon.com/gp/gfix/imageCorrection.html/ref=gfix-product-details-image?ie=UTF8&amp;ASIN=B00C5B1844&amp;merchantID=ATVPDKIKX0DER&amp;storeID=tv">give feedback on images</a></b>?</div></div>
+</div>
+      </div>
+
+
+
+</div>
+<div style="height:0;clear:both;"> </div>
+</div>
+<script type="text/javascript">
+function pdTreeSH(a){
+amznJQ.onReady('jQuery', function(){
+var l=jQuery(a).parent().parent();
+l.parent().children().filter(".pdTab").toggle();
+l.find(".pdSectionSummary").toggle();
+l.find(".pdSprite").toggleClass("pdSpritePlus").toggleClass("pdSpriteMinus");
+ });
+}
+
+function pdToggleSections(a, expand){
+amznJQ.onReady('jQuery', function(){
+var l=jQuery(a).parent();
+l.children().filter(".expandFeature,.collapseFeature").toggle();
+if(expand == 1){
+  l.parent().children().children().children().filter(".pdTab").show();
+  l.parent().children().children().children().children().children().filter(".pdSprite").removeClass("pdSpritePlus").addClass("pdSpriteMinus");
+  l.parent().children().children().children().children().children().children().filter(".pdSectionSummary").hide();
+} else {
+  l.parent().children().children().children().filter(".pdTab").hide();
+  l.parent().children().children().children().children().children().filter(".pdSprite").addClass("pdSpritePlus").removeClass("pdSpriteMinus");
+  l.parent().children().children().children().children().children().children().filter(".pdSectionSummary").show();
+}
+});
+}
+
+amznJQ.available('jQuery', function() {
+	amznJQ.available('popover', function() {
+   
+           jQuery("#prodDetails .help").each(function(){
+               var selectedTechAttribute = jQuery(this); 
+               var keyLookUp = selectedTechAttribute.attr('href');
+               var title = selectedTechAttribute.html();
+               selectedTechAttribute.amazonPopoverTrigger({
+                   showOnHover:true, 
+                   showCloseButton:true,  
+                   attached:"true",
+                   location:"right",                                
+                   locationMargin:20,
+                   locationAlign:"middle",
+                   cacheable:"true",
+                   title:title,
+                   destination:keyLookUp,
+                   ajaxErrorContent:'No help associated with this attribute'
+               });                                   
+           });                                            
+       });
+  });	
+
+</script></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div>
+
+
+<div id="comparison-widget_feature_div">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+<hr class="bucketDivider"><div class="amtcmp amtcdisplay">
+    <h2 class="amtcmp">Compare to Similar LED TVs</h2>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="responsiveWrap">
+<table class="amtcmp" cellpadding="0" cellspacing="0"><thead><tr class="amtctop"><th></th>
+<td><div class="comparison_sprt" style="background-image:url(http://ecx.images-amazon.com/images/I/51Z4M+om5NL._SP75,50%7C51n7jN7YGxL.jpg,51zSb5fm+AL.jpg,51hizuhju6L.jpg_.jpg);background-position : -0px  0px;"></div><p><b>This item: </b>VIZIO M321i-A2 32-Inch 1080p 120Hz Smart LED HDTV</p></td><td><a href="http://www.amazon.com/Samsung-UN32EH5300-32-Inch-1080p-Smart/dp/B0074FGNJ6/ref=psdc117_t1_B00C5B1844_B0074FGNJ6"><div class="comparison_sprt" style="background-image:url(http://ecx.images-amazon.com/images/I/51Z4M+om5NL._SP75,50%7C51n7jN7YGxL.jpg,51zSb5fm+AL.jpg,51hizuhju6L.jpg_.jpg);background-position : -75px  0px;"></div><p>Samsung UN32EH5300 32-Inch 1080p 60 Hz Smart LED HDTV (Black)</p></a></td><td><a href="http://www.amazon.com/VIZIO-E320i-A0-32-inch-720p-Smart/dp/B0096YOQRY/ref=psdc117_t2_B00C5B1844_B0096YOQRY"><div class="comparison_sprt" style="background-image:url(http://ecx.images-amazon.com/images/I/51Z4M+om5NL._SP75,50%7C51n7jN7YGxL.jpg,51zSb5fm+AL.jpg,51hizuhju6L.jpg_.jpg);background-position : -150px  0px;"></div><p>VIZIO E320i-A0 32-inch 720p 60Hz LED Smart HDTV</p></a></td><td><a href="http://www.amazon.com/Samsung-UN32F5500-32-Inch-1080p-Smart/dp/B00BCGRVSU/ref=psdc117_t3_B00C5B1844_B00BCGRVSU"><div class="comparison_sprt" style="background-image:url(http://ecx.images-amazon.com/images/I/51Z4M+om5NL._SP75,50%7C51n7jN7YGxL.jpg,51zSb5fm+AL.jpg,51hizuhju6L.jpg_.jpg);background-position : -225px  0px;"></div><p>Samsung UN32F5500 32-Inch 1080p 60Hz Slim Smart LED HDTV</p></a></td>
+</tr></thead><tbody><tr class="amtcmp"><th>Customer Rating</th>
+ <td class="amtcthis"><span class="rating-stars"><span class="amtcmp crAvgStars">
+<script type="text/javascript">
+
+      function acrPopoverHover(e, h) {
+        if(h) window.acrAsinHover = e;
+        else if(window.acrAsinHover == e) window.acrAsinHover = null;
+      }
+
+  amznJQ.onReady('popover', function() {
+    (function($) {
+      if($.fn.acrPopover) return;
+      var popoverConfig = {
+        showOnHover:true,
+        showCloseButton: true,
+        width: null,
+        location:'bottom',
+        locationAlign:'left',
+        locationOffset:[-20,0],
+        paddingLeft: 15,
+        paddingBottom: 5,
+        paddingRight: 15,
+        group: 'reviewsPopover',
+        clone:false,
+        hoverHideDelay:300
+      };
+
+      $.fn.acrPopover = function() {
+          return this.each(function() {
+            var $this = $(this);
+            if(!$this.data('init') && typeof $this.amazonPopoverTrigger === 'function') {
+              $this.data('init', 1);
+              var getargs = $this.attr('getargs');
+              var ajaxURL = '/gp/customer-reviews/common/du/displayHistoPopAjax.html?' +
+                         '&ASIN=' + $this.attr('name') +
+                         '&link=1' +
+                         '&seeall=1' +
+                         '&ref=' + $this.attr('ref') +
+                         ((typeof getargs != 'undefined') ? ('&getargs=' + getargs) : '');
+              var myConfig = $.extend(true, { destination: ajaxURL }, popoverConfig);
+              $this.amazonPopoverTrigger(myConfig);
+
+              var w = window.acrAsinHover;
+              if(w && $(w).parents('.asinReviewsSummary').get(0) == this) {
+                $this.trigger('mouseover.amzPopover');
+                window.acrAsinHover = null;
+              }
+            }
+        });
+      };
+
+      window.reviewHistPopoverConfig = popoverConfig;
+      var jqInit = window.jQueryInitHistoPopovers = function(asin) {
+        if (typeof $('.acr-popover[name=' + asin + ']').acrPopover === 'function') {
+          $('.acr-popover[name=' + asin + ']').acrPopover();
+        }
+      };
+      window.doInit_average_customer_reviews = jqInit;
+      window.onAjaxUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdate_average_customer_reviews = jqInit;
+      window.onCacheUpdateReselect_average_customer_reviews = jqInit;
+
+      amznJQ.onCompletion('amznJQ.criticalFeature', function() {
+          setTimeout(function() { amznJQ.declareAvailable('acrPopover'); }, 10);
+      });
+    })(jQuery);
+  });
+  amznJQ.onReady('acrPopover', function() {
+    jQuery('.acr-popover,#searchTemplate .asinReviewsSummary').each(function() {
+      if (typeof jQuery(this).acrPopover === 'function') {
+        jQuery(this).acrPopover();
+      }
+    });
+  });
+</script><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover" name="B00C5B1844" ref="psdc117_r0_B00C5B1844_B00C5B1844_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=psdc117_r0_B00C5B1844_B00C5B1844_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00C5B1844__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_4_0 " title="4.2 out of 5 stars"><span>4.2 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=psdc117_r0_B00C5B1844_B00C5B1844_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00C5B1844__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "></span> </a></span></span>(<a href="http://www.amazon.com/VIZIO-M321i-A2-32-Inch-1080p-120Hz/product-reviews/B00C5B1844/ref=psdc117_r0_B00C5B1844_B00C5B1844_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">314</a>)</span></span></span></td><td><span class="rating-stars"><span class="amtcmp crAvgStars">
+<span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover" name="B0074FGNJ6" ref="psdc117_r1_B00C5B1844_B0074FGNJ6_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/Samsung-UN32EH5300-32-Inch-1080p-Smart/product-reviews/B0074FGNJ6/ref=psdc117_r1_B00C5B1844_B0074FGNJ6_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0074FGNJ6__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_4_5 " title="4.3 out of 5 stars"><span>4.3 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/Samsung-UN32EH5300-32-Inch-1080p-Smart/product-reviews/B0074FGNJ6/ref=psdc117_r1_B00C5B1844_B0074FGNJ6_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0074FGNJ6__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "></span> </a></span></span>(<a href="http://www.amazon.com/Samsung-UN32EH5300-32-Inch-1080p-Smart/product-reviews/B0074FGNJ6/ref=psdc117_r1_B00C5B1844_B0074FGNJ6_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">1,110</a>)</span></span></span></td><td><span class="rating-stars"><span class="amtcmp crAvgStars">
+<span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover" name="B0096YOQRY" ref="psdc117_r2_B00C5B1844_B0096YOQRY_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/VIZIO-E320i-A0-32-inch-720p-Smart/product-reviews/B0096YOQRY/ref=psdc117_r2_B00C5B1844_B0096YOQRY_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0096YOQRY__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_4_0 " title="4.1 out of 5 stars"><span>4.1 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/VIZIO-E320i-A0-32-inch-720p-Smart/product-reviews/B0096YOQRY/ref=psdc117_r2_B00C5B1844_B0096YOQRY_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B0096YOQRY__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "></span> </a></span></span>(<a href="http://www.amazon.com/VIZIO-E320i-A0-32-inch-720p-Smart/product-reviews/B0096YOQRY/ref=psdc117_r2_B00C5B1844_B0096YOQRY_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">2,125</a>)</span></span></span></td><td><span class="rating-stars"><span class="amtcmp crAvgStars">
+<span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary acr-popover" name="B00BCGRVSU" ref="psdc117_r3_B00C5B1844_B00BCGRVSU_cm_cr_acr_pop_">
+             <a style="cursor:pointer;text-decoration:none" href="http://www.amazon.com/Samsung-UN32F5500-32-Inch-1080p-Smart/product-reviews/B00BCGRVSU/ref=psdc117_r3_B00C5B1844_B00BCGRVSU_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00BCGRVSU__star__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_star_4_5 " title="4.4 out of 5 stars"><span>4.4 out of 5 stars</span></span> </a> <span class="histogramButton" style="margin-left:-3px"><a style="text-decoration:none" href="http://www.amazon.com/Samsung-UN32F5500-32-Inch-1080p-Smart/product-reviews/B00BCGRVSU/ref=psdc117_r3_B00C5B1844_B00BCGRVSU_cm_cr_acr_img?ie=UTF8&amp;showViewpoints=1" name="reviewHistoPop_B00BCGRVSU__button__" onmouseover="return acrPopoverHover(this,1);" onmouseout="return acrPopoverHover(this,0);"><span class="swSprite s_chevron "></span> </a></span></span>(<a href="http://www.amazon.com/Samsung-UN32F5500-32-Inch-1080p-Smart/product-reviews/B00BCGRVSU/ref=psdc117_r3_B00C5B1844_B00BCGRVSU_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">146</a>)</span></span></span></td>
+</tr><tr class="amtcmp"><th>Price</th>
+ <td class="amtcthis"><span class="price">$378.00</span></td><td><span id="AMT_treatment_2_short_ATVPDKIKX0DER" class="tiny">Add to cart to see price. <a href="/gp/help/customer/display.html/ref=map_popup?ie=UTF8&amp;nodeId=200339100&amp;pop-up=1" target="WhyNoPrice" onclick="return amz_js_PopWin('/gp/help/customer/display.html/ref=map_popup?ie=UTF8&amp;nodeId=200339100&amp;pop-up=1','WhyNoPrice','width=600,height=500,resizable=1,scrollbars=1,toolbar=0,status=0');">Why?</a> </span></td><td><span class="price">$288.00</span></td><td><span id="AMT_treatment_2_short_ATVPDKIKX0DER" class="tiny">Add to cart to see price. <a href="/gp/help/customer/display.html/ref=map_popup?ie=UTF8&amp;nodeId=200339100&amp;pop-up=1" target="WhyNoPrice" onclick="return amz_js_PopWin('/gp/help/customer/display.html/ref=map_popup?ie=UTF8&amp;nodeId=200339100&amp;pop-up=1','WhyNoPrice','width=600,height=500,resizable=1,scrollbars=1,toolbar=0,status=0');">Why?</a> </span></td>
+</tr><tr class="amtcmp"><th>Shipping</th>
+ <td class="amtcthis">FREE Shipping</td><td>FREE Shipping</td><td>FREE Shipping</td><td>FREE Shipping</td>
+</tr><tr class="amtcmp"><th>Sold By</th>
+ <td class="amtcthis">Amazon.com</td><td>Amazon.com</td><td>Amazon.com</td><td>Amazon.com</td>
+</tr><tr class="amtcmp"><th>TV Display Technology</th>
+
+<td class="amtcthis">LED  </td>
+<td>LED-lit  </td>
+<td>LED  </td>
+<td>LED-lit  </td>
+</tr><tr class="amtcmp"><th>Resolution</th>
+
+<td class="amtcthis">1080p  </td>
+<td>1080p  </td>
+<td>720p  </td>
+<td>1080p  </td>
+</tr><tr class="amtcmp"><th>Refresh Rate</th>
+
+<td class="amtcthis">120 Hz </td>
+<td>60  </td>
+<td>60 Hz </td>
+<td>60 Hz </td>
+</tr><tr class="amtcmp"><th>3D (Y/N)</th>
+
+<td class="amtcthis">No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr><tr class="amtcmp"><th>Smart TV</th>
+
+<td class="amtcthis">Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr><tr class="amtcmp"><th>Total HDMI Ports</th>
+
+<td class="amtcthis">3  </td>
+<td>3  </td>
+<td>2  </td>
+<td>3  </td>
+</tr><tr class="amtcmp"><th>Dimension</th>
+
+<td class="amtcthis">18.8 x 28.6 x 7.5 inches</td>
+<td>19.6 x 29.1 x 7.6 inches</td>
+<td>19.2 x 28.7 x 7.5 inches</td>
+<td>20.1 x 29.1 x 10.4 inches</td>
+
+</tr><tr class="amtcbtm"><th>&amp;nbsp</th>
+ <td class="amtcmp"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=psdc117_a0_B00C5B1844_B00C5B1844?ie=UTF8&amp;itemCount=1&amp;nodeID=1266092011&amp;offeringID.1=mvU1ZQ%252FH1TSXYVAUOXtFXzIZlt6QGVpzvahW2p8yjXWeF2F0QxJl8MPVWYDJf3dsdxNSJlmNTJHue%252BGbe2h7S%252BSBZ2E%252FEuYWBOhcFqzee7iOWYwzVS5bGA%253D%253D&amp;session-id=182-6616344-7251335&amp;signInToHUC=&amp;storeID=tv&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a></td><td class="amtcmp"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=psdc117_a1_B00C5B1844_B0074FGNJ6?ie=UTF8&amp;itemCount=1&amp;nodeID=172282&amp;offeringID.1=e%252F9MxDAGFSPQWM1SnC88xbWraKblRI3%252FnMelDHfmfSuhHCInvhTdBcL2wTLb%252FhIBbnow6UEaqrcOD3x94WbF4Qqcd9nKa9vd8Tnn8jZ9eYxUnJubcxb06A%253D%253D&amp;session-id=182-6616344-7251335&amp;signInToHUC=1&amp;storeID=electronics&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a></td><td class="amtcmp"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=psdc117_a2_B00C5B1844_B0096YOQRY?ie=UTF8&amp;itemCount=1&amp;nodeID=172282&amp;offeringID.1=4aP%252FYxu0IjfUWUN1Gfru3Z6aer0HJpoIC%252BGsKtVcQ7jnDaCvNPZrbGycsa21c%252F2kphFvq6Hbvz%252FydHGluzs6MlhWprFF0InuGG0Ht3UtmQU9lco5la3XKw%253D%253D&amp;session-id=182-6616344-7251335&amp;signInToHUC=&amp;storeID=electronics&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a></td><td class="amtcmp"><a class="swSprite s_add2CartSm " href="/gp/item-dispatch/ref=psdc117_a3_B00C5B1844_B00BCGRVSU?ie=UTF8&amp;itemCount=1&amp;nodeID=172282&amp;offeringID.1=rGUFsDh0sqc4A%252BZtk90dbFmhXMpChPNNd6gLy%252B1J1N3GKj3ICzNUFc66ApjRnVjgwVXoM9HwiB5%252FghCcOc2U3XGOS%252FcFgmOH%252Fw7UOEONpAGSUZ8d8%252FjY1w%253D%253D&amp;session-id=182-6616344-7251335&amp;signInToHUC=1&amp;storeID=electronics&amp;submit.addToCart=addToCart"><span>Add to Cart</span></a></td>
+</tr></tbody></table><div class="amtcfooter">
+ <div class="amtcmessage"><p class="amtcmessage">
+  <b>Please help us improve this feature.</b>&amp;nbsp
+  <a class="amtcfeedback" target="_blank" href="/gp/html-forms-controller/Comparisons_Hardlines/ref=psdc_117_fb_B00C5B1844">
+  <span class="amtcfeedback">Tell us what you think of this feature.</span></a>
+ </p></div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div id="purchase-similarities_feature_div">
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+    
+    
+    
+    
+    
+
+  
+  
+  
+    
+        
+    
+
+  
+
+
+
+    
+  
+    
+  
+  
+        
+        
+    
+
+
+
+        
+       
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="purchase-sims-feature" class="">
+<a name="purchase"></a>
+
+<hr noshade size="1" class="bucketDivider"><div class="bucket">
+<div class="simsWrapper auiTestWrapper">
+
+
+
+
+
+
+
+
+<div class="shoveler" id="purchaseShvl">
+    <div class="shoveler-heading">
+        <h2>Customers Who Bought This Item Also Bought</h2>
+        
+    
+    
+    
+    
+    </div>
+    
+
+
+<div class="shoveler-pagination" style="display:none">
+
+<span> </span>
+<span>
+Page <span class="page-number"></span>  of  <span class="num-pages"></span> 
+<span class="start-over"><span class="a-text-separator"></span><a href="#" onclick="return false;" class="start-over-link">Start over</a></span>
+</span>
+</div>
+
+    <div class="shoveler-button-wrapper" id="purchaseButtonWrapper">
+        <a class="back-button" href="#Back" style="display:none" onclick="return false;"><span class="auiTestSprite s_shvlBack"><span>Back</span></span></a>
+        <div class="shoveler-content">
+            <ul tabindex="-1"><li>
+  <div class="new-faceout p13nimp" id="purchase_B0043BX98C" data-asin="B0043BX98C" data-ref="pd_sim_e_1">
+    
+
+
+
+
+
+
+<a href="/SquareTrade-4-Year-Protection-Plan-350/dp/B0043BX98C/ref=pd_sim_e_1" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41Z-RA9b3hL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    SquareTrade 4-Year TV Protection Plan ($350-$400) </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B0043BX98C"><a href="http://www.amazon.com/SquareTrade-4-Year-Protection-Plan-350/product-reviews/B0043BX98C/ref=pd_sim_e_cm_cr_acr_img_1"><span class="auiTestSprite s_star_4_5 " title="4.4 out of 5 stars"><span>4.4 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/SquareTrade-4-Year-Protection-Plan-350/product-reviews/B0043BX98C/ref=pd_sim_e_cm_cr_acr_txt_1">1,140</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$40.41</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="purchase_B00EZB1LA8" data-asin="B00EZB1LA8" data-ref="pd_sim_e_2">
+    
+
+
+
+
+
+
+<a href="/Assurant-360%C2%BA-5-Year-Television-Protection/dp/B00EZB1LA8/ref=pd_sim_e_2" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/51gS9HuWJJL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    Assurant 360º 5-Year Television Protection Plan ($350-$399) </a>
+
+
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$53.96</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="purchase_B005STXNMA" data-asin="B005STXNMA" data-ref="pd_sim_e_3">
+    
+
+
+
+
+
+
+<a href="/SquareTrade-5-Year-Protection-Plan-350/dp/B005STXNMA/ref=pd_sim_e_3" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41Z-RA9b3hL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    SquareTrade 5-Year TV Protection Plan ($350-$400) </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B005STXNMA"><a href="http://www.amazon.com/SquareTrade-5-Year-Protection-Plan-350/product-reviews/B005STXNMA/ref=pd_sim_e_cm_cr_acr_img_3"><span class="auiTestSprite s_star_4_5 " title="4.4 out of 5 stars"><span>4.4 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/SquareTrade-5-Year-Protection-Plan-350/product-reviews/B005STXNMA/ref=pd_sim_e_cm_cr_acr_txt_3">1,140</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$53.89</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="purchase_B001RQ9XOA" data-asin="B001RQ9XOA" data-ref="pd_sim_e_4">
+    
+
+
+
+
+
+
+<a href="/SquareTrade-3-Year-Protection-Plan-350/dp/B001RQ9XOA/ref=pd_sim_e_4" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41Z-RA9b3hL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    SquareTrade 3-Year TV Protection Plan ($350-$400) </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B001RQ9XOA"><a href="http://www.amazon.com/SquareTrade-3-Year-Protection-Plan-350/product-reviews/B001RQ9XOA/ref=pd_sim_e_cm_cr_acr_img_4"><span class="auiTestSprite s_star_4_5 " title="4.4 out of 5 stars"><span>4.4 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/SquareTrade-3-Year-Protection-Plan-350/product-reviews/B001RQ9XOA/ref=pd_sim_e_cm_cr_acr_txt_4">1,140</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$26.94</span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="purchase_B001GTT0VO" data-asin="B001GTT0VO" data-ref="pd_sim_e_5">
+    
+
+
+
+
+
+
+<a href="/Cheetah-ALAMLB-Ballhead-Articulating-Displays/dp/B001GTT0VO/ref=pd_sim_e_5" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/51TkKR0GkNL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    <span title='Cheetah Mounts ALAMLB Ballhead LCD LED TV Wall Mount Bracket for 23-55" TVs up to 55 LBS with Full Motion Swing Out Tilt and Swivel Articulating Arm for Flat Screen Displays using VESA 100 200 300 and 400 Mount Patterns'>Cheetah Mounts ALAMLB Ballhead LCD LED TV Wall Mount Bracket for 23-55" TVs up to 55 </span> </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B001GTT0VO"><a href="http://www.amazon.com/Cheetah-ALAMLB-Ballhead-Articulating-Displays/product-reviews/B001GTT0VO/ref=pd_sim_e_cm_cr_acr_img_5"><span class="auiTestSprite s_star_4_5 " title="4.5 out of 5 stars"><span>4.5 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/Cheetah-ALAMLB-Ballhead-Articulating-Displays/product-reviews/B001GTT0VO/ref=pd_sim_e_cm_cr_acr_txt_5">1,669</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$25.96</span><span class="price-small"><span class="swSprite s_primeBadge"><span class="alt-text">Prime</span></span></span>
+    </div>
+  </div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <div class="new-faceout p13nimp" id="purchase_B000WYVBR0" data-asin="B000WYVBR0" data-ref="pd_sim_e_6">
+    
+
+
+
+
+
+
+<a href="/VideoSecu-Articulating-Extension-Post-installation-ML531B/dp/B000WYVBR0/ref=pd_sim_e_6" class="sim-img-title"> <div class="product-image">
+                       <img src="http://ecx.images-amazon.com/images/I/41ASCq6TmCL._SL500_SS100_.jpg" width="100" alt="" height="100" border="0"></div>
+                    <span title="VideoSecu LCD LED TV Wall Mount Full Motion with Swivel Articulating Arm for 23-37 in, up to 42 in TV Monitor Flat Panel Screen With VESA 200 100, 20 in Extension and Post-installation Leveling System ML531B M84">VideoSecu LCD LED TV Wall Mount Full Motion with Swivel Articulating Arm for 23-37 in, up </span> </a>
+
+
+    <div class="rating-price">
+        <span class="rating-stars"><span class="crAvgStars" style="white-space:no-wrap;"><span class="asinReviewsSummary" name="B000WYVBR0"><a href="http://www.amazon.com/VideoSecu-Articulating-Extension-Post-installation-ML531B/product-reviews/B000WYVBR0/ref=pd_sim_e_cm_cr_acr_img_6"><span class="auiTestSprite s_star_4_5 " title="4.6 out of 5 stars"><span>4.6 out of 5 stars</span></span></a> </span>(<a href="http://www.amazon.com/VideoSecu-Articulating-Extension-Post-installation-ML531B/product-reviews/B000WYVBR0/ref=pd_sim_e_cm_cr_acr_txt_6">2,183</a>)</span></span>
+    </div>
+    <div class="pricetext">
+        <span class="price" style="margin-right:5px">$25.00</span><span class="price-small"><span class="swSprite s_primeBadge"><span class="alt-text">Prime</span></span></span>
+    </div>
+  </div>
+</li>
+            </ul></div>
+        <a class="next-button" href="#Next" style="display:none" onclick="return false;"><span class="auiTestSprite  s_shvlNext"><span>Next</span></span></a>
+    </div>
+</div>
+
+
+
+
+
+<div id="purchaseSimsData" class="sims-data" style="display:none" data-baseasin="B00C5B1844" data-featureid="pd_sim" data-pageid="B00C5B1844sr_1_17" data-reftag="pd_sim_e" data-vt="B00C5B1844" data-wdg="home_theater_display_on_website" data-widgetname="purchase">B0043BX98C,B00EZB1LA8,B005STXNMA,B001RQ9XOA,B001GTT0VO,B000WYVBR0,B003L1ZYYM,B002TZ4CRG,B00BF9MZ44,B009IHHQUS,B00870ZHCQ,B00CI3BIT4,B007QWH0QW,B00BF9MZ7Q,B00CO07C5A,B007Y4TUZQ,B00DK0VBTQ,B00AWKC0EC,B009LG6AWG,B00CDIK908,B00BKWSSO2,B0012S4APK,B00BF9MZY4,B00BB0ZSIC,B0081F2Z40,B003L1ZYYW,B00BFQHGUU,B0052SCTLI,B003Y24DEU,B009WROL6G,B00886XQNQ,B000MK2Y2K,B009IBXEE6,B00823170Y,B005LJQMCK,B00BB0ZTM2,B000W9TVJ0,B002MYQTEI,B0052SCU8U,B00BCGRX9M,B000JNNWQ2,B009LG6B1G,B00630WKGI,B00870ZLW2,B00AWX6EYQ,B004C9P9TM,B000VKCIJU,B00316263Y,B001TH7GSW,B002TZUOC8,B0050SZD18,B007BRZCD0,B007I5JT4S,B0067G1N34,B001OCY3RY,B003CT37L0,B0019EHU8G,B0002J2B8I,B007F9XHAY,B0084I208A,B00AWKC0JM,B00BFDHV9E,B0096YOQRY,B003O1UYHG,B000JE9LD4,B001E1Y5O6,B002HFDLCK,B0081H8TRA</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div style="display:none;" class="p13n-session" data-marketplaceid="ATVPDKIKX0DER" data-mkt="US" data-pageid="B00C5B1844" data-requestid="0GJ3PK92GXB3YEFZF1A1" data-session="182-6616344-7251335"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</div>
+
+
+
+
+
+
+
+
+<link type="text/css" href="http://z-ecx.images-amazon.com/images/G/01/browser-scripts/dpMergedOverallCSS/dpMergedOverallCSS-10879046499._V1_.css" rel="stylesheet"><a name="moreAboutThisProduct" id="moreAboutThisProduct"></a>
+ 
+
+
+
+
+
+<div id="cpsia-product-safety-warning_feature_div">
+</div>
+
+
+
+
+
+<div id="technical-data_feature_div">
+
+  
+    
+    
+  
+  
+
+    
+
+
+
+
+<div id="technical-data">
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    <hr noshade size="1" class="bucketDivider"><div class="bucket">
+      <a name="technical_details" id="technical_details"></a><h2>Technical Details</h2>
+      
+
+
+
+
+    <div class="disclaim">Size: <strong>32-Inch</strong></div>
+
+
+
+
+    
+      <div class="content">
+          
+        <ul><li>Built-in Subwoofer</li>
+        </ul><div id="technicalProductFeatures"></div>
+        
+        
+      </div>
+    </div>
+
+
+
+
+</div>
+
+</div>
+
+
+<div id="center-28_feature_div">
+<div class="unified_widget rcmBody"><hr>Read about our customers' top-rated TVs on our <b><a href="/b/ref=amb_link_387605402_1?ie=UTF8&amp;node=7139569011&amp;pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=center-28&amp;pf_rd_r=0GJ3PK92GXB3YEFZF1A1&amp;pf_rd_t=201&amp;pf_rd_p=1652373402&amp;pf_rd_i=B00C5B1844">TV Reviews</a></b> page. 
+                <div class="h_rule"></div></div></div>
+
+
+<div id="product-description_feature_div">
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<hr noshade size="1" class="bucketDivider"><div class="bucket" id="productDescription">
+ <h2>Product Description</h2>
+
+
+
+
+
+    <div class="disclaim">Size: <strong>32-Inch</strong></div>
+
+
+
+
+    
+<div class="content">
+
+
+           <h3 class="productDescriptionSource">From the Manufacturer</h3>
+       <div class="productDescriptionWrapper">
+       <div class="aplus"> <div style="width:980px; height:3383px; margin:20px auto; border:1px solid #d0d0d0; text-align:left;">  <div><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries-32inch-razor-led-smart-tv.png" width="980" height="70" alt="VIZIO M-Series 32 inch Razor LED Smart TV"></div>  <div class="half-col"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries_hero.jpg" width="420" height="354" style="padding:30px 0px 0px 30px;" alt="M-Series Hero"></div>  <div class="half-col last"><img style="padding:50px 0px 25px 0px;" src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/edge-to-edge-perfection.png" width="310" height="93" alt="Edge to Edge Perfection"><p style="padding-right:60px; margin:0px;">The stylishly modern <strong>VIZIO M-Series 32" Razor LED Smart TV</strong> is crafted to redefine your entertainment experience with near edge-to-edge picture and must-have features that elevate your viewing to a new level.</p>  <p style="padding-right:60px; margin-top:20px;">M-Series TVs feature a razor-thin profile made possible by dazzling premium Razor LED backlighting that lines the interior perimeter of every M-Series screen and delivers brilliant picture at a fraction of the space and energy usage.</p>  </div>  <div class="break spacer" style="padding-top:35px;"></div>  <div class="half-col"><!--FASTER SMART TV--> <img style="padding:10px 0px 0px 20px; margin:0px;" src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/faster-smart-tv.png" width="351" height="39" alt="Faster Smart TV"><p style="padding:10px 0px 0px 19px; margin:0px; font-size:17px;"><strong>Hundreds of apps. Millions of fans.</strong></p>  <p style="padding:10px 15px 18px 20px; margin:0px;">The all-new <strong>VIZIO Internet Apps Plus</strong> is now easier to use than ever. Its newly expanded apps library is your gateway to a virtually limitless world of the best streaming content, from hit movies and TV shows to music and more, while an updated user interface features full-screen searching* to make the most ingenious Smart TV platform intuitively simple.</p>  <p style="padding-left:20px;"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/via-plus-onscreen-v2.jpg" width="452" height="288" alt="VIA Plus On-Screen"><span style="font-size:11px; color:#666;">*Full Screen Apps Window functionality to be available Summer 2013. Image simulated.</span></p></div> <div class="half-col last"> <div class="half-col center"> <img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/quicker-smarter.png" width="124" height="124" alt="Quicker and Smarter"><p style="padding-top:8px;"><strong>Quicker &amp; Smarter</strong></p>  <p>A revamped user interface<br> lets you navigate quicker<br> and more easily.</p></div>  <div class="half-col last center"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/more-apps-than-ever.png" width="124" height="124" alt="More Apps Than Ever"><p style="padding-top:8px;"><strong>More Apps Than Ever</strong></p>  <p>A newly expanded apps<br> library adds to an already<br> unrivaled selection.</p>  </div>  <div class="break spacer" style="padding-top:35px;"></div>  <div class="half-col center"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/full-screen-apps-window.png" width="124" height="124" alt="Full-Screen Apps Window"><p style="padding-top:8px;"><strong>Full-Screen Apps Window</strong>*</p>  <p>A full-screen window makes<br> finding and organizing your<br> apps a breeze.</p>  </div>  <div class="half-col center last"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/builtin-wifi.png" width="124" height="124" alt="Built-In Wi-Fi"><p style="padding-top:8px;"><strong>Built-In Wi-Fi</strong></p>  <p>Ultra-fast Wi-Fi provides<br> an easy clutter-free<br> Internet connection.</p> </div> </div>  <div class="break spacer" style="padding: 40px 0px 10px 0px;"></div>  <div class="third-col"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries-picture-quality-hero.jpg" width="316" height="618" alt="Picture Quality"></div>  <div class="two-third-col last"> <img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/superior-picture-quality.png" width="558" height="48" alt="Superior Picture Quality"><p style="padding:10px 0px 0px 0px; margin:0px; font-size:17px;"><strong>Edge To Edge-Of-Your-Seat Brilliance.</strong></p> <p style="padding:10px 50px 25px 0px;">The new VIZIO M-Series is loaded with advanced technologies that push LCD brilliance to new heights. Innovations like Razor LED, a 120Hz effective refresh rate enhanced with backlight scanning, 1080p Full HD and 10M:1 dynamic contrast ratio bring a state-of-the-art viewing experience to life right on your screen.</p>  <p style="margin:0px; padding:0px;"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries-razor-led-smart-dimming.png" alt="Razor LED with Smart Dimming" width="78" height="51" align="left" style="padding:0px 20px 20px 0px;"><strong>Razor LED with Smart Dimming</strong></p>  <p style="margin:0px; padding:8px 50px 0px 0px;">Brilliant LCD is lined with premium LED backlighting, enhanced with intelligent local dimming zones, to deliver vibrant color with richer blacks and brighter whites for striking contrast.</p> <div class="break spacer" style="padding-top:15px;"></div>  <p style="margin:0px; padding:0px;"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries-refresh-rate.png" width="78" height="51" alt="Faster Refresh Rate" align="left" style="padding:0px 20px 10px 0px;"><strong>Faster Refresh Rate</strong></p>  <p style="margin:0px; padding:8px 50px 0px 0px;">Effective refresh rate of 120Hz and enhanced with backlight scanning capture all the action with amazing sharpness.</p> <div class="break spacer" style="padding-top:15px;"></div> <p style="margin:0px; padding:0px;"><img src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/mseries-1080p-full-hd.png" width="78" height="51" alt="1080P Full HD" align="left" style="padding:0px 20px 20px 0px;"><strong>1080P Full HD</strong></p>  <p style="margin:0px; padding:8px 50px 0px 0px;">Crystal-clear 1920 x 1080p Full HD enhances every image with razor-sharp precision for a lifelike realism and fidelity.</p> </div> <div class="break spacer"></div> <div style="padding:0px 0px 0px 17px;"> <p style="font-size:22px;"><strong>M-Series Comparison Chart</strong></p>  <table class="data"><tr><th style="width:245px;">Model Number</th>  <th style="width:91px; background-color:#003d5b; text-align:center; color:#fff;"><strong>M321i-A2</strong></th>  <th style="width:91px; background-color:#262626; color:#fff; text-align:center;"><a style="color:#fff; text-decoration:none;" href="http://www.amazon.com/VIZIO-M501d-A2R-50-Inch-1080p-240Hz/dp/B00CCYZ13S"><strong>M501d-A2R</strong></a></th>  <th style="width:91px; background-color:#262626; text-align:center;"><a style="color:#fff; text-decoration:none;" href="http://www.amazon.com/VIZIO-M601d-A3R-60-Inch-1080p-240Hz/dp/B00CHKPYPW"><strong>M601d-A3R</strong></a></th>  <th style="width:91px; background-color:#262626; text-align:center;"><a style="color:#fff; text-decoration:none;" href="http://www.amazon.com/VIZIO-M651d-A2R-65-Inch-1080p-240Hz/dp/B00CBQNB7K"><strong>M651d-A2R</strong></a></th>  <th style="width:91px; background-color:#262626; text-align:center;"><a style="color:#fff; text-decoration:none;" href="http://www.amazon.com/VIZIO-M701d-A3R-70-Inch-1080p-240Hz/dp/B00CHKPYM0"><strong>M701d-A3R</strong></a></th>  <th style="width:91px; background-color:#262626; text-align:center;"><a style="color:#fff; text-decoration:none;" href="http://www.amazon.com/VIZIO-M801d-A3-80-Inch-1080p-240Hz/dp/B00CI3BP0G"><strong>M801d-A3</strong></a></th>  </tr><tr><td style="background-color:#003d5b; color:#FFF" colspan="7"><strong>Ultra-Modern Design</strong></td>  </tr><tr><td style="background-color:#e9edf4;">Class &amp; Screen Size (Diag.)</td> <td style="background-color:#92cddc;">32" (31.50")</td>  <td style="background-color:#e9edf4;">50" (49.5")</td>  <td style="background-color:#e9edf4;">60" (60.04")</td>  <td style="background-color:#e9edf4;">65" (65.00")</td>  <td style="background-color:#e9edf4;">70" (69.51")</td>  <td style="background-color:#e9edf4;">80" (80.01")</td>  </tr><tr><td>Near Edge to Edge Display</td>  <td style="background-color:#92cddc;">Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  </tr><tr><td style="background-color:#e9edf4;">Razor-thin Profile</td>  <td style="background-color:#92cddc;">1.95”</td>  <td style="background-color:#e9edf4;">1.75”</td>  <td style="background-color:#e9edf4;">2.20”</td>  <td style="background-color:#e9edf4;">2.13”</td>  <td style="background-color:#e9edf4;">2.32”</td>  <td style="background-color:#e9edf4;">2.62”</td>  </tr><tr><td style="background-color:#003d5b; color:#FFF" colspan="7"><strong>Superior Picture Quality</strong></td>  </tr><tr><td style="background-color:#e9edf4;">Edge Lit Razor LED</td>  <td style="background-color:#92cddc;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  </tr><tr><td>Smart Dimming</td>  <td style="background-color:#92cddc;">Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  </tr><tr><td style="background-color:#e9edf4;">1080p Full HD Resolution</td>  <td style="background-color:#92cddc;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  </tr><tr><td>10 million to 1 Dynamic Contrast Ratio</td>  <td style="background-color:#92cddc;">Yes</td>  <td>Yes</td>  <td>Yes</td> <td>Yes</td> <td>Yes</td>  <td>Yes</td>  </tr><tr><td style="background-color:#e9edf4;">240Hz Refresh Rate</td>  <td style="background-color:#92cddc;">No</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  </tr><tr><td>Smooth Motion</td>  <td style="background-color:#92cddc;">No</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  </tr><tr><td style="background-color:#003d5b; color:#FFF" colspan="7"><strong>Faster Smart TV</strong></td>  </tr><tr><td style="background-color:#e9edf4;">VIZIO Internet Apps Plus</td>  <td style="background-color:#92cddc;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  </tr><tr><td>Built-in Wi-Fi</td>  <td style="background-color:#92cddc;">Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  <td>Yes</td>  </tr><tr><td style="background-color:#003d5b; color:#FFF" colspan="7"><strong>Spectacular Theater 3D</strong></td>  </tr><tr><td style="background-color:#e9edf4;">Theater 3D</td>  <td style="background-color:#92cddc;">No</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  <td style="background-color:#e9edf4;">Yes</td>  </tr><tr><td>3D Glasses Included</td>  <td style="background-color:#92cddc;">No</td>  <td>8</td>  <td>8</td>  <td>8</td>  <td>8</td>  <td>4</td>  </tr><tr><td style="background-color:#003d5b; color:#FFF" colspan="7"><strong>Connectivity</strong></td>  </tr><tr><td style="background-color:#e9edf4;">HDMI Ports</td>  <td style="background-color:#92cddc;">3</td>  <td style="background-color:#e9edf4;">4</td>  <td style="background-color:#e9edf4;">4</td>  <td style="background-color:#e9edf4;">4</td>  <td style="background-color:#e9edf4;">4</td>  <td style="background-color:#e9edf4;">4</td>  </tr><tr><td>USB</td>  <td style="background-color:#92cddc;">1</td>  <td>2</td>  <td>2</td>  <td>2</td>  <td>2</td>  <td>2</td>  </tr><tr><td style="background-color:#e9edf4;">Component/Composite</td> <td style="background-color:#92cddc;">1</td>  <td style="background-color:#e9edf4;">1</td> <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  </tr><tr><td>5.1 Digital Optical</td>  <td style="background-color:#92cddc;">1</td>  <td>1</td>  <td>1</td>  <td>1</td>  <td>1</td>  <td>1</td>  </tr><tr><td style="background-color:#e9edf4;">Stereo Audio</td>  <td style="background-color:#92cddc;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  <td style="background-color:#e9edf4;">1</td>  </tr></table></div>  <div style="margin-top:50px; padding:0px;">  <div class="half-col" style="margin-left:10px;"><img class="leftImage" src="http://g-ecx.images-amazon.com/images/G/01/electronics/detail-page2/v-block.gif" width="15" height="720" alt=""><div style="margin-bottom:10px;"><span style="font-size:13px;"><strong>Technical Specs</strong></span></div>  <table class="data"><tr><th colspan="2" style="width:100%;">VIDEO</th>  </tr><tr><td style="width:175px;">Class Size:</td>  <td style="width:240px;">32" Class</td>  </tr><tr><td>Diagonal Viewable:</td>  <td>31.50”</td>  </tr><tr><td>Design:</td>  <td>Razor thin, ultra-slim frame design</td>  </tr><tr><td>Smart TV:</td>  <td>Yes, VIZIO Internet Apps Plus</td>  </tr><td>Backlight Type:</td>  <td>Razor LED</td>    <tr><td>Resolution:</td>  <td>1920 x 1080 (1080p)</td>  </tr><tr><td>Refresh Rate:</td>  <td>120Hz</td>  </tr><tr><td>Smart Dimming:</td>  <td>Yes</td>  </tr><tr><td>Built-in Wi-Fi:</td>  <td>Yes</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">DISPLAY</th>  </tr><tr><td style="width:175px;">Aspect Ratio:</td>  <td style="width:240px;">16:9</td>  </tr><tr><td>Dynamic Contrast Ratio:</td>  <td>10 million to 1</td>  </tr><tr><td>Viewable Angle (H/V):</td>  <td>178˙/178˙</td>  </tr><tr><td>Number of Colors:</td>  <td>1.07 Billion (10-bit)</td>  </tr><tr><td>OSD Language:</td>  <td>English, Spanish, French</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">AUDIO</th>  </tr><tr><td style="width:175px;">Speaker Power Output:</td>  <td style="width:240px;">10W x 2</td>  </tr><tr><td>DTS StudioSound:</td>  <td>Yes</td>  </tr><tr><td>DTS TruSurround:</td>  <td>Yes</td>  </tr><tr><td>DTS TruVolume:</td>  <td>Yes</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">OUTPUTS</th>  </tr><tr><td style="width:175px;">Analog Audio Out:</td>  <td style="width:240px;">Yes (RCA)</td>  </tr><tr><td>Digital Audio Out (SPDIF):</td>  <td>Yes (Optical)</td>  </tr></table></div>  <div class="half-col last" style="padding-top:25px;">  <table class="data"><tr><th colspan="2" style="width:100%;">INPUTS</th>  </tr><tr><td style="width:175px;">HDMI:</td>  <td style="width:240px;">3</td>  </tr><tr><td>Component:</td>  <td>1</td>  </tr><tr><td>Composite:</td>  <td>1 (shared with component)</td>  </tr><tr><td>Tuner:</td>  <td>1</td>  </tr><tr><td>Ethernet:</td>  <td>1</td>  </tr><tr><td>USB:</td>  <td>1</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">MULTIMEDIA FEATURES</th>  </tr><tr><td style="width:175px;">Smart TV Apps:</td>  <td style="width:240px;">Netflix, Amazon Instant Video, MGO, VUDU, Hulu Plus, YouTube, Pandora, iHeartRadio, Facebook and more</td>  </tr><tr><td>USB Music:</td>  <td>Yes</td>  </tr><tr><td>USB Photo:</td>  <td>Yes</td>  </tr><tr><td>USB Video:</td>  <td>Yes</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">ENERGY SAVINGS</th>  </tr><tr><td style="width:175px;">Energy Compliance:</td>  <td style="width:240px;">ENERGY STAR 6.0</td>  </tr><tr><td>Power Consumption:</td>  <td>35.01W</td>  </tr><tr><td>Standby Power<br> Consumption:</td>  <td>&lt;1W</td>  </tr><tr><td>Ambient Light Sensor:</td>  <td>Yes</td>  </tr></table><table class="data"><tr><th colspan="2" style="width:100%;">WALL MOUNT SPECIFICATIONS</th>  </tr><tr><td style="width:175px;">Mount Pattern:</td>  <td style="width:240px;">100mm x 100mm</td>  </tr><tr><td>Screw Size:</td>  <td>M4</td>  </tr></table><table width="456" class="data"><tr><th style="width:100%;">VIZIO WARRANTY</th>  </tr><tr><td>One Year Parts &amp; Labor; Free Lifetime Technical Support</td>  </tr></table></div>  <div class="one-col" style="font-size:11px; width:925px; margin:0px; padding:0px 0px 0px 17px;">  <p>High-speed/Broadband Internet service and access equipment are required and not provided by VIZIO. Additional fees and/or subscriptions required for certain content and services. Applications pictured or described in accompanying documentation may not be available, or may not provide the same functionality, content or services in all areas or as described herein. Applications are subject to future updates and/or modifications without notice.</p>  <p>Images shown are for comparative and illustrative purposes only. Actual measurements may vary based on models.</p>  <p>VIZIO, Inc. has made every effort to ensure the accuracy of the information provided herein. All product specifications, functionality, features, configurations, performance, design and other product information described herein are subject to change without notice. VIZIO, Inc. disclaims liability for typographical, technical, or descriptive errors.</p> </div> </div> </div> </div>    <div id="be" style="display:none;visibility:hidden;"><form name="ue_backdetect"><input name="ue_back" value="1" type="hidden"></form><script type="text/javascript">
+(function(a){if(document.ue_backdetect&&document.ue_backdetect.ue_back){a.ue.bfini=document.ue_backdetect.ue_back.value}if(a.uet){a.uet("be")}if(a.onLdEnd){if(window.addEventListener){window.addEventListener("load",a.onLdEnd,false)}else{if(window.attachEvent){window.attachEvent("onload",a.onLdEnd)}}}if(a.ueh){a.ueh(0,window,"load",a.onLd,1)}})(ue_csm);
+</script><a href="/gp/uedata/nvp/unsticky/182-6616344-7251335//ntpoffrw?tepes=1&amp;id=0GJ3PK92GXB3YEFZF1A1">v</a>
+<noscript><img src="/gp/uedata/nvp/unsticky/182-6616344-7251335//ntpoffrw?noscript&amp;id=0GJ3PK92GXB3YEFZF1A1"></noscript>
+
+<img src="//fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:182-6616344-7251335:0GJ3PK92GXB3YEFZF1A1%24uedata=s:uedata%3Fstaticb%26id%3D0GJ3PK92GXB3YEFZF1A1:1000"></div>
+<script type="text/javascript">
+(function(a){a._uec=function(d){var h=window,b=h.performance,f=b?b.navigation.type:0;if(f==0){var e="; expires="+new Date(+new Date+604800000).toGMTString(),c=+new Date-ue_t0;if(c>0){var g="|"+ +new Date;document.cookie="csm-hit="+(d/c).toFixed(2)+g+e+"; path=/"}}}})(ue_csm);
+_uec(245134);
+</script></div></div></div></div></div></div></body>

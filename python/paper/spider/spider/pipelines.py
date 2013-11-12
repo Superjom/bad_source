@@ -7,7 +7,7 @@ from scrapy.exceptions import DropItem
 
 class SpiderPipeline(object):
 
-    base_dir = "/home/chunwei/bad_source/python/paper/spider/spider"
+    base_dir = "/home/chunwei/bad_source/python/paper/spider/"
     counts = {}
 
     def process_item(self, item, spider):
@@ -19,7 +19,7 @@ class SpiderPipeline(object):
 
             with open(path, 'w') as f:
                 print '... write to file %d' % self.counts[kind]
-                f.write(item['body'])
+                f.write(item['body'].encode('utf8'))
 
             return item
         else:

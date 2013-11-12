@@ -12,4 +12,4 @@ class SpiderItem(Item):
     kind = Field()
 
     def __str__(self):
-        return "Get page: %d" % len(self.body)
+        return "Get page"
