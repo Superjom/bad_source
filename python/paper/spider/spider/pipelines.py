@@ -7,7 +7,7 @@ from scrapy.exceptions import DropItem
 
 class SpiderPipeline(object):
 
-    base_dir = "/home/chunwei/bad_source/python/paper/spider/"
+    base_dir = "/home/chunwei/download_html/"
     counts = {}
 
     def process_item(self, item, spider):
