@@ -11,15 +11,13 @@ class SpiderPipeline(object):
     counts = {}
 
     def process_item(self, item, spider):
-        if item.has_key('body'):
-            print 'crawl body:', len(item['body'])
+        if item.has_key('url'):
+            print 'get url:', item['url'] 
             kind = item['kind']
-            self.counts[kind] = self.counts.get(kind, 0) + 1
-            path = os.path.join(self.base_dir, kind, str(self.counts[kind]))
+            path = os.path.join(self.base_dir, kind)
 
-            with open(path, 'w') as f:
-                print '... write to file %d' % self.counts[kind]
-                f.write(item['body'].encode('utf8'))
+            with open(path, 'a') as f:
+                f.write(item['url'].encode('utf8')+"\n")
 
             return item
         else:

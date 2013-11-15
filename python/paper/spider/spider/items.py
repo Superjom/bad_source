@@ -8,8 +8,8 @@ from scrapy.item import Item, Field
 class SpiderItem(Item):
     # define the fields for your item here like:
     # name = Field()
-    body = Field()
+    url = Field()
     kind = Field()
 
     def __str__(self):
-        return "Get page"
+        return "get url" 
