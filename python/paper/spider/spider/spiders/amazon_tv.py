@@ -25,7 +25,6 @@ Created on Jul 30, 2013
 root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 
 allowed_url = r'http://www.amazon.com/s/.*keywords=TV.*'
-content_url = r'http://www.amazon.com/s/ref=.*&keywords=TV.*'
 
 content_url_format = '//h3[contains(@class,"newaps")]/a[contains(@href,"amazon.com")]/@href'
 
@@ -43,18 +42,18 @@ class SpiderSpider(CrawlSpider):
     count = 0
     name = "amazon_tv"
 
+    dic = set()
+
     allowed_domains = init_allowed_domains
 
     start_urls = init_start_urls
 
-    '''
     rules = (
         #only extract links here
-        Rule(SgmlLinkExtractor(allow=allowed_url)),
+        #Rule(SgmlLinkExtractor(allow=allowed_url)),
         #extract content here and parse urls
-        Rule(SgmlLinkExtractor(allow=content_url), callback="parse"),
+        Rule(SgmlLinkExtractor(allow=allowed_url), callback="parse"),
     )
-    '''
 
     @property
     def sleep_time(self):
@@ -75,30 +74,28 @@ class SpiderSpider(CrawlSpider):
         content_urls = hxs.select(content_url_format).extract()
         list_urls = hxs.select('//span[contains(@class,"pagnLink")]/a[contains(@href,"keywords=TV")]/@href').extract()
         list_urls = [ up.urljoin(response.url, url) for url in list_urls]
-        #urls = [url for url in urls if "keywords=TV" in url]
         print "@" * 60 
-        print "urls: ", len(content_urls)
         time.sleep(self.sleep_time)
-        self.start_urls.extend(content_urls)
         self.start_urls.extend(list_urls)
 
-        for url in content_urls + list_urls:
+        for url in list_urls:
             yield Request(url, self.parse)
 
 
         content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=TV$')
-        if content_re.match(response.url):
-            if self.count > 450:
-                self.start_urls = []
-                raise CloseSpider('reach pages limit, end the spider.')
+        for url in content_urls:
+            if content_re.match(url):
+                if len(self.dic) > 600:
+                    self.start_urls = []
+                    raise CloseSpider('reach pages limit, end the spider.')
 
-            self.count += 1
-            #extract data
-            body = hxs.select('//body').extract()
-            if body:
+                self.count += 1
+
+                self.dic.add(hash(url))
+                #extract data
                 item = SpiderItem()
-                item['body'] = body[0]
-                item['kind'] = 'amazon_tv'
+                item['url'] = url
+                item['kind'] = 'amazon_TV'
                 yield item
 
 if __name__ == "__main__":

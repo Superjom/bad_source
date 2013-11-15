@@ -20,38 +20,36 @@ Created on Jul 30, 2013
 @mail:  yanchunwei@outlook.com
 '''
 
-#base_url = r'http://www.amazon.com/*'
-
 root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 
-allowed_url = r'http://www.amazon.com/s/.*keywords=printer.*'
+content_url_format = '//table[contains(@class,"searchTable")]/tr/td/div[contains(@class,"productName")]/a/@href'
 
-content_url_format = '//h3[contains(@class,"newaps")]/a[contains(@href,"amazon.com")]/@href'
+list_url_format = '//div[contains(@class,"searchResultsFooterPager")]/div[contains(@class,"numericPager")]/a/@href'
 
 init_start_urls = [
-        "http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Delectronics&field-keywords=printer&sprefix=print%2Celectronics&rh=i%3Aelectronics%2Ck%3Aprinter",
+        "http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/"
 ]
 
+allowed_url = r"http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/.*"
+
 init_allowed_domains = [
-    "amazon.com",
+        "www.jr.com"
 ]
 
 MAX_SLEEP_TIME = 20
 
 class SpiderSpider(CrawlSpider):
     count = 0
-    name = "amazon_printer"
+    name = "jr_notebook"
+
+    dic = set()
 
     allowed_domains = init_allowed_domains
 
     start_urls = init_start_urls
 
-    dic = set()
-
     rules = (
         #only extract links here
-        #Rule(SgmlLinkExtractor(allow=allowed_url)),
-        #extract content here and parse urls
         Rule(SgmlLinkExtractor(allow=allowed_url), callback="parse"),
     )
 
@@ -72,8 +70,11 @@ class SpiderSpider(CrawlSpider):
         print '>>>> repsonse.url: ', response.url
         #get urls
         content_urls = hxs.select(content_url_format).extract()
-        list_urls = hxs.select('//span[contains(@class,"pagnLink")]/a[contains(@href,"keywords=printer")]/@href').extract()
+
+        list_urls = hxs.select(list_url_format).extract()
         list_urls = [ up.urljoin(response.url, url) for url in list_urls]
+        content_urls = [ up.urljoin(response.url, url) for url in content_urls]
+        
         print "@" * 60 
         time.sleep(self.sleep_time)
         self.start_urls.extend(list_urls)
@@ -81,11 +82,10 @@ class SpiderSpider(CrawlSpider):
         for url in list_urls:
             yield Request(url, self.parse)
 
-
-        content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=printer$')
+        content_re = re.compile(r'http://www[.]jr[.]com/.*')
         for url in content_urls:
             if content_re.match(url):
-                if len(self.dic) > 700:
+                if len(self.dic) > 600:
                     self.start_urls = []
                     raise CloseSpider('reach pages limit, end the spider.')
 
@@ -94,9 +94,8 @@ class SpiderSpider(CrawlSpider):
                 #extract data
                 item = SpiderItem()
                 item['url'] = url
-                item['kind'] = 'amazon_printer'
+                item['kind'] = self.name
                 yield item
-
-if __name__ == "__main__":
-    pass
-
+            else:
+                print "!!!!!!! not match content url:"
+                print url

@@ -46,6 +46,8 @@ class SpiderSpider(CrawlSpider):
     count = 0
     name = "amazon_mobile"
 
+    dic = set()
+
     allowed_domains = init_allowed_domains
 
     start_urls = init_start_urls
@@ -77,27 +79,25 @@ class SpiderSpider(CrawlSpider):
         list_urls = hxs.select('//span[contains(@class,"pagnLink")]/a[contains(@href,"keywords=mobile+phone")]/@href').extract()
         list_urls = [ up.urljoin(response.url, url) for url in list_urls]
         print "@" * 60 
-        print "urls: ", len(content_urls)
         time.sleep(self.sleep_time)
-        self.start_urls.extend(content_urls)
         self.start_urls.extend(list_urls)
 
-        for url in content_urls + list_urls:
+        for url in list_urls:
             yield Request(url, self.parse)
 
 
         content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=mobile[+]phone$')
-        if content_re.match(response.url):
-            if self.count > 450:
-                self.start_urls = []
-                raise CloseSpider('reach pages limit, end the spider.')
+        for url in content_urls:
+            if content_re.match(url):
+                if len(self.dic) > 450:
+                    self.start_urls = []
+                    raise CloseSpider('reach pages limit, end the spider.')
 
-            self.count += 1
-            #extract data
-            body = hxs.select('//body').extract()
-            if body:
+                self.count += 1
+                self.dic.add(hash(url))
+                #extract data
                 item = SpiderItem()
-                item['body'] = body[0]
+                item['url'] = url
                 item['kind'] = 'amazon_mobile'
                 yield item
 

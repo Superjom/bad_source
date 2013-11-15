@@ -19,6 +19,9 @@ Created on Jul 30, 2013
 @author: Chunwei Yan @ pkusz
 @mail:  yanchunwei@outlook.com
 '''
+
+#base_url = r'http://www.amazon.com/*'
+
 root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 
 allowed_url = r'http://www.amazon.com/s/.*keywords=notebook.*'
@@ -26,7 +29,7 @@ allowed_url = r'http://www.amazon.com/s/.*keywords=notebook.*'
 content_url_format = '//h3[contains(@class,"newaps")]/a[contains(@href,"amazon.com")]/@href'
 
 init_start_urls = [
-        "http://www.amazon.com/s/ref=a9_asi_1?rh=i%3Aaps%2Ck%3Anotebook&keywords=notebook&ie=UTF8&qid=1384248954"
+        "http://www.amazon.com/s/ref=sr_nr_n_11?rh=n%3A565108%2Ck%3Anotebook&keywords=notebook&ie=UTF8&qid=1384484919&rnid=2941120011"
 ]
 
 init_allowed_domains = [
@@ -40,6 +43,8 @@ class SpiderSpider(CrawlSpider):
     name = "amazon_notebook"
 
     allowed_domains = init_allowed_domains
+
+    dic = set()
 
     start_urls = init_start_urls
 
@@ -70,28 +75,27 @@ class SpiderSpider(CrawlSpider):
         list_urls = hxs.select('//span[contains(@class,"pagnLink")]/a[contains(@href,"keywords=notebook")]/@href').extract()
         list_urls = [ up.urljoin(response.url, url) for url in list_urls]
         print "@" * 60 
-        print "urls: ", len(content_urls)
         time.sleep(self.sleep_time)
-        self.start_urls.extend(content_urls)
         self.start_urls.extend(list_urls)
 
-        for url in content_urls + list_urls:
+        for url in list_urls:
             yield Request(url, self.parse)
 
 
-        content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=notebook')
-        if content_re.match(response.url):
-            if self.count > 420:
-                self.start_urls = []
-                raise CloseSpider('reach pages limit, end the spider.')
+        content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=notebook$')
+        for url in content_urls:
+            if content_re.match(url):
+                if len(self.dic) > 450:
+                    self.start_urls = []
+                    raise CloseSpider('reach pages limit, end the spider.')
 
-            self.count += 1
-            #extract data
-            body = hxs.select('//body').extract()
-            if body:
+                self.count += 1
+
+                self.dic.add( hash(url))
+                #extract data
                 item = SpiderItem()
-                item['body'] = body[0]
-                item['kind'] = self.name
+                item['url'] = url
+                item['kind'] = 'amazon_notebook'
                 yield item
 
 if __name__ == "__main__":

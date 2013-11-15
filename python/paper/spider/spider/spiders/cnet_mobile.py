@@ -19,18 +19,20 @@ Created on Jul 30, 2013
 @author: Chunwei Yan @ pkusz
 @mail:  yanchunwei@outlook.com
 '''
+
+
 root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 
-allowed_url = r'http://www.amazon.com/s/.*keywords=notebook.*'
+allowed_url = r"http://reviews.cnet.com/.*[.]html?query=mobile&searchtype=products"
 
-content_url_format = '//h3[contains(@class,"newaps")]/a[contains(@href,"amazon.com")]/@href'
+content_url_format = '//div[contains(@class,"resultInfo")]/a[contains(@class,"resultName")]/@href'
 
 init_start_urls = [
-        "http://news.cnet.com/1770-5_3-0.html?query=mobile&searchtype=news"
+        "http://reviews.cnet.com/1770-6452_7-0.html?query=mobile&searchtype=products"
 ]
 
 init_allowed_domains = [
-    "news.cnet.com",
+    "reviews.cnet.com",
 ]
 
 MAX_SLEEP_TIME = 20
@@ -45,8 +47,6 @@ class SpiderSpider(CrawlSpider):
 
     rules = (
         #only extract links here
-        #Rule(SgmlLinkExtractor(allow=allowed_url)),
-        #extract content here and parse urls
         Rule(SgmlLinkExtractor(allow=allowed_url), callback="parse"),
     )
 
@@ -67,33 +67,29 @@ class SpiderSpider(CrawlSpider):
         print '>>>> repsonse.url: ', response.url
         #get urls
         content_urls = hxs.select(content_url_format).extract()
-        list_urls = hxs.select('//span[contains(@class,"pagnLink")]/a[contains(@href,"keywords=notebook")]/@href').extract()
+
+        list_urls = hxs.select('//ul[contains(@class,"pagination")]/li/a[contains(@href,"query=mobile")]/@href').extract()
         list_urls = [ up.urljoin(response.url, url) for url in list_urls]
+        content_urls = [ up.urljoin(response.url, url) for url in content_urls]
+        
         print "@" * 60 
-        print "urls: ", len(content_urls)
         time.sleep(self.sleep_time)
-        self.start_urls.extend(content_urls)
         self.start_urls.extend(list_urls)
 
-        for url in content_urls + list_urls:
+        for url in list_urls:
             yield Request(url, self.parse)
 
 
-        content_re = re.compile(r'http://www.amazon.com/[^s]+.*&keywords=notebook')
-        if content_re.match(response.url):
-            if self.count > 420:
-                self.start_urls = []
-                raise CloseSpider('reach pages limit, end the spider.')
+        content_re = re.compile(r'http://reviews.cnet.com/smartphones/.*[.]html$')
+        for url in content_urls:
+            if content_re.match(url):
+                if self.count > 1000:
+                    self.start_urls = []
+                    raise CloseSpider('reach pages limit, end the spider.')
 
-            self.count += 1
-            #extract data
-            body = hxs.select('//body').extract()
-            if body:
+                self.count += 1
+                #extract data
                 item = SpiderItem()
-                item['body'] = body[0]
+                item['url'] = url
                 item['kind'] = self.name
                 yield item
-
-if __name__ == "__main__":
-    pass
-
