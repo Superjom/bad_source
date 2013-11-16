@@ -26,10 +26,10 @@ root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 list_url_format = '//div[contains(@class,"paging")]/a[contains(@class,"ulink")]/@href'
 
 init_start_urls = [
-        "http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/"
+        "http://www.jr.com/category/video-tv/tv/n/71/",
 ]
 
-allowed_url = r"http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/.*"
+allowed_url = init_start_urls[0] + r'.*'
 
 init_allowed_domains = [
         "www.jr.com"
@@ -41,7 +41,7 @@ MAX_SLEEP_TIME = 20
 
 class SpiderSpider(CrawlSpider):
     count = 0
-    name = "jr_notebook"
+    name = "jr_tv"
 
     dic = set()
 

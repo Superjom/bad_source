@@ -22,26 +22,26 @@ Created on Jul 30, 2013
 
 root = "/home/chunwei/bad_source/python/paper/spider/spider/spiders"
 
-
-list_url_format = '//div[contains(@class,"paging")]/a[contains(@class,"ulink")]/@href'
-
 init_start_urls = [
-        "http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/"
+        "http://www.pcmag.com/products/1563/1?Type%3dCompact%7csort%3dlastModified+desc",
 ]
 
-allowed_url = r"http://www.jr.com/category/computers/notebooks-and-laptops/pc-notebooks/.*"
+
+list_url_format = '//div[contains(@class,"paging")]/a[contains(@href,"products")]/@href'
+
+allowed_url = r"http://www.pcmag.com/products/1563/[0-9]+[?]Type[%]3dCompact[%]7csort[%]3dlastModified[+]desc",
 
 init_allowed_domains = [
-        "www.jr.com"
+        "www.pcmag.com"
 ]
 
-content_url_format = '//div[contains(@class,"list data-item")]/div/h2/a/@href'
+content_url_format = '//div[contains(@class,"product-item")]/div[contains(@class,"text")]/div[contains(@class,"title")]/label/a/@href'
 
 MAX_SLEEP_TIME = 20
 
 class SpiderSpider(CrawlSpider):
     count = 0
-    name = "jr_notebook"
+    name = "pcmag_camera"
 
     dic = set()
 
@@ -83,10 +83,10 @@ class SpiderSpider(CrawlSpider):
         for url in list_urls:
             yield Request(url, self.parse)
 
-        content_re = re.compile(r'http://www[.]jr[.]com/.*')
+        content_re = re.compile(r'http://www[.]pcmag[.]com/article.*')
         for url in content_urls:
             if content_re.match(url):
-                if len(self.dic) > 600:
+                if len(self.dic) > 160:
                     self.start_urls = []
                     raise CloseSpider('reach pages limit, end the spider.')
 
