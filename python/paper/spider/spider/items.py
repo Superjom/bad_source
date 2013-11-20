@@ -13,3 +13,6 @@ class SpiderItem(Item):
 
     def __str__(self):
         return "get url" 
+
+if __name__ == "__main__":
+    pass
