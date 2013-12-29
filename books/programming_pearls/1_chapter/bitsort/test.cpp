@@ -8,7 +8,7 @@ using namespace std;
 using namespace bitsort;
 
 set<numtype> rans;
-const size_t length = 1000;
+const size_t length = 10000;
 const unsigned int max_value = 9999999;
 bitspace bits;
 
