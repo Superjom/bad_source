@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # -*- coding: utf-8 -*-
 '''
 Created on Jul 9, 2013
@@ -16,7 +18,7 @@ from pyquery import PyQuery as pq
 
 html = sys.stdin.read()
 
-_pq = pq(html.decode('utf8'))
+_pq = pq(html.decode('utf8', 'ignore'))
 
 _pq('script').remove()
 _pq('style').remove()
