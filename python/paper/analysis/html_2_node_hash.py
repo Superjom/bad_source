@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 from __future__ import division
 '''
@@ -6,33 +7,63 @@ Created on Jul 9, 2013
 @author: Chunwei Yan @ pkusz
 @mail:  yanchunwei@outlook.com
 '''
+import re
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 from pyquery import PyQuery as pq
 
-html = sys.stdin.read().decode('utf8')
+def hash_node_include_childnodes(body, hashs):
+    hashkey = hash(body.text())
+    if hashkey != 0:
+        hashs.append(str(hashkey))
 
-_pq = pq(html)
-
-_pq('script').remove()
-_pq('style').remove()
-
-hashs = []
-
-def hash_from_children(ppq):
-    children = ppq.children()
-    for i in range( len(children)):
-        child = children.eq(i)
-        hashs.append( hash(child.html()))
-        hash_from_children(child)
+    children = body.children()
+    children = [children.eq(i) for i in range(len(children))]
+    for child in children:
+        hash_node_include_childnodes(child, hashs)
 
 
-dic = {}
-hash_from_children(_pq('html'))
-for key in hashs:
-    dic[key] = dic.get(key, 0) + 1
+def hash_node(body, hashs):
+    children = body.children()
+    children = [children.eq(i) for i in range(len(children))]
+    crepr = ' '.join([repr(c) for c in children])
+    formats = re.compile(r'\[\<([-a-zA-Z._#]+)\>\]')
+    reprs = formats.findall(crepr)
+    for r in reprs:
+        try:
+            body(r).remove()
+        except:
+            pass
+            #print "can't remove: ", r
+    #print 'node', body.text()
+    hashkey = hash(body.text().strip())
+    if hashkey != 0:
+        hashs.append(str(hashkey))
+    #print 'crepr', crepr
+    #print 'reprs', reprs
+    for child in children:
+        if child:
+            hash_node(child, hashs)
 
-for key, value in dic.items():
-    sys.stdout.write("%d\t%d\n".encode('utf8', 'ignore') % (key, value))
+
+if __name__ == '__main__':
+
+    html = sys.stdin.read().decode('utf8', 'ignore')
+
+    hashs = []
+    _pq = pq(html)
+
+    _pq('script').remove()
+    _pq('style').remove()
+
+
+    body = _pq('body')
+    title = _pq('title')
+
+    hash_node_include_childnodes(body, hashs)
+    hash_node_include_childnodes(title, hashs)
+
+    sys.stdout.write('\n'.join(hashs))
+    sys.stdout.write('\n')

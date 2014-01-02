@@ -119,8 +119,69 @@ get_frequent_shingle_paragraphs()
         done
 }
 
+# generate hashs for each site
+node_hash()
+{
+    mkdir -p $DATA_ROOT/nodehash
+    for site in $sites; do
+        mkdir -p $DATA_ROOT/nodehash/$site
+        cd $WAIM_HTML_PH
+        for good in $goods; do
+            output_root=$DATA_ROOT/nodehash/$site/$good
+            mkdir -p $output_root
+            ./getHtmlList.sh -s $site -c $good | awk  '{
+                len = split($1,arr,"/");
+                print $1, arr[len];
+            }'  | while read path fname; do
+                html_ph=$WAIM_HTML_PH/$path
+                output_ph=$output_root/$fname
+                cat $html_ph | $PROJECT_ROOT/analysis/html_2_node_hash.py > $output_ph
+            done
+        done
+    done
+}
+
+get_frequent_node_hashs()
+{
+    toroot=$DATA_ROOT/nodehash_count
+    mkdir -p  $toroot
+    for site in $sites; do
+        inroot=$DATA_ROOT/nodehash/$site 
+        topath=$toroot/$site.c
+        paths=`_get_all_paths $inroot`
+        cat $paths | awk 'BEGIN{
+        } {
+            dic[$1]++;
+        } END {
+            for (d in dic) {
+                print d "\t" dic[d];
+            }
+        }' > $topath
+    done
+}
+
+get_uniq_node_txt() 
+{
+    toroot=$DATA_ROOT/nodehash_txt
+    mkdir -p  $toroot
+    cd $WAIM_HTML_PH
+    for site in $sites; do
+        for good in $goods; do
+        mkdir -p $toroot/$site
+        topath=$toroot/$site/$good.txt
+        ./getHtmlList.sh -s $site -c $good | awk -v root=$WAIM_HTML_PH '{
+            len = split($1,arr,"/");
+            print root "/" $1;
+        }' | $PROJECT_ROOT/analysis/get_uniq_node_hash_text.py -f $DATA_ROOT/nodehash_count/$site.c > $topath
+        done
+    done
+}
+
 
 #gen_origin
-gen_shingles
+#gen_shingles
 #count_shingle
-get_frequent_shingle_paragraphs
+#get_frequent_shingle_paragraphs
+#node_hash
+#get_frequent_node_hashs
+get_uniq_node_txt
